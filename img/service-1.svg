@@ -1,0 +1,359 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="645.086" height="618.5" viewBox="0 0 645.086 618.5">
+  <defs>
+    <filter id="Rectangle_84" x="323.586" y="350" width="209.5" height="92.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_84-2" x="384.795" y="239.296" width="250.5" height="112.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_115" x="458.586" y="34" width="186.5" height="207.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_118" x="0" y="348.5" width="325.445" height="213.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-4"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_151" x="322.586" y="433" width="300.5" height="185.5" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-5"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_141" data-name="Group 141" transform="translate(-1.914 -211)">
+    <g id="Path_132" data-name="Path 132" transform="translate(20 213)" fill="#fff">
+      <path d="M 437 339 L 10 339 C 7.061777591705322 339 4.299444675445557 337.8558349609375 2.221833229064941 335.7781677246094 C 0.1442222148180008 333.7005615234375 -1 330.938232421875 -1 328 L -1 10 C -1 7.061777591705322 0.1442222148180008 4.299444675445557 2.221833229064941 2.221833229064941 C 4.299444675445557 0.1442222148180008 7.061777591705322 -1 10 -1 L 437 -1 C 439.938232421875 -1 442.7005615234375 0.1442222148180008 444.7781677246094 2.221833229064941 C 446.8558349609375 4.299444675445557 448 7.061777591705322 448 10 L 448 328 C 448 330.938232421875 446.8558349609375 333.7005615234375 444.7781677246094 335.7781677246094 C 442.7005615234375 337.8558349609375 439.938232421875 339 437 339 Z" stroke="none"/>
+      <path d="M 10 0 C 4.47711181640625 0 0 4.47711181640625 0 10 L 0 328 C 0 333.5228271484375 4.47711181640625 338 10 338 L 437 338 C 442.5228271484375 338 447 333.5228271484375 447 328 L 447 10 C 447 4.47711181640625 442.5228271484375 0 437 0 L 10 0 M 10 -2 L 437 -2 C 440.2052917480469 -2 443.21875 -0.75177001953125 445.4852905273438 1.51470947265625 C 447.7517700195312 3.78118896484375 449 6.794647216796875 449 10 L 449 328 C 449 331.2052917480469 447.7517700195312 334.21875 445.4852905273438 336.4852905273438 C 443.21875 338.7517700195312 440.2052917480469 340 437 340 L 10 340 C 6.794647216796875 340 3.78118896484375 338.7517700195312 1.51470947265625 336.4852905273438 C -0.75177001953125 334.21875 -2 331.2052917480469 -2 328 L -2 10 C -2 6.794647216796875 -0.75177001953125 3.78118896484375 1.51470947265625 1.51470947265625 C 3.78118896484375 -0.75177001953125 6.794647216796875 -2 10 -2 Z" stroke="none" fill="#b3bee1"/>
+    </g>
+    <text id="Complains_New" data-name="Complains / New" transform="translate(33 236)" fill="#203881" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Complains /</tspan><tspan y="0" fill="#776b9b"> </tspan><tspan y="0" fill="#8a8e92">New</tspan></text>
+    <g id="Group_55" data-name="Group 55" transform="translate(73.345 249.283)">
+      <g id="Rectangle_33" data-name="Rectangle 33" transform="translate(-0.345 -0.283)" fill="none" stroke="#d0d0d0" stroke-width="1">
+        <rect width="41" height="16" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="40" height="15" rx="2.5" fill="none"/>
+      </g>
+      <text id="Discard" transform="translate(3.655 11.717)" fill="#272b2f" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Discard</tspan></text>
+    </g>
+    <path id="Path_56" data-name="Path 56" d="M-35.959,0h446.8" transform="translate(56.873 272.763)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+    <text id="Partner" transform="translate(33 317)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Partner</tspan></text>
+    <text id="Department" transform="translate(33 346)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Department</tspan></text>
+    <text id="Date" transform="translate(33 372)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Date</tspan></text>
+    <path id="Path_57" data-name="Path 57" d="M0,0H226.853" transform="translate(118.706 305.949) rotate(90)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+    <g id="Rectangle_33-2" data-name="Rectangle 33" transform="translate(126 310)" fill="#d2d2ff" stroke="#aaa" stroke-width="1">
+      <rect width="115" height="19" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="114" height="18" rx="2.5" fill="none"/>
+    </g>
+    <g id="Rectangle_35" data-name="Rectangle 35" transform="translate(126 476)" fill="none" stroke="#888" stroke-width="0.5">
+      <rect width="308" height="46" rx="3" stroke="none"/>
+      <rect x="0.25" y="0.25" width="307.5" height="45.5" rx="2.75" fill="none"/>
+    </g>
+    <g id="Group_64" data-name="Group 64" transform="translate(32.513 249.283)">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="34" height="16" rx="3" transform="translate(0.487 -0.283)" fill="#203881"/>
+      <text id="Save" transform="translate(6.487 11.717)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Save</tspan></text>
+    </g>
+    <path id="Path_118" data-name="Path 118" d="M-35.959,0h446.8" transform="translate(56.873 300)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+    <text id="Complain_Details" data-name="Complain Details" transform="translate(33 294)" fill="#203881" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Complain Details</tspan></text>
+    <path id="Icon_awesome-angle-down" data-name="Icon awesome-angle-down" d="M2.375,14.059.114,11.8a.4.4,0,0,1,0-.564l.376-.376a.4.4,0,0,1,.564,0l1.6,1.6,1.6-1.6a.4.4,0,0,1,.564,0l.376.376a.4.4,0,0,1,0,.564L2.937,14.059A.4.4,0,0,1,2.375,14.059Z" transform="translate(230.157 325.928)" fill="#495057"/>
+    <g id="Rectangle_73" data-name="Rectangle 73" transform="translate(126 335)" fill="#d2d2ff" stroke="#aaa" stroke-width="1">
+      <rect width="115" height="19" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="114" height="18" rx="2.5" fill="none"/>
+    </g>
+    <path id="Icon_awesome-angle-down-2" data-name="Icon awesome-angle-down" d="M2.375,14.059.114,11.8a.4.4,0,0,1,0-.564l.376-.376a.4.4,0,0,1,.564,0l1.6,1.6,1.6-1.6a.4.4,0,0,1,.564,0l.376.376a.4.4,0,0,1,0,.564L2.937,14.059A.4.4,0,0,1,2.375,14.059Z" transform="translate(230.157 359.736)" fill="#495057"/>
+    <text id="Email" transform="translate(33 400)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Email</tspan></text>
+    <text id="Phone" transform="translate(33 426)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Phone</tspan></text>
+    <text id="Notify_Update" data-name="Notify Update" transform="translate(33 454)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Notify Update</tspan></text>
+    <text id="Description" transform="translate(33 483)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Description</tspan></text>
+    <g id="Rectangle_74" data-name="Rectangle 74" transform="translate(126 363)" fill="none" stroke="#aaa" stroke-width="1">
+      <rect width="115" height="18" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="114" height="17" rx="2.5" fill="none"/>
+    </g>
+    <text id="_16_8_2022" data-name="16/8/2022" transform="translate(132 375)" fill="#495057" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">16/8/2022</tspan></text>
+    <path id="Icon_awesome-angle-down-3" data-name="Icon awesome-angle-down" d="M2.375,14.059.114,11.8a.4.4,0,0,1,0-.564l.376-.376a.4.4,0,0,1,.564,0l1.6,1.6,1.6-1.6a.4.4,0,0,1,.564,0l.376.376a.4.4,0,0,1,0,.564L2.937,14.059A.4.4,0,0,1,2.375,14.059Z" transform="translate(230.157 387.147)" fill="#495057"/>
+    <g id="Rectangle_75" data-name="Rectangle 75" transform="translate(126 389)" fill="none" stroke="#aaa" stroke-width="1">
+      <rect width="115" height="19" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="114" height="18" rx="2.5" fill="none"/>
+    </g>
+    <g id="Rectangle_76" data-name="Rectangle 76" transform="translate(126 416)" fill="none" stroke="#aaa" stroke-width="1">
+      <rect width="115" height="19" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="114" height="18" rx="2.5" fill="none"/>
+    </g>
+    <g id="Rectangle_77" data-name="Rectangle 77" transform="translate(126 449)" fill="#fff" stroke="#888" stroke-width="1">
+      <rect width="9" height="9" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="8" height="8" rx="0.5" fill="none"/>
+    </g>
+    <text id="Type" transform="translate(264 346)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Type</tspan></text>
+    <text id="Assigned" transform="translate(262 372)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Assigned</tspan></text>
+    <g id="Rectangle_78" data-name="Rectangle 78" transform="translate(333 339)" fill="#d2d2ff" stroke="#aaa" stroke-width="1">
+      <rect width="117" height="18" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="116" height="17" rx="2.5" fill="none"/>
+    </g>
+    <g id="Rectangle_79" data-name="Rectangle 79" transform="translate(333 363)" fill="none" stroke="#888" stroke-width="1" opacity="0.38">
+      <rect width="117" height="18" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="116" height="17" rx="2.5" fill="none"/>
+    </g>
+    <path id="Path_119" data-name="Path 119" d="M0,0H153.5" transform="translate(322.464 305.949) rotate(90)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+    <text id="Ticket_No" data-name="Ticket No" transform="translate(264 322)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Ticket No</tspan></text>
+    <text id="New" transform="translate(333 322)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">New</tspan></text>
+    <text id="Status" transform="translate(262 400)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Status</tspan></text>
+    <g id="Rectangle_80" data-name="Rectangle 80" transform="translate(333 389)" fill="#d2d2ff" stroke="#aaa" stroke-width="1">
+      <rect width="117" height="19" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="116" height="18" rx="2.5" fill="none"/>
+    </g>
+    <text id="Rating" transform="translate(262 426)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Rating</tspan></text>
+    <path id="Icon_awesome-angle-down-4" data-name="Icon awesome-angle-down" d="M2.375,14.059.114,11.8a.4.4,0,0,1,0-.564l.376-.376a.4.4,0,0,1,.564,0l1.6,1.6,1.6-1.6a.4.4,0,0,1,.564,0l.376.376a.4.4,0,0,1,0,.564L2.937,14.059A.4.4,0,0,1,2.375,14.059Z" transform="translate(437.569 335.065)" fill="#495057"/>
+    <path id="Icon_awesome-angle-down-5" data-name="Icon awesome-angle-down" d="M2.375,14.059.114,11.8a.4.4,0,0,1,0-.564l.376-.376a.4.4,0,0,1,.564,0l1.6,1.6,1.6-1.6a.4.4,0,0,1,.564,0l.376.376a.4.4,0,0,1,0,.564L2.937,14.059A.4.4,0,0,1,2.375,14.059Z" transform="translate(437.569 386.233)" fill="#495057"/>
+    <path id="Icon_awesome-angle-down-6" data-name="Icon awesome-angle-down" d="M2.375,14.059.114,11.8a.4.4,0,0,1,0-.564l.376-.376a.4.4,0,0,1,.564,0l1.6,1.6,1.6-1.6a.4.4,0,0,1,.564,0l.376.376a.4.4,0,0,1,0,.564L2.937,14.059A.4.4,0,0,1,2.375,14.059Z" transform="translate(437.569 358.822)" fill="#495057" opacity="0.58"/>
+    <path id="Icon_ionic-ios-star-outline" data-name="Icon ionic-ios-star-outline" d="M22.13,10.017H15.345L13.283,3.864a.747.747,0,0,0-1.4,0L9.819,10.017H2.988a.74.74,0,0,0-.738.738.542.542,0,0,0,.014.125.709.709,0,0,0,.309.521l5.576,3.93-2.14,6.222a.74.74,0,0,0,.254.83.714.714,0,0,0,.415.18.9.9,0,0,0,.461-.166l5.443-3.879L18.025,22.4a.864.864,0,0,0,.461.166.663.663,0,0,0,.411-.18.731.731,0,0,0,.254-.83l-2.14-6.222,5.53-3.967.134-.115a.774.774,0,0,0,.24-.494A.781.781,0,0,0,22.13,10.017Zm-5.867,4.267a1.3,1.3,0,0,0-.47,1.467L17.181,19.8a.185.185,0,0,1-.281.212l-3.57-2.546a1.289,1.289,0,0,0-.752-.24,1.265,1.265,0,0,0-.747.24L8.26,20a.185.185,0,0,1-.281-.212l1.388-4.045a1.3,1.3,0,0,0-.475-1.476L5.156,11.636a.185.185,0,0,1,.106-.337H9.814a1.29,1.29,0,0,0,1.222-.881L12.4,6.35a.186.186,0,0,1,.351,0l1.365,4.068a1.29,1.29,0,0,0,1.222.881h4.488a.182.182,0,0,1,.106.332Z" transform="translate(331.153 413.133)" fill="#888"/>
+    <path id="Icon_ionic-ios-star-outline-2" data-name="Icon ionic-ios-star-outline" d="M22.13,10.017H15.345L13.283,3.864a.747.747,0,0,0-1.4,0L9.819,10.017H2.988a.74.74,0,0,0-.738.738.542.542,0,0,0,.014.125.709.709,0,0,0,.309.521l5.576,3.93-2.14,6.222a.74.74,0,0,0,.254.83.714.714,0,0,0,.415.18.9.9,0,0,0,.461-.166l5.443-3.879L18.025,22.4a.864.864,0,0,0,.461.166.663.663,0,0,0,.411-.18.731.731,0,0,0,.254-.83l-2.14-6.222,5.53-3.967.134-.115a.774.774,0,0,0,.24-.494A.781.781,0,0,0,22.13,10.017Zm-5.867,4.267a1.3,1.3,0,0,0-.47,1.467L17.181,19.8a.185.185,0,0,1-.281.212l-3.57-2.546a1.289,1.289,0,0,0-.752-.24,1.265,1.265,0,0,0-.747.24L8.26,20a.185.185,0,0,1-.281-.212l1.388-4.045a1.3,1.3,0,0,0-.475-1.476L5.156,11.636a.185.185,0,0,1,.106-.337H9.814a1.29,1.29,0,0,0,1.222-.881L12.4,6.35a.186.186,0,0,1,.351,0l1.365,4.068a1.29,1.29,0,0,0,1.222.881h4.488a.182.182,0,0,1,.106.332Z" transform="translate(353.995 413.133)" fill="#888"/>
+    <path id="Icon_ionic-ios-star-outline-3" data-name="Icon ionic-ios-star-outline" d="M22.13,10.017H15.345L13.283,3.864a.747.747,0,0,0-1.4,0L9.819,10.017H2.988a.74.74,0,0,0-.738.738.542.542,0,0,0,.014.125.709.709,0,0,0,.309.521l5.576,3.93-2.14,6.222a.74.74,0,0,0,.254.83.714.714,0,0,0,.415.18.9.9,0,0,0,.461-.166l5.443-3.879L18.025,22.4a.864.864,0,0,0,.461.166.663.663,0,0,0,.411-.18.731.731,0,0,0,.254-.83l-2.14-6.222,5.53-3.967.134-.115a.774.774,0,0,0,.24-.494A.781.781,0,0,0,22.13,10.017Zm-5.867,4.267a1.3,1.3,0,0,0-.47,1.467L17.181,19.8a.185.185,0,0,1-.281.212l-3.57-2.546a1.289,1.289,0,0,0-.752-.24,1.265,1.265,0,0,0-.747.24L8.26,20a.185.185,0,0,1-.281-.212l1.388-4.045a1.3,1.3,0,0,0-.475-1.476L5.156,11.636a.185.185,0,0,1,.106-.337H9.814a1.29,1.29,0,0,0,1.222-.881L12.4,6.35a.186.186,0,0,1,.351,0l1.365,4.068a1.29,1.29,0,0,0,1.222.881h4.488a.182.182,0,0,1,.106.332Z" transform="translate(376.838 413.133)" fill="#888"/>
+    <path id="Icon_ionic-ios-star-outline-4" data-name="Icon ionic-ios-star-outline" d="M22.13,10.017H15.345L13.283,3.864a.747.747,0,0,0-1.4,0L9.819,10.017H2.988a.74.74,0,0,0-.738.738.542.542,0,0,0,.014.125.709.709,0,0,0,.309.521l5.576,3.93-2.14,6.222a.74.74,0,0,0,.254.83.714.714,0,0,0,.415.18.9.9,0,0,0,.461-.166l5.443-3.879L18.025,22.4a.864.864,0,0,0,.461.166.663.663,0,0,0,.411-.18.731.731,0,0,0,.254-.83l-2.14-6.222,5.53-3.967.134-.115a.774.774,0,0,0,.24-.494A.781.781,0,0,0,22.13,10.017Zm-5.867,4.267a1.3,1.3,0,0,0-.47,1.467L17.181,19.8a.185.185,0,0,1-.281.212l-3.57-2.546a1.289,1.289,0,0,0-.752-.24,1.265,1.265,0,0,0-.747.24L8.26,20a.185.185,0,0,1-.281-.212l1.388-4.045a1.3,1.3,0,0,0-.475-1.476L5.156,11.636a.185.185,0,0,1,.106-.337H9.814a1.29,1.29,0,0,0,1.222-.881L12.4,6.35a.186.186,0,0,1,.351,0l1.365,4.068a1.29,1.29,0,0,0,1.222.881h4.488a.182.182,0,0,1,.106.332Z" transform="translate(399.681 413.133)" fill="#888"/>
+    <path id="Icon_ionic-ios-star-outline-5" data-name="Icon ionic-ios-star-outline" d="M22.13,10.017H15.345L13.283,3.864a.747.747,0,0,0-1.4,0L9.819,10.017H2.988a.74.74,0,0,0-.738.738.542.542,0,0,0,.014.125.709.709,0,0,0,.309.521l5.576,3.93-2.14,6.222a.74.74,0,0,0,.254.83.714.714,0,0,0,.415.18.9.9,0,0,0,.461-.166l5.443-3.879L18.025,22.4a.864.864,0,0,0,.461.166.663.663,0,0,0,.411-.18.731.731,0,0,0,.254-.83l-2.14-6.222,5.53-3.967.134-.115a.774.774,0,0,0,.24-.494A.781.781,0,0,0,22.13,10.017Zm-5.867,4.267a1.3,1.3,0,0,0-.47,1.467L17.181,19.8a.185.185,0,0,1-.281.212l-3.57-2.546a1.289,1.289,0,0,0-.752-.24,1.265,1.265,0,0,0-.747.24L8.26,20a.185.185,0,0,1-.281-.212l1.388-4.045a1.3,1.3,0,0,0-.475-1.476L5.156,11.636a.185.185,0,0,1,.106-.337H9.814a1.29,1.29,0,0,0,1.222-.881L12.4,6.35a.186.186,0,0,1,.351,0l1.365,4.068a1.29,1.29,0,0,0,1.222.881h4.488a.182.182,0,0,1,.106.332Z" transform="translate(422.524 413.133)" fill="#888"/>
+    <g id="Group_97" data-name="Group 97" transform="translate(-148 57)">
+      <g transform="matrix(1, 0, 0, 1, 149.91, 154)" filter="url(#Rectangle_84)">
+        <g id="Rectangle_84-3" data-name="Rectangle 84" transform="translate(341.09 350)" fill="#fff" stroke="#b3bee1" stroke-width="1.5">
+          <rect width="192" height="73" rx="10" stroke="none"/>
+          <rect x="0.75" y="0.75" width="190.5" height="71.5" rx="9.25" fill="none"/>
+        </g>
+      </g>
+      <text id="Image_Proof" data-name="Image Proof" transform="translate(501 522)" fill="#203881" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Image Proof</tspan></text>
+      <path id="Path_120" data-name="Path 120" d="M-35.959,0H153.053" transform="translate(528.471 528.414)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <text id="Add_Image" data-name="Add Image" transform="translate(501 544)" fill="#595959" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Add Image</tspan></text>
+      <path id="Path_121" data-name="Path 121" d="M0,0H41.882" transform="translate(559.671 531.743) rotate(90)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <g id="Rectangle_85" data-name="Rectangle 85" transform="translate(572 532)" fill="none" stroke="#888" stroke-width="1" opacity="0.38">
+        <rect width="75" height="18" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="74" height="17" rx="2.5" fill="none"/>
+      </g>
+      <path id="Icon_feather-paperclip" data-name="Icon feather-paperclip" d="M12.084,6.6,7.79,10.889A2.8,2.8,0,0,1,3.824,6.923L8.117,2.629a1.87,1.87,0,0,1,2.644,2.644l-4.3,4.293A.935.935,0,0,1,5.141,8.245L9.108,4.283" transform="translate(572.856 534.104)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text id="Add_Image-2" data-name="Add Image" transform="translate(592 544)" fill="#595959" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Add Image</tspan></text>
+    </g>
+    <g id="Group_98" data-name="Group 98" transform="translate(-85.283 -52.204)">
+      <g transform="matrix(1, 0, 0, 1, 87.2, 263.2)" filter="url(#Rectangle_84-2)">
+        <g id="Rectangle_84-4" data-name="Rectangle 84" transform="translate(403.79 240.8)" fill="#fff" stroke="#b3bee1" stroke-width="1.5">
+          <rect width="230" height="90" rx="10" stroke="none"/>
+          <rect x="-0.75" y="-0.75" width="231.5" height="91.5" rx="10.75" fill="none"/>
+        </g>
+      </g>
+      <text id="Location_for_Complaint_Issued" data-name="Location for Complaint Issued" transform="translate(500.991 522)" fill="#203881" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Location for Complaint Issued</tspan></text>
+      <path id="Path_120-2" data-name="Path 120" d="M-35.959,0H194.032" transform="translate(526.959 533)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <text id="Latitude" transform="translate(500.991 551)" fill="#595959" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Latitude</tspan></text>
+      <path id="Path_121-2" data-name="Path 121" d="M0,0H47.43" transform="translate(585.655 538.5) rotate(90)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <g id="Rectangle_85-2" data-name="Rectangle 85" transform="translate(590.991 539)" fill="none" stroke="#888" stroke-width="1" opacity="0.38">
+        <rect width="106" height="18" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="105" height="17" rx="2.5" fill="none"/>
+      </g>
+      <text id="Longitud" transform="translate(500.991 579)" fill="#595959" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Longitud</tspan></text>
+      <g id="Rectangle_86" data-name="Rectangle 86" transform="translate(590.991 566)" fill="none" stroke="#888" stroke-width="1" opacity="0.38">
+        <rect width="106" height="18" rx="3" stroke="none"/>
+        <rect x="0.5" y="0.5" width="105" height="17" rx="2.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_107" data-name="Group 107" transform="translate(-345 -5601)">
+      <g transform="matrix(1, 0, 0, 1, 346.91, 5812)" filter="url(#Rectangle_115)">
+        <g id="Rectangle_115-2" data-name="Rectangle 115" transform="translate(476.09 34)" fill="#fff" stroke="#b3bee1" stroke-linecap="square" stroke-linejoin="round" stroke-width="1.5">
+          <rect width="169" height="188" rx="11" stroke="none"/>
+          <rect x="0.75" y="0.75" width="167.5" height="186.5" rx="10.25" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectangle_116" data-name="Rectangle 116" width="20" height="23" transform="translate(888 5939)" fill="#203881"/>
+      <g id="Path_128" data-name="Path 128" transform="translate(824.5 5873)" fill="#f8f9fa">
+        <path d="M 165.8500061035156 18.85000038146973 L 0.1500000059604645 18.85000038146973 L 0.1500000059604645 0.1500000059604645 L 165.8500061035156 0.1500000059604645 L 165.8500061035156 18.85000038146973 Z" stroke="none"/>
+        <path d="M 0.3000030517578125 0.2999992370605469 L 0.3000030517578125 18.70000076293945 L 165.6999969482422 18.70000076293945 L 165.6999969482422 0.2999992370605469 L 0.3000030517578125 0.2999992370605469 M 0 0 L 166 0 L 166 19 L 0 19 L 0 0 Z" stroke="none" fill="#d8d8d8"/>
+      </g>
+      <path id="Icon_awesome-angle-left" data-name="Icon awesome-angle-left" d="M1.9,10.115l3.2-3.2a.563.563,0,0,1,.8,0l.532.532a.563.563,0,0,1,0,.8L4.165,10.515l2.27,2.27a.563.563,0,0,1,0,.8l-.532.535a.563.563,0,0,1-.8,0l-3.2-3.2a.564.564,0,0,1,0-.8Z" transform="translate(831.619 5850.223)" fill="#909294"/>
+      <path id="Icon_awesome-angle-left-2" data-name="Icon awesome-angle-left" d="M6.435,10.115l-3.2-3.2a.563.563,0,0,0-.8,0L1.9,7.445a.563.563,0,0,0,0,.8L4.17,10.515,1.9,12.785a.563.563,0,0,0,0,.8l.532.534a.563.563,0,0,0,.8,0l3.2-3.2A.564.564,0,0,0,6.435,10.115Z" transform="translate(974.619 5850.223)" fill="#909294"/>
+      <path id="Path_129" data-name="Path 129" d="M0,0H19.47l.02,140.54H9.274c-6.481.086-9.584-5.9-9.31-10.408Z" transform="translate(824.53 5892)" fill="#f8f9fa"/>
+      <line id="Line_36" data-name="Line 36" x1="166" transform="translate(824.5 5915.5)" fill="none" stroke="#e9ecef" stroke-width="1"/>
+      <line id="Line_37" data-name="Line 37" x1="166" transform="translate(824.5 5939)" fill="none" stroke="#e9ecef" stroke-width="1"/>
+      <line id="Line_38" data-name="Line 38" x1="166" transform="translate(824.5 5962.5)" fill="none" stroke="#e9ecef" stroke-width="1"/>
+      <line id="Line_39" data-name="Line 39" x1="166" transform="translate(824.53 5986)" fill="none" stroke="#e9ecef" stroke-width="1"/>
+      <line id="Line_40" data-name="Line 40" x1="166" transform="translate(824.53 6009.5)" fill="none" stroke="#e9ecef" stroke-width="1"/>
+      <text id="_" data-name="#" transform="translate(831 5887)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">#</tspan></text>
+      <text id="Su" transform="translate(853 5885)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Su</tspan></text>
+      <text id="Mo" transform="translate(873 5885)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Mo</tspan></text>
+      <text id="Tu" transform="translate(894 5885)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Tu</tspan></text>
+      <text id="We" transform="translate(914 5885)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">We</tspan></text>
+      <text id="Th" transform="translate(936 5885)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Th</tspan></text>
+      <text id="Fr" transform="translate(956 5885)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Fr</tspan></text>
+      <text id="Sa" transform="translate(974 5885)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Sa</tspan></text>
+      <text id="_31" data-name="31" transform="translate(831 5907)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">31</tspan></text>
+      <text id="_32" data-name="32" transform="translate(831 5929)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">32</tspan></text>
+      <text id="_33" data-name="33" transform="translate(831 5954)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">33</tspan></text>
+      <text id="_34" data-name="34" transform="translate(831 5976)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">34</tspan></text>
+      <text id="_35" data-name="35" transform="translate(831 6000)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">35</tspan></text>
+      <text id="_36" data-name="36" transform="translate(831 6023)" fill="#495057" font-size="7" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">36</tspan></text>
+      <text id="_31-2" data-name="31" transform="translate(853 5907)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">31</tspan></text>
+      <text id="_1" data-name="1" transform="translate(876 5907)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+      <text id="_2" data-name="2" transform="translate(896 5907)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan></text>
+      <text id="_3" data-name="3" transform="translate(915 5907)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+      <text id="_4" data-name="4" transform="translate(938 5907)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+      <text id="_5" data-name="5" transform="translate(957 5907)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">5</tspan></text>
+      <text id="_6" data-name="6" transform="translate(976 5907)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">6</tspan></text>
+      <text id="_8" data-name="8" transform="translate(876 5929)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">8</tspan></text>
+      <text id="_9" data-name="9" transform="translate(896 5929)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">9</tspan></text>
+      <text id="_10" data-name="10" transform="translate(913 5929)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">10</tspan></text>
+      <text id="_11" data-name="11" transform="translate(936 5929)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">11</tspan></text>
+      <text id="_12" data-name="12" transform="translate(955 5929)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">12</tspan></text>
+      <text id="_13" data-name="13" transform="translate(974 5929)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">13</tspan></text>
+      <text id="_15" data-name="15" transform="translate(874 5954)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">15</tspan></text>
+      <text id="_17" data-name="17" transform="translate(913 5954)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">17</tspan></text>
+      <text id="_18" data-name="18" transform="translate(936 5954)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">18</tspan></text>
+      <text id="_19" data-name="19" transform="translate(955 5954)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">19</tspan></text>
+      <text id="_20" data-name="20" transform="translate(974 5954)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">20</tspan></text>
+      <text id="_22" data-name="22" transform="translate(874 5976)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">22</tspan></text>
+      <text id="_23" data-name="23" transform="translate(894 5976)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">23</tspan></text>
+      <text id="_24" data-name="24" transform="translate(913 5976)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">24</tspan></text>
+      <text id="_25" data-name="25" transform="translate(936 5976)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">25</tspan></text>
+      <text id="_26" data-name="26" transform="translate(955 5976)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">26</tspan></text>
+      <text id="_27" data-name="27" transform="translate(974 5976)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">27</tspan></text>
+      <text id="_29" data-name="29" transform="translate(874 6000)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">29</tspan></text>
+      <text id="_30" data-name="30" transform="translate(894 6000)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">30</tspan></text>
+      <text id="_31-3" data-name="31" transform="translate(913 6000)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">31</tspan></text>
+      <text id="_1-2" data-name="1" transform="translate(938 6000)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+      <text id="_2-2" data-name="2" transform="translate(957 6000)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">2</tspan></text>
+      <text id="_3-2" data-name="3" transform="translate(976 6000)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+      <text id="_5-2" data-name="5" transform="translate(876 6023)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">5</tspan></text>
+      <text id="_6-2" data-name="6" transform="translate(896 6023)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">6</tspan></text>
+      <text id="_7" data-name="7" transform="translate(915 6023)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">7</tspan></text>
+      <text id="_8-2" data-name="8" transform="translate(938 6023)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">8</tspan></text>
+      <text id="_9-2" data-name="9" transform="translate(957 6023)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">9</tspan></text>
+      <text id="_10-2" data-name="10" transform="translate(974 6023)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">10</tspan></text>
+      <text id="_7-2" data-name="7" transform="translate(855 5929)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">7</tspan></text>
+      <text id="_14" data-name="14" transform="translate(853 5954)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">14</tspan></text>
+      <text id="_21" data-name="21" transform="translate(853 5976)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">21</tspan></text>
+      <text id="_28" data-name="28" transform="translate(853 6000)" fill="#495057" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">28</tspan></text>
+      <text id="_4-2" data-name="4" transform="translate(855 6023)" fill="#babcbd" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+      <text id="August_2022" data-name="August 2022" transform="translate(876 5864)" fill="#2b2829" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">August 2022</tspan></text>
+      <text id="_16" data-name="16" transform="translate(894 5954)" fill="#fff" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">16</tspan></text>
+      <path id="Path_130" data-name="Path 130" d="M5-.122V4H.858Z" transform="translate(902 5957)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1.91, 211)" filter="url(#Rectangle_118)">
+      <g id="Rectangle_118-2" data-name="Rectangle 118" transform="translate(19 350)" fill="#fff" stroke="#b3bee1" stroke-width="1.5">
+        <rect width="304.945" height="191" rx="10" stroke="none"/>
+        <rect x="-0.75" y="-0.75" width="306.445" height="192.5" rx="10.75" fill="none"/>
+      </g>
+    </g>
+    <text id="Complain_Types" data-name="Complain Types" transform="translate(34.914 582)" fill="#203881" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Complain Types</tspan></text>
+    <g id="Group_119" data-name="Group 119" transform="translate(34.914 595)">
+      <rect id="Rectangle_32-2" data-name="Rectangle 32" width="30" height="16" rx="3" fill="#2f56d3"/>
+      <text id="Save-2" data-name="Save" transform="translate(7 10)" fill="#fff" font-size="7" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Save</tspan></text>
+    </g>
+    <g id="Group_121" data-name="Group 121" transform="translate(34.914 595)">
+      <rect id="Rectangle_32-3" data-name="Rectangle 32" width="44" height="16" rx="3" fill="#203881"/>
+      <text id="Create" transform="translate(9 11.5)" fill="#fff" font-size="9" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Create</tspan></text>
+    </g>
+    <path id="Path_135" data-name="Path 135" d="M-35.959,0H267.573" transform="translate(58.344 621.887)" fill="#d8d8d8" stroke="#e7e7e7" stroke-width="1"/>
+    <path id="Rectangle_131" data-name="Rectangle 131" d="M6,0H271.262a6,6,0,0,1,6,6V22.823a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" transform="translate(33.914 635.919)" fill="#eee"/>
+    <rect id="Rectangle_132" data-name="Rectangle 132" width="277.262" height="24.583" transform="translate(33.914 658.741)" fill="#fcfcfc"/>
+    <rect id="Rectangle_133" data-name="Rectangle 133" width="277.262" height="22.827" transform="translate(33.914 683.324)" fill="#fff"/>
+    <rect id="Rectangle_134" data-name="Rectangle 134" width="277.262" height="24.583" transform="translate(33.914 706.15)" fill="#fcfcfc"/>
+    <path id="Path_138" data-name="Path 138" d="M12,0V22.823" transform="translate(226.935 635.919)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+    <text id="Name" transform="translate(65.705 650.292)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+    <text id="SOP_Days" data-name="SOP Days" transform="translate(187.771 649.919)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">SOP Days</tspan></text>
+    <text id="Customer_Service" data-name="Customer Service" transform="translate(65.705 674.033)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Customer Service</tspan></text>
+    <g id="Rectangle_136" data-name="Rectangle 136" transform="translate(33.914 635.919)" fill="none" stroke="#d0d0d0" stroke-width="0.5">
+      <rect width="277.262" height="100.814" rx="6" stroke="none"/>
+      <rect x="0.25" y="0.25" width="276.762" height="100.314" rx="5.75" fill="none"/>
+    </g>
+    <path id="Rectangle_137" data-name="Rectangle 137" d="M0,0H277.262a0,0,0,0,1,0,0V0a6,6,0,0,1-6,6H6A6,6,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(33.914 730.733)" fill="#eee"/>
+    <text id="Document_Processing" data-name="Document Processing" transform="translate(65.705 697.737)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Document Processing</tspan></text>
+    <text id="General_Information" data-name="General Information" transform="translate(65.705 721.441)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">General Information</tspan></text>
+    <text id="_5-3" data-name="5" transform="translate(229.771 673.911)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">5</tspan></text>
+    <text id="_5-4" data-name="5" transform="translate(229.771 697.737)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">5</tspan></text>
+    <text id="_4-3" data-name="4" transform="translate(229.771 721.442)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+    <path id="Path_140" data-name="Path 140" d="M0,1.034V23.889" transform="translate(55.783 634.853)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+    <text id="Description-2" data-name="Description" transform="translate(241.357 650.292)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Description</tspan></text>
+    <g id="Rectangle_138" data-name="Rectangle 138" transform="translate(84.43 595)" fill="#fff" stroke="#5a5a5a" stroke-width="0.2">
+      <rect width="17" height="16" rx="1" stroke="none"/>
+      <rect x="0.1" y="0.1" width="16.8" height="15.8" rx="0.9" fill="none"/>
+    </g>
+    <path id="Icon_awesome-download" data-name="Icon awesome-download" d="M4.149,0H5.686a.46.46,0,0,1,.461.461V3.688H7.832a.383.383,0,0,1,.271.655L5.181,7.267a.372.372,0,0,1-.524,0L1.731,4.343A.383.383,0,0,1,2,3.688H3.688V.461A.46.46,0,0,1,4.149,0ZM9.836,7.223V9.375a.46.46,0,0,1-.461.461H.461A.46.46,0,0,1,0,9.375V7.223a.46.46,0,0,1,.461-.461H3.279l.941.941a.984.984,0,0,0,1.395,0l.941-.941H9.375A.46.46,0,0,1,9.836,7.223ZM7.454,8.914a.384.384,0,1,0-.384.384A.385.385,0,0,0,7.454,8.914Zm1.229,0A.384.384,0,1,0,8.3,9.3.385.385,0,0,0,8.683,8.914Z" transform="translate(88.249 598.082)"/>
+    <g id="Rectangle_139" data-name="Rectangle 139" transform="translate(41.914 644)" fill="#fff" stroke="#707070" stroke-width="0.3">
+      <rect width="9" height="9" rx="1" stroke="none"/>
+      <rect x="0.15" y="0.15" width="8.7" height="8.7" rx="0.85" fill="none"/>
+    </g>
+    <g id="Rectangle_140" data-name="Rectangle 140" transform="translate(41.914 666)" fill="#fff" stroke="#707070" stroke-width="0.3">
+      <rect width="9" height="9" rx="1" stroke="none"/>
+      <rect x="0.15" y="0.15" width="8.7" height="8.7" rx="0.85" fill="none"/>
+    </g>
+    <g id="Rectangle_141" data-name="Rectangle 141" transform="translate(41.914 690)" fill="#fff" stroke="#707070" stroke-width="0.3">
+      <rect width="9" height="9" rx="1" stroke="none"/>
+      <rect x="0.15" y="0.15" width="8.7" height="8.7" rx="0.85" fill="none"/>
+    </g>
+    <g id="Rectangle_142" data-name="Rectangle 142" transform="translate(41.914 714)" fill="#fff" stroke="#707070" stroke-width="0.3">
+      <rect width="9" height="9" rx="1" stroke="none"/>
+      <rect x="0.15" y="0.15" width="8.7" height="8.7" rx="0.85" fill="none"/>
+    </g>
+    <g id="Group_140" data-name="Group 140" transform="translate(0 -6)">
+      <g transform="matrix(1, 0, 0, 1, 1.91, 217)" filter="url(#Path_151)">
+        <g id="Path_151-2" data-name="Path 151" transform="translate(340.09 433)" fill="#fff">
+          <path d="M 273 165.25 L 10 165.25 C 4.899535655975342 165.25 0.75 161.1004638671875 0.75 156 L 0.75 10 C 0.75 4.899535655975342 4.899535655975342 0.75 10 0.75 L 273 0.75 C 278.1004638671875 0.75 282.25 4.899535655975342 282.25 10 L 282.25 156 C 282.25 161.1004638671875 278.1004638671875 165.25 273 165.25 Z" stroke="none"/>
+          <path d="M 10 1.5 C 5.313079833984375 1.5 1.5 5.313064575195312 1.5 10 L 1.5 156 C 1.5 160.6869354248047 5.313079833984375 164.5 10 164.5 L 273 164.5 C 277.6869201660156 164.5 281.5 160.6869354248047 281.5 156 L 281.5 10 C 281.5 5.313064575195312 277.6869201660156 1.5 273 1.5 L 10 1.5 M 10 0 L 273 0 C 278.5228576660156 0 283 4.477142333984375 283 10 L 283 156 C 283 161.5228271484375 278.5228576660156 166 273 166 L 10 166 C 4.477142333984375 166 0 161.5228271484375 0 156 L 0 10 C 0 4.477142333984375 4.477142333984375 0 10 0 Z" stroke="none" fill="#b3bee1"/>
+        </g>
+      </g>
+      <text id="Departments" transform="translate(356 669)" fill="#203881" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Departments</tspan></text>
+      <g id="Group_120" data-name="Group 120" transform="translate(396 675.27)">
+        <g id="Rectangle_33-3" data-name="Rectangle 33" transform="translate(0 -0.269)" fill="none" stroke="#d0d0d0" stroke-width="1">
+          <rect width="41" height="16" rx="3" stroke="none"/>
+          <rect x="0.5" y="0.5" width="40" height="15" rx="2.5" fill="none"/>
+        </g>
+        <text id="Create-2" data-name="Create" transform="translate(6 11.73)" fill="#272b2f" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Create</tspan></text>
+      </g>
+      <g id="Group_121-2" data-name="Group 121" transform="translate(356 675.27)">
+        <rect id="Rectangle_32-4" data-name="Rectangle 32" width="35" height="16" rx="3" transform="translate(0 -0.269)" fill="#203881"/>
+        <text id="Edit" transform="translate(9 11.73)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Edit</tspan></text>
+      </g>
+      <path id="Path_135-2" data-name="Path 135" d="M-35.959,0H244.133" transform="translate(379.431 698.454)" fill="#d8d8d8" stroke="#e7e7e7" stroke-width="1"/>
+      <path id="Rectangle_146" data-name="Rectangle 146" d="M6,0H248.354a6,6,0,0,1,6,6V22.823a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" transform="translate(356 704.939)" fill="#eee"/>
+      <rect id="Rectangle_147" data-name="Rectangle 147" width="254.354" height="24.583" transform="translate(356 727.762)" fill="#fcfcfc"/>
+      <rect id="Rectangle_148" data-name="Rectangle 148" width="254.354" height="22.827" transform="translate(356 752.345)" fill="#fff"/>
+      <rect id="Rectangle_149" data-name="Rectangle 149" width="254.354" height="24.583" transform="translate(356 775.171)" fill="#fcfcfc"/>
+      <path id="Path_149" data-name="Path 149" d="M12,0V22.823" transform="translate(528.535 704.939)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+      <text id="Name-2" data-name="Name" transform="translate(387.792 719.313)" fill="#495057" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Name</tspan></text>
+      <text id="SOP_Days-2" data-name="SOP Days" transform="translate(491.535 719.349)" fill="#495057" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">SOP Days</tspan></text>
+      <text id="Customer_Service-2" data-name="Customer Service" transform="translate(387.792 743.054)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Customer Service</tspan></text>
+      <g id="Rectangle_150" data-name="Rectangle 150" transform="translate(356 704.939)" fill="none" stroke="#d0d0d0" stroke-width="0.5">
+        <rect width="254.354" height="100.814" rx="6" stroke="none"/>
+        <rect x="0.25" y="0.25" width="253.854" height="100.314" rx="5.75" fill="none"/>
+      </g>
+      <path id="Rectangle_151" data-name="Rectangle 151" d="M0,0H254.354a0,0,0,0,1,0,0V0a6,6,0,0,1-6,6H6A6,6,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(356 799.754)" fill="#eee"/>
+      <text id="Document_Processing-2" data-name="Document Processing" transform="translate(387.792 766.758)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Document Processing</tspan></text>
+      <text id="General_Information-2" data-name="General Information" transform="translate(387.792 790.462)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">General Information</tspan></text>
+      <text id="_5-5" data-name="5" transform="translate(529.628 742.932)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">5</tspan></text>
+      <text id="_5-6" data-name="5" transform="translate(529.628 766.758)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">5</tspan></text>
+      <text id="_4-4" data-name="4" transform="translate(529.628 790.462)" fill="#212529" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+      <path id="Path_150" data-name="Path 150" d="M0,1.034V23.889" transform="translate(377.87 703.873)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+      <text id="Description-3" data-name="Description" transform="translate(545.535 719.313)" fill="#495057" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Description</tspan></text>
+      <g id="Rectangle_152" data-name="Rectangle 152" transform="translate(364 713.021)" fill="#fff" stroke="#707070" stroke-width="0.3">
+        <rect width="9" height="9" rx="1" stroke="none"/>
+        <rect x="0.15" y="0.15" width="8.7" height="8.7" rx="0.85" fill="none"/>
+      </g>
+      <g id="Rectangle_153" data-name="Rectangle 153" transform="translate(364 735.021)" fill="#fff" stroke="#707070" stroke-width="0.3">
+        <rect width="9" height="9" rx="1" stroke="none"/>
+        <rect x="0.15" y="0.15" width="8.7" height="8.7" rx="0.85" fill="none"/>
+      </g>
+      <g id="Rectangle_154" data-name="Rectangle 154" transform="translate(364 759.021)" fill="#fff" stroke="#707070" stroke-width="0.3">
+        <rect width="9" height="9" rx="1" stroke="none"/>
+        <rect x="0.15" y="0.15" width="8.7" height="8.7" rx="0.85" fill="none"/>
+      </g>
+      <g id="Rectangle_155" data-name="Rectangle 155" transform="translate(364 783.021)" fill="#fff" stroke="#707070" stroke-width="0.3">
+        <rect width="9" height="9" rx="1" stroke="none"/>
+        <rect x="0.15" y="0.15" width="8.7" height="8.7" rx="0.85" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

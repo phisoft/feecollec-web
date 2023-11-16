@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--
+	App by FreeHTML5.co
+	Twitter: http://twitter.com/fh5co
+	URL: http://freehtml5.co
+-->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Complainbos | Customer complaint management system </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/formstyle.css">
+    <!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!--====== Favicon Icon ======-->
+	<link rel="shortcut icon" href="/img/fav.svg" type="image" />
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+
+  <body>
+    <div id="page-wrap"></div>
+	<!-- ==========================================================================================================
+													   HERO
+		 ========================================================================================================== -->
+
+     <div class="bg-light">
+			<nav class="container navbar navbar-expand-lg main-navbar-nav navbar-light">
+
+				<div class="col-7 p-0 col-lg-3 m-0">
+					<a class="navbar-brand" href="index.html">
+						<img class="img-fluid" src="/img/logo.png" alt="Complainbos">
+					</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav nav-items-center ml-auto mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#about').goTo();return false;">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#feature').goTo();return false;">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#service').goTo();return false;">Services</a>
+						</li>
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#fh5co-download').goTo();return false;">Contact
+								Us</a>
+						</li> -->
+					</ul>
+					<div class="social-icons-header">
+						<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://freehtml5.co"><i class="fab fa-instagram"></i></a>
+						<!-- <a href="https://www.twitter.com/fh5co"><i class="fab fa-twitter"></i></a> -->
+					</div>
+				</div>
+			</nav>
+		</div>
+    <!-- ==========================================================================================================
+                                           SIGN UP
+    ========================================================================================================== -->
+   <br></br>
+   <br></br>
+   
+    <form id="signupForm">
+      <div class="center">
+        <div class="a">
+			<br></br>
+          <img class="grid-image mb-5"
+          data-wow-delay="1.2s" width="60%"src="img/logo.png" alt="logo-img">
+        
+        <label for="email"></label>
+        <input type="text" placeholder="Email" name="email" required>
+
+        <label for="username"></label>
+        <input type="text" placeholder="Business Name" name="username" required>
+    
+        <label for="psw"></label>
+        <input type="password" placeholder="Password" name="psw" required>
+    
+        <br></br>
+		<div class="containerBtn">
+        <button type="submit" class="button" onclick="openPopup()">Sign Up</button>
+		</div>
+        </div>
+      </div>	  
+    </div>
+    </form> 
+	<br></br>
+	<br></br>
+		
+  <!-- ==========================================================================================================
+                                               SECTION 7 - SUB FOOTER
+    ========================================================================================================== -->
+
+	<footer id="footer" class="footer-outer">
+		<div class="container footer-inner">
+			<div class="row wow fadeIn animated d-flex justify-content-between" data-wow-delay="0.66s">
+				<div class="col-lg-4 mb-4 mb-lg-0">
+					<div class="d-flex justify-content-start justify-content-lg-start">
+						<div class="m-0 p-0 col-8 mb-1">
+							<img class="img-fluid mt-5 mt-lg-0" src="/img/logo.png" alt="Complainbos">
+						</div>
+					</div>
+					<p class="fs-14 mt-2 lh-2rem text-justify text-lg-left">Complainbos is a complaint management
+						system that helps
+						businesses to
+						view,
+						track and store information about customer queries, resolutions, and follow-up actions in
+						centralized repository for future reference. The platform enables organizations to manage
+						complaints from customers, and other stakeholders through a unified portal.
+					</p>
+				</div>
+				<div class="col-lg-2 mb-4 mb-lg-0">
+					<h5 class="color-primary text-bold mb-4">Menu</h5>
+					<ul class="list-unstyled">
+						<li><a class="fs-15" href="#" onclick="$('index.html').goTo();return false;">Home
+							</a></li>
+						<li><a class="fs-15" href="#" onclick="$('#about').goTo();return false;">About
+							</a></li>
+						<li><a class="fs-15" href="#" onclick="$('#feature').goTo();return false;">Features
+							</a></li>
+						<li><a class="fs-15" href="#" onclick="$('#service').goTo();return false;">Services
+							</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 mb-4 mb-lg-0">
+					<h5 class="color-primary text-bold mb-4">
+						More info
+					</h5>
+					<ul class="list-unstyled">
+						<li class="fs-14 d-flex mb-2 lh-2rem"><i
+								class="fa fa-map-marker-alt color-primary rel-top-10px mr-2"></i>
+							H-8-10, Aeropod Commercial Square, Jalan Aeropod Off Jalan Kepayan, 88200 Kota
+							Kinabalu,
+							Sabah, MY.
+						</li>
+						<li class="fs-14 d-flex mb-2"><i class="fa fa-phone color-primary  rel-top-3px mr-2"></i>
+							+6012 - 873 1819</li>
+						<li class="fs-14 d-flex mb-2"><i class="fa fa-envelope color-primary  rel-top-3px mr-2"></i>
+							hello@phisoft.my</li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 mb-4 mb-lg-0">
+					<h5 class="color-primary text-bold text-lg-center mb-4">
+						Find us
+					</h5>
+					<div class="d-flex justify-content-lg-center">
+						<ul class="list-unstyled d-flex d-lg-block ">
+							<li class="mr-2 mr-lg-0">
+								<span class="fa-stack mb-2">
+									<a href="https://instagram.com/phisoft.my">
+										<i class="fas fa-circle fa-stack-2x"></i>
+										<i class="fab fa-instagram fa-stack-1x text-white"></i>
+									</a>
+								</span>
+							</li>
+							<li class="mr-2 mr-lg-0"><span class="fa-stack mb-2">
+									<a href="https://facebook.com/phisoft.my/">
+										<i class="fas fa-circle fa-stack-2x"></i>
+										<i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+									</a>
+								</span></li>
+							<li class="mr-2 mr-lg-0"><span class="fa-stack mb-2">
+									<a href="https://www.linkedin.com/company/phisoft-my/mycompany/">
+										<i class="fas fa-circle fa-stack-2x"></i>
+										<i class="fab fa-linkedin fa-stack-1x text-white"></i>
+									</a>
+								</span></li>
+							<li class="mr-2 mr-lg-0">
+								<span class="fa-stack mb-2">
+									<a href="https://www.phisoft.my/">
+										<i class="fas fa-circle fa-stack-2x"></i>
+										<i class="fa fa-globe fa-stack-1x text-white"></i>
+									</a>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<span class="border-bottom-footer"></span>
+			<p class="copyright">&copy; 2022 Complainbos. All rights reserved.
+		</div>
+	</footer>
+  </body>
+  </html>
+  

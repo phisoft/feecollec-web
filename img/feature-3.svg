@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59" height="59" viewBox="0 0 59 59">
+  <g id="Group_66" data-name="Group 66" transform="translate(-36 -78)">
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="12.5" cy="12.5" r="12.5" transform="translate(53 95)" fill="#203881"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="9.5" cy="9.5" r="9.5" transform="translate(36 118)" fill="#203881"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="7.5" cy="7.5" r="7.5" transform="translate(80 78)" fill="#203881"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="6.5" cy="6.5" r="6.5" transform="translate(80 122)" fill="#203881"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="6.5" cy="6.5" r="6.5" transform="translate(38 80)" fill="#203881"/>
+    <line id="Line_16" data-name="Line 16" x2="11.162" y2="11.162" transform="translate(47.561 89.561)" fill="none" stroke="#203881" stroke-width="4"/>
+    <line id="Line_17" data-name="Line 17" x2="11.162" y2="11.162" transform="translate(71.48 113.48)" fill="none" stroke="#203881" stroke-width="4"/>
+    <line id="Line_18" data-name="Line 18" y1="11" x2="12" transform="translate(73 89)" fill="none" stroke="#203881" stroke-width="4"/>
+    <line id="Line_19" data-name="Line 19" y1="12" x2="12" transform="translate(48 113)" fill="none" stroke="#203881" stroke-width="4"/>
+  </g>
+</svg>

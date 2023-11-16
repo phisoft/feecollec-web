@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="750" height="561" viewBox="0 0 750 561">
+  <defs>
+    <filter id="Rectangle_49" x="0" y="353" width="230" height="208" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_49-2" x="540.5" y="386.5" width="204" height="86" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_87" x="524" y="178.218" width="199.169" height="88.063" filterUnits="userSpaceOnUse">
+      <feOffset dx="-10" dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_173" data-name="Group 173" transform="translate(6.5 -76.5)">
+    <g id="Group_152" data-name="Group 152" transform="translate(30 293)">
+      <g id="Group_20" data-name="Group 20" transform="translate(0 0)">
+        <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(0 0)" fill="#fff" stroke="#b3bee1" stroke-width="1.5">
+          <rect width="316" height="213" rx="10" stroke="none"/>
+          <rect x="0.75" y="0.75" width="314.5" height="211.5" rx="9.25" fill="none"/>
+        </g>
+      </g>
+      <path id="Path_91" data-name="Path 91" d="M-35.959,0H213.62" transform="translate(86.762 177.568)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_92" data-name="Path 92" d="M0,0V119.262" transform="translate(177.413 64.937)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <path id="Path_93" data-name="Path 93" d="M-35.959,0H213.62" transform="translate(86.762 158.549)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <path id="Path_94" data-name="Path 94" d="M-35.959,0H213.62" transform="translate(86.762 139.53)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <path id="Path_95" data-name="Path 95" d="M-35.959,0H213.62" transform="translate(86.762 120.511)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <path id="Path_96" data-name="Path 96" d="M-35.959,0H213.62" transform="translate(86.762 101.492)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <path id="Path_97" data-name="Path 97" d="M-35.959,0H213.62" transform="translate(86.762 82.473)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <text id="August_2022" data-name="August 2022" transform="translate(146 192)" fill="#646c75" font-size="9" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">August 2022</tspan></text>
+      <text id="Created_On" data-name="Created On" transform="translate(150.771 200.106)" fill="#646c75" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">Created On</tspan></text>
+      <text id="_0.0" data-name="0.0" transform="translate(35.093 178.285)" fill="#5f5f5f" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">0.0</tspan></text>
+      <text id="_5.00" data-name="5.00" transform="translate(29.335 82.822)" fill="#5f5f5f" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">5.00</tspan></text>
+      <text id="_4.00" data-name="4.00" transform="translate(29.335 101.915)" fill="#5f5f5f" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">4.00</tspan></text>
+      <text id="_3.00" data-name="3.00" transform="translate(29.335 121.008)" fill="#5f5f5f" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">3.00</tspan></text>
+      <text id="_2.00" data-name="2.00" transform="translate(29.335 140.1)" fill="#5f5f5f" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">2.00</tspan></text>
+      <text id="_1.00" data-name="1.00" transform="translate(29.335 159.193)" fill="#5f5f5f" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">1.00</tspan></text>
+      <text id="Count" transform="translate(17.335 128.19) rotate(-90)" fill="#646c75" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">Count</tspan></text>
+      <text id="Total_Booking_Monthly" data-name="Total Booking Monthly" transform="translate(9.479 17.542)" fill="#212529" font-size="11" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Total Booking Monthly</tspan></text>
+      <path id="Path_98" data-name="Path 98" d="M-35.959,0H213.974" transform="translate(86.409 65.366)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <text id="_6.00" data-name="6.00" transform="translate(29.335 66.457)" fill="#5f5f5f" font-size="7" font-family="ArialMT, Arial"><tspan x="0" y="0">6.00</tspan></text>
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="4.319" cy="4.091" rx="4.319" ry="4.091" transform="translate(173.094 61.274)" fill="#1f77b4"/>
+      <rect id="Rectangle_39" data-name="Rectangle 39" width="24" height="7" transform="translate(23 35)" fill="#aec7e8"/>
+      <rect id="Rectangle_40" data-name="Rectangle 40" width="23" height="7" transform="translate(84 35)" fill="#1f77b4"/>
+      <rect id="Rectangle_41" data-name="Rectangle 41" width="23" height="7" transform="translate(142 35)" fill="#ff7f0e"/>
+      <text id="MRT" transform="translate(49 42)" fill="#5f5f5f" font-size="10" font-family="ArialMT, Arial"><tspan x="0" y="0">MRT</tspan></text>
+      <text id="RCP" transform="translate(108 41)" fill="#5f5f5f" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">RCP</tspan></text>
+      <text id="FNC" transform="translate(167 41)" fill="#5f5f5f" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">FNC</tspan></text>
+      <rect id="Rectangle_42" data-name="Rectangle 42" width="23" height="9" transform="translate(254 35)" fill="#2ca02c"/>
+      <text id="CS" transform="translate(279 41)" fill="#5f5f5f" font-size="9" font-family="ArialMT, Arial"><tspan x="0" y="0">CS</tspan></text>
+      <text id="HR" transform="translate(226 42)" fill="#5f5f5f" font-size="10" font-family="ArialMT, Arial"><tspan x="0" y="0">HR</tspan></text>
+      <rect id="Rectangle_43" data-name="Rectangle 43" width="26" height="9" transform="translate(200 35)" fill="#ffbb78"/>
+      <line id="Line_4" data-name="Line 4" y2="119.17" transform="translate(56.24 65.457)" fill="none" stroke="#707070" stroke-width="1"/>
+      <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="4.319" cy="4.091" rx="4.319" ry="4.091" transform="translate(173.094 97.401)" fill="#aec7e8"/>
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="4.319" cy="4.091" rx="4.319" ry="4.091" transform="translate(173.094 116.42)" fill="#ff993f"/>
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="4.319" cy="4.091" rx="4.319" ry="4.091" transform="translate(173.094 135.438)" fill="#ffbb78"/>
+      <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="4.319" cy="4.091" rx="4.319" ry="4.091" transform="translate(173.094 154.458)" fill="#2ca02c"/>
+    </g>
+    <g id="Group_153" data-name="Group 153" transform="translate(370 335.221)">
+      <g id="Group_21" data-name="Group 21" transform="translate(0 0)">
+        <g id="Rectangle_2-2" data-name="Rectangle 2" transform="translate(0 -0.221)" fill="#fff" stroke="#b3bee1" stroke-width="1.5">
+          <rect width="316" height="215" rx="10" stroke="none"/>
+          <rect x="-0.75" y="-0.75" width="317.5" height="216.5" rx="10.75" fill="none"/>
+        </g>
+      </g>
+      <text id="Complains_By_Department_For_The_Past_30_Days" data-name="Complains By Department For The Past 30 Days" transform="translate(10 16.778)" fill="#212529" font-size="11" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Complains By Department For The Past 30 Days</tspan></text>
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="24" height="8" transform="translate(22 35.779)" fill="#aec7e8"/>
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="22" height="8" transform="translate(80 35.779)" fill="#1f77b4"/>
+      <rect id="Rectangle_30" data-name="Rectangle 30" width="22" height="8" transform="translate(136 35.779)" fill="#ff7f0e"/>
+      <text id="MRT-2" data-name="MRT" transform="translate(46 43.778)" fill="#5f5f5f" font-size="10" font-family="ArialMT, Arial"><tspan x="0" y="0">MRT</tspan></text>
+      <text id="RCP-2" data-name="RCP" transform="translate(103 42.778)" fill="#5f5f5f" font-size="10" font-family="ArialMT, Arial"><tspan x="0" y="0">RCP</tspan></text>
+      <text id="FNC-2" data-name="FNC" transform="translate(159 42.778)" fill="#5f5f5f" font-size="10" font-family="ArialMT, Arial"><tspan x="0" y="0">FNC</tspan></text>
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="24" height="8" transform="translate(240 35.779)" fill="#2ca02c"/>
+      <text id="CS-2" data-name="CS" transform="translate(265 42.778)" fill="#5f5f5f" font-size="10" font-family="ArialMT, Arial"><tspan x="0" y="0">CS</tspan></text>
+      <g id="Group_19" data-name="Group 19" transform="translate(84.494 55.049)">
+        <path id="Path_40" data-name="Path 40" d="M-37.03,87.057l25.007-60.528L34.231,72.556A63.751,63.751,0,0,1,1.345,90.446,69.743,69.743,0,0,1-37.03,87.057Z" transform="translate(78.067 49.579)" fill="#ff7f0e"/>
+        <path id="Path_41" data-name="Path 41" d="M-52.845,114.724-99.436,68.4l.147-66.352s43.565-.182,60.461,40.809S-52.845,114.724-52.845,114.724Z" transform="translate(165.614 7.064)" fill="#1f77b4"/>
+        <path id="Path_76" data-name="Path 76" d="M31.051,1.706,91.71,26.978,66.36,87.838A68.633,68.633,0,0,1,31.051,51.7,66.385,66.385,0,0,1,31.051,1.706Z" transform="translate(-26.167 48.607)" fill="#aac3e3"/>
+        <path id="Path_77" data-name="Path 77" d="M19.282,0,65.289,46.786,0,46S.1,32.2,4.956,20.61,19.282,0,19.282,0Z" transform="translate(22.288 7.192) rotate(22)" fill="#ffbb78"/>
+        <path id="Path_78" data-name="Path 78" d="M11.719,0,62.837,41.255,0,22.532A46.8,46.8,0,0,1,4.475,10.887,105.4,105.4,0,0,1,11.719,0Z" transform="translate(58.275 0) rotate(51)" fill="#2ca02c"/>
+      </g>
+      <text id="HR-2" data-name="HR" transform="translate(215 43.778)" fill="#5f5f5f" font-size="10" font-family="ArialMT, Arial"><tspan x="0" y="0">HR</tspan></text>
+      <rect id="Rectangle_38" data-name="Rectangle 38" width="24" height="8" transform="translate(191 35.779)" fill="#ffbb78"/>
+    </g>
+    <g id="Group_157" data-name="Group 157" transform="translate(-343 307.031)">
+      <g transform="matrix(1, 0, 0, 1, 336.5, -230.53)" filter="url(#Rectangle_49)">
+        <g id="Rectangle_49-3" data-name="Rectangle 49" transform="translate(14.5 365.5)" fill="#fff" stroke="#b3bee1" stroke-width="1.5">
+          <rect width="185" height="163" rx="8" stroke="none"/>
+          <rect x="0.75" y="0.75" width="183.5" height="161.5" rx="7.25" fill="none"/>
+        </g>
+      </g>
+      <text id="Count-2" data-name="Count" transform="translate(362.125 154.631)" fill="#212529" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Count</tspan></text>
+      <rect id="Rectangle_50" data-name="Rectangle 50" width="18" height="17" transform="translate(362 167.969)" fill="#3685bc"/>
+      <text id="August_2022_RCP" data-name="August 2022/RCP" transform="translate(387.861 178.861)" fill="#212529" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">August 2022/RCP</tspan></text>
+      <text id="_6.00-2" data-name="6.00" transform="translate(498.498 178.861)" fill="#212529" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">6.00</tspan></text>
+      <rect id="Rectangle_51" data-name="Rectangle 51" width="18" height="17" transform="translate(362 193.969)" fill="#b6cdea"/>
+      <text id="August_2022_MRT" data-name="August 2022/MRT" transform="translate(387.861 204.596)" fill="#212529" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">August 2022/MRT</tspan></text>
+      <text id="_4.00-2" data-name="4.00" transform="translate(498.498 204.596)" fill="#212529" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">4.00</tspan></text>
+      <rect id="Rectangle_52" data-name="Rectangle 52" width="18" height="16" transform="translate(362 218.969)" fill="#ff8c27"/>
+      <text id="August_2022_FNC" data-name="August 2022/FNC" transform="translate(387.861 229.475)" fill="#212529" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">August 2022/FNC</tspan></text>
+      <text id="_3.00-2" data-name="3.00" transform="translate(498.498 229.475)" fill="#212529" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">3.00</tspan></text>
+      <rect id="Rectangle_53" data-name="Rectangle 53" width="18" height="16" transform="translate(362 243.969)" fill="#ffc286"/>
+      <text id="August_2022_HR" data-name="August 2022/HR" transform="translate(387.861 254.353)" fill="#212529" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">August 2022/HR</tspan></text>
+      <text id="_2.00-2" data-name="2.00" transform="translate(498.498 254.353)" fill="#212529" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">2.00</tspan></text>
+      <rect id="Rectangle_54" data-name="Rectangle 54" width="18" height="17" transform="translate(362 268.969)" fill="#42aa42"/>
+      <text id="August_2022_CS" data-name="August 2022/CS" transform="translate(387.861 280.088)" fill="#212529" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">August 2022/CS</tspan></text>
+      <text id="_1.00-2" data-name="1.00" transform="translate(498.498 280.088)" fill="#212529" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">1.00</tspan></text>
+    </g>
+    <g id="Group_158" data-name="Group 158" transform="translate(202 328.031)">
+      <g transform="matrix(1, 0, 0, 1, -208.5, -251.53)" filter="url(#Rectangle_49-2)">
+        <g id="Rectangle_49-4" data-name="Rectangle 49" transform="translate(559.5 386.5)" fill="#fff" stroke="#b3bee1" stroke-width="1.5">
+          <rect width="185" height="65" rx="8" stroke="none"/>
+          <rect x="0.75" y="0.75" width="183.5" height="63.5" rx="7.25" fill="none"/>
+        </g>
+      </g>
+      <text id="Count-3" data-name="Count" transform="translate(362.125 154.631)" fill="#212529" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Count</tspan></text>
+      <rect id="Rectangle_50-2" data-name="Rectangle 50" width="18" height="17" transform="translate(362 167.969)" fill="#3685bc"/>
+      <text id="RCP-3" data-name="RCP" transform="translate(387.861 178.861)" fill="#212529" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">RCP</tspan></text>
+      <text id="_6.00_37.50_" data-name="6.00 (37.50%)" transform="translate(460.498 178.861)" fill="#212529" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">6.00 (37.50%)</tspan></text>
+    </g>
+    <g id="Group_172" data-name="Group 172">
+      <g id="Group_156" data-name="Group 156" transform="translate(8 77.529)">
+        <g id="Rectangle_2-3" data-name="Rectangle 2" transform="translate(0 0.471)" fill="#fff" stroke="#b3bee1" stroke-width="1.5">
+          <rect width="734" height="195" rx="10" stroke="none"/>
+          <rect x="-0.75" y="-0.75" width="735.5" height="196.5" rx="10.75" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectangle_45" data-name="Rectangle 45" width="705" height="26" transform="translate(22 240)" fill="#fcfcfc"/>
+      <rect id="Rectangle_24" data-name="Rectangle 24" width="705" height="25" transform="translate(22 115)" fill="#eee"/>
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="705" height="25" transform="translate(22 140)" fill="#fcfcfc"/>
+      <rect id="Rectangle_26" data-name="Rectangle 26" width="705" height="25" transform="translate(22 165)" fill="#fff"/>
+      <rect id="Rectangle_27" data-name="Rectangle 27" width="705" height="25" transform="translate(22 190)" fill="#fcfcfc"/>
+      <path id="Rectangle_28-2" data-name="Rectangle 28" d="M0,0H705a0,0,0,0,1,0,0V19a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V0A0,0,0,0,1,0,0Z" transform="translate(22 215)" fill="#fff"/>
+      <path id="Path_55" data-name="Path 55" d="M0,0V24.322" transform="translate(89.945 115.249)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+      <line id="Line_15" data-name="Line 15" y2="25" transform="translate(401 115)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+      <path id="Path_53" data-name="Path 53" d="M0,0V24.239" transform="translate(522.59 115.249)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+      <path id="Path_52" data-name="Path 52" d="M0,1.034V25.326" transform="translate(643.06 114.245)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+      <text id="Ticket_No" data-name="Ticket No" transform="translate(33 132)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Ticket No</tspan></text>
+      <text id="Partner" transform="translate(176 132)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Partner</tspan></text>
+      <text id="Date" transform="translate(95 131)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Date</tspan></text>
+      <text id="C000005" transform="translate(33 157)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C000005</tspan></text>
+      <text id="C000006" transform="translate(33 181)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C000006</tspan></text>
+      <text id="C000007" transform="translate(33 205)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C000007</tspan></text>
+      <text id="C000008" transform="translate(33 231)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C000008</tspan></text>
+      <text id="Farhan_Daud" data-name="Farhan Daud" transform="translate(177 156)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Farhan Daud</tspan></text>
+      <text id="Farhan_Daud-2" data-name="Farhan Daud" transform="translate(177 181)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Farhan Daud</tspan></text>
+      <text id="Assigned" transform="translate(409 132)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Assigned</tspan></text>
+      <text id="Duration_Days" data-name="Duration Days" transform="translate(534 130)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Duration Days</tspan></text>
+      <text id="Status" transform="translate(669 130)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Status</tspan></text>
+      <text id="_1_record" data-name="1 record" transform="translate(408 156)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1 record</tspan></text>
+      <text id="_3" data-name="3" transform="translate(530 156)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">3</tspan></text>
+      <text id="_1" data-name="1" transform="translate(530 181)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">1</tspan></text>
+      <text id="_0" data-name="0" transform="translate(530 206)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">0</tspan></text>
+      <text id="_0-2" data-name="0" transform="translate(530 231)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">0</tspan></text>
+      <g id="Rectangle_31" data-name="Rectangle 31" transform="translate(22 115)" fill="none" stroke="#d8d8d8" stroke-width="1">
+        <rect width="705" height="151" stroke="none"/>
+        <rect x="0.5" y="0.5" width="704" height="150" fill="none"/>
+      </g>
+      <path id="Path_99" data-name="Path 99" d="M0,0V24.322" transform="translate(169.464 115.249)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+      <path id="Path_100" data-name="Path 100" d="M118.694,0V24.322" transform="translate(141.332 115.249)" fill="none" stroke="#b5b2b2" stroke-width="0.5"/>
+      <text id="Type" transform="translate(267 131)" fill="#495057" font-size="11" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Type</tspan></text>
+      <text id="C000009" transform="translate(33 256)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">C000009</tspan></text>
+      <text id="_0-3" data-name="0" transform="translate(530 256)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">0</tspan></text>
+      <text id="_08_12_2022" data-name="08/12/2022" transform="translate(95 157)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">08/12/2022</tspan></text>
+      <text id="_08_14_2022" data-name="08/14/2022" transform="translate(95 181)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">08/14/2022</tspan></text>
+      <text id="_08_15_2022" data-name="08/15/2022" transform="translate(95 206)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">08/15/2022</tspan></text>
+      <text id="_08_15_2022-2" data-name="08/15/2022" transform="translate(95 231)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">08/15/2022</tspan></text>
+      <text id="_08_15_2022-3" data-name="08/15/2022" transform="translate(95 256)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">08/15/2022</tspan></text>
+      <text id="Liza" transform="translate(176 205)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Liza</tspan></text>
+      <text id="Liza-2" data-name="Liza" transform="translate(176 231)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Liza</tspan></text>
+      <text id="John_Doe" data-name="John Doe" transform="translate(176 256)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">John Doe</tspan></text>
+      <text id="Document_Processing" data-name="Document Processing" transform="translate(270 156)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Document Processing</tspan></text>
+      <text id="Customer_Service" data-name="Customer Service" transform="translate(269 181)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Customer Service</tspan></text>
+      <text id="Customer_Service-2" data-name="Customer Service" transform="translate(269 205)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Customer Service</tspan></text>
+      <text id="Customer_Service-3" data-name="Customer Service" transform="translate(269 231)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Customer Service</tspan></text>
+      <text id="Customer_Service-4" data-name="Customer Service" transform="translate(269 256)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Customer Service</tspan></text>
+      <text id="_0_record" data-name="0 record" transform="translate(408 181)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">0 record</tspan></text>
+      <text id="_0_record-2" data-name="0 record" transform="translate(408 205)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">0 record</tspan></text>
+      <text id="_0_record-3" data-name="0 record" transform="translate(408 231)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">0 record</tspan></text>
+      <text id="_0_record-4" data-name="0 record" transform="translate(408 256)" fill="#495057" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">0 record</tspan></text>
+      <g id="Group_22" data-name="Group 22" transform="translate(670.09 145)">
+        <rect id="Rectangle_46" data-name="Rectangle 46" width="32" height="14" rx="7" transform="translate(-0.09)" fill="#eb99a1"/>
+        <text id="Open" transform="translate(3.91 11)" fill="#495057" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Open</tspan></text>
+      </g>
+      <g id="Group_23" data-name="Group 23" transform="translate(670.09 170)">
+        <rect id="Rectangle_46-2" data-name="Rectangle 46" width="32" height="15" rx="7.5" transform="translate(-0.09)" fill="#eb99a1"/>
+        <text id="Open-2" data-name="Open" transform="translate(3.91 11)" fill="#495057" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Open</tspan></text>
+      </g>
+      <g id="Group_24" data-name="Group 24" transform="translate(670.09 195)">
+        <rect id="Rectangle_46-3" data-name="Rectangle 46" width="32" height="15" rx="7.5" transform="translate(-0.09)" fill="#eb99a1"/>
+        <text id="Open-3" data-name="Open" transform="translate(3.91 11)" fill="#495057" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Open</tspan></text>
+      </g>
+      <g id="Group_25" data-name="Group 25" transform="translate(670.09 221)">
+        <rect id="Rectangle_46-4" data-name="Rectangle 46" width="32" height="14" rx="7" transform="translate(-0.09)" fill="#eb99a1"/>
+        <text id="Open-4" data-name="Open" transform="translate(3.91 10)" fill="#495057" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Open</tspan></text>
+      </g>
+      <g id="Group_26" data-name="Group 26" transform="translate(670.09 246)">
+        <rect id="Rectangle_46-5" data-name="Rectangle 46" width="32" height="14" rx="7" transform="translate(-0.09)" fill="#eb99a1"/>
+        <text id="Open-5" data-name="Open" transform="translate(3.91 11)" fill="#495057" font-size="9" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Open</tspan></text>
+      </g>
+      <text id="Complains_For_The_Past_3_Days" data-name="Complains For The Past 3 Days" transform="translate(22 102)" fill="#212529" font-size="12" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Complains For The Past 3 Days</tspan></text>
+    </g>
+    <g id="Group_144" data-name="Group 144" transform="translate(535 254.719)">
+      <g transform="matrix(1, 0, 0, 1, -541.5, -178.22)" filter="url(#Rectangle_87)">
+        <g id="Rectangle_87-2" data-name="Rectangle 87" transform="translate(541.5 178.22)" fill="#f7fafd" stroke="#b3bee1" stroke-width="1.5">
+          <rect width="181.669" height="68.563" rx="10" stroke="none"/>
+          <rect x="0.75" y="0.75" width="180.169" height="67.063" rx="9.25" fill="none"/>
+        </g>
+      </g>
+      <text id="Rating" transform="translate(10.16 24.166)" fill="#495057" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Rating</tspan></text>
+      <path id="Icon_ionic-ios-star-outline" data-name="Icon ionic-ios-star-outline" d="M20.158,9.358H14.046L12.189,3.815a.673.673,0,0,0-1.263,0L9.068,9.358H2.915a.667.667,0,0,0-.665.665.489.489,0,0,0,.012.112.639.639,0,0,0,.278.47l5.023,3.54L5.636,19.75a.667.667,0,0,0,.229.748.643.643,0,0,0,.374.162.815.815,0,0,0,.416-.15l4.9-3.494,4.9,3.494a.779.779,0,0,0,.416.15.6.6,0,0,0,.37-.162.659.659,0,0,0,.229-.748l-1.928-5.605,4.982-3.573.12-.1a.7.7,0,0,0,.216-.445A.7.7,0,0,0,20.158,9.358ZM14.873,13.2a1.167,1.167,0,0,0-.424,1.321L15.7,18.167a.167.167,0,0,1-.253.191L12.23,16.065a1.161,1.161,0,0,0-.677-.216,1.139,1.139,0,0,0-.673.216L7.664,18.354a.166.166,0,0,1-.253-.191l1.251-3.644a1.171,1.171,0,0,0-.428-1.33L4.868,10.817a.167.167,0,0,1,.1-.3h4.1a1.162,1.162,0,0,0,1.1-.794L11.4,6.055a.167.167,0,0,1,.316,0l1.23,3.665a1.162,1.162,0,0,0,1.1.794h4.043a.164.164,0,0,1,.1.3Z" transform="translate(131.82 10.103)" fill="#5a5a5a"/>
+      <path id="Icon_ionic-ios-star-outline-2" data-name="Icon ionic-ios-star-outline" d="M20.158,9.358H14.046L12.189,3.815a.673.673,0,0,0-1.263,0L9.068,9.358H2.915a.667.667,0,0,0-.665.665.489.489,0,0,0,.012.112.639.639,0,0,0,.278.47l5.023,3.54L5.636,19.75a.667.667,0,0,0,.229.748.643.643,0,0,0,.374.162.815.815,0,0,0,.416-.15l4.9-3.494,4.9,3.494a.779.779,0,0,0,.416.15.6.6,0,0,0,.37-.162.659.659,0,0,0,.229-.748l-1.928-5.605,4.982-3.573.12-.1a.7.7,0,0,0,.216-.445A.7.7,0,0,0,20.158,9.358ZM14.873,13.2a1.167,1.167,0,0,0-.424,1.321L15.7,18.167a.167.167,0,0,1-.253.191L12.23,16.065a1.161,1.161,0,0,0-.677-.216,1.139,1.139,0,0,0-.673.216L7.664,18.354a.166.166,0,0,1-.253-.191l1.251-3.644a1.171,1.171,0,0,0-.428-1.33L4.868,10.817a.167.167,0,0,1,.1-.3h4.1a1.162,1.162,0,0,0,1.1-.794L11.4,6.055a.167.167,0,0,1,.316,0l1.23,3.665a1.162,1.162,0,0,0,1.1.794h4.043a.164.164,0,0,1,.1.3Z" transform="translate(151.545 10.103)" fill="#5a5a5a"/>
+      <text id="Description" transform="translate(10.16 47.137)" fill="#495057" font-size="10" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Description</tspan></text>
+      <text id="Missing_Files" data-name="Missing Files" transform="translate(73.558 47.137)" fill="#495057" font-size="10" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Missing Files</tspan></text>
+      <path id="Path_122" data-name="Path 122" d="M0,0H56.714" transform="translate(66.596 5.925) rotate(90)" fill="none" stroke="#e7e7e7" stroke-width="1"/>
+      <path id="Icon_ionic-ios-star" data-name="Icon ionic-ios-star" d="M20.691,9.358H14.4L12.485,3.815a.7.7,0,0,0-1.3,0L9.271,9.358H2.935a.677.677,0,0,0-.685.665.475.475,0,0,0,.013.112.635.635,0,0,0,.287.47l5.173,3.54L5.737,19.75a.656.656,0,0,0,.235.748.672.672,0,0,0,.385.162.855.855,0,0,0,.428-.15l5.049-3.494,5.049,3.494a.817.817,0,0,0,.428.15.624.624,0,0,0,.381-.162.648.648,0,0,0,.235-.748l-1.985-5.605,5.13-3.573.124-.1a.689.689,0,0,0,.222-.445A.716.716,0,0,0,20.691,9.358Z" transform="translate(71.308 10.103)" fill="#f3cc00"/>
+      <path id="Icon_ionic-ios-star-2" data-name="Icon ionic-ios-star" d="M20.691,9.358H14.4L12.485,3.815a.7.7,0,0,0-1.3,0L9.271,9.358H2.935a.677.677,0,0,0-.685.665.475.475,0,0,0,.013.112.635.635,0,0,0,.287.47l5.173,3.54L5.737,19.75a.656.656,0,0,0,.235.748.672.672,0,0,0,.385.162.855.855,0,0,0,.428-.15l5.049-3.494,5.049,3.494a.817.817,0,0,0,.428.15.624.624,0,0,0,.381-.162.648.648,0,0,0,.235-.748l-1.985-5.605,5.13-3.573.124-.1a.689.689,0,0,0,.222-.445A.716.716,0,0,0,20.691,9.358Z" transform="translate(91.432 10.103)" fill="#f3cc00"/>
+      <path id="Icon_ionic-ios-star-3" data-name="Icon ionic-ios-star" d="M20.691,9.358H14.4L12.485,3.815a.7.7,0,0,0-1.3,0L9.271,9.358H2.935a.677.677,0,0,0-.685.665.475.475,0,0,0,.013.112.635.635,0,0,0,.287.47l5.173,3.54L5.737,19.75a.656.656,0,0,0,.235.748.672.672,0,0,0,.385.162.855.855,0,0,0,.428-.15l5.049-3.494,5.049,3.494a.817.817,0,0,0,.428.15.624.624,0,0,0,.381-.162.648.648,0,0,0,.235-.748l-1.985-5.605,5.13-3.573.124-.1a.689.689,0,0,0,.222-.445A.716.716,0,0,0,20.691,9.358Z" transform="translate(111.557 10.103)" fill="#f3cc00"/>
+    </g>
+  </g>
+</svg>

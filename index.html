@@ -1,1 +1,560 @@
-feecollec web
+<!DOCTYPE html>
+<!--
+	App by FreeHTML5.co
+	Twitter: http://twitter.com/fh5co
+	URL: http://freehtml5.co
+-->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Complainbos | Customer complaint management system </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!--====== Favicon Icon ======-->
+	<link rel="shortcut icon" href="/img/fav.svg" type="image" />
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+	<div id="page-wrap">
+
+
+		<!-- ==========================================================================================================
+													   HERO
+		 ========================================================================================================== -->
+
+		<div class="bg-light">
+			<nav class="container navbar navbar-expand-lg main-navbar-nav navbar-light">
+
+				<div class="col-7 p-0 col-lg-3 m-0">
+					<a class="navbar-brand" href="index.html">
+						<img class="img-fluid" src="/img/logo.png" alt="Complainbos">
+					</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav nav-items-center ml-auto mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#about').goTo();return false;">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#feature').goTo();return false;">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#service').goTo();return false;">Services</a>
+						</li>
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="#" onclick="$('#fh5co-download').goTo();return false;">Contact
+								Us</a>
+						</li> -->
+					</ul>
+					<div class="social-icons-header">
+						<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://freehtml5.co"><i class="fab fa-instagram"></i></a>
+						<!-- <a href="https://www.twitter.com/fh5co"><i class="fab fa-twitter"></i></a> -->
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div id="fh5co-hero-wrapper">
+			<div class="container">
+				<div class="row d-flex justify-content-between">
+					<div class="col-12 col-lg-6 mb-3 mb-lg-5">
+						<h1 class="fs-40 animated fadeIn wow" data-wow-delay="0.4s">Smart Complain Management System
+						</h1>
+						<p class="col-12 col-lg-10 fs-18 lh-2rem mt-4 p-0 animated fadeIn wow" data-wow-delay="0.67s">
+							Designed to
+							improve client
+							relationships and give a better experience ahead</p>
+						<div class="animated fadeIn wow d-flex justify-content-lg-start justify-content-center"
+							data-wow-delay="0.87s">
+							<button class="btn btn-lg bg-color-primary text-white mr-3"
+								onclick="$('#feature').goTo();return false;">See More</button>
+							<a class="btn btn-lg bg-color-secondary color-primary"
+								href="signup.html">Sign Up</a>
+						</div>
+						<!-- <button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s"
+							onclick="$('#fh5co-download').goTo();return false;">See More</button>
+						<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s"
+							onclick="$('#fh5co-features').goTo();return false;">Services</button> -->
+					</div>
+					<div class="col-lg-6 d-flex d-lg-none mt-5 mt-lg-0">
+						<img class="img-fluid" src="/img/hero-bg-mobile.png" alt="system">
+					</div>
+					<!-- <div class="col-7">
+						<img class="img-fluid" src="/img/2.svg" alt="Complainbos System">
+					</div> -->
+				</div>
+			</div>
+
+
+			<!-- <div class="container fh5co-hero-inner">
+				<h1 class="animated fadeIn wow" data-wow-delay="0.4s">Smart Complain Management System
+				</h1>
+				<p class="animated fadeIn wow" data-wow-delay="0.67s">Designed to improve client
+					relationships and give a better experience ahead!</p>
+				<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s"
+					onclick="$('#fh5co-download').goTo();return false;">See More</button>
+				<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s"
+					onclick="$('#fh5co-features').goTo();return false;">Services</button>
+				<br>
+				<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/dashboard.png"
+					alt="demo"> -->
+		</div>
+
+
+	</div> <!-- first section wrapper -->
+
+
+	<!-- ==========================================================================================================
+													 ADVANTAGES
+		 ========================================================================================================== -->
+
+	<div id="feature" class="fh5co-advantages-outer">
+		<div class="container">
+			<h2 class="second-title text-bold fs-40 pb-lg-5 color-primary animated fadeIn wow" data-wow-delay="0.4s">
+				<span class="fs-19-bold">A Perfect</span>
+				Features
+			</h2>
+			<div class="row d-flex justify-content-between wow animated fadeIn pb-lg-5 mt-5 pt-5"
+				data-wow-delay="0.36s">
+
+
+				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeIn wow" data-wow-delay="1.2s">
+					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/kpireport.png"
+							width="18%" alt="Icon-1"></div>
+					<h4 class="text-center mb-3 text-bold">KPI & Reporting </h4>
+					<p class="col-12 text-center grid-desc fs-16 lh-2rem">Provide a clear performance and growth
+						potential
+						of the organization.
+					</p>
+				</div>
+
+				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeIn wow" data-wow-delay="1.2s">
+					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/multidepart.png"
+							width="18%" alt="Icon-1"></div>
+					<h4 class="text-center mb-3 text-bold">Multi Department Support </h4>
+					<p class="col-12 text-center grid-desc fs-16 lh-2rem">Develop and maintain various in-house systems
+						required for efficient communication and work among department.
+					</p>
+				</div>
+
+				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeIn wow" data-wow-delay="1.2s">
+					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/ctagging.png"
+							width="18%" alt="Icon-1"></div>
+					<h4 class="text-center mb-3 text-bold">Complain Tagging </h4>
+					<p class="col-12 text-center grid-desc fs-16 lh-2rem">Let users effectively organize information
+						and assign complain.
+					</p>
+				</div>
+
+				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeIn wow" data-wow-delay="1.2s">
+					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/cmanage.png"
+							width="18%" alt="Icon-1"></div>
+					<h4 class="text-center mb-3 text-bold">Complain Management </h4>
+					<p class="col-12 text-center grid-desc fs-16 lh-2rem">Resolving individual complaints and
+						creating potential for systemic improvement.
+					</p>
+				</div>
+
+				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeIn wow" data-wow-delay="1.2s">
+					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/notification.png"
+							width="18%" alt="Icon-1"></div>
+					<h4 class="text-center mb-3 text-bold">Notifications </h4>
+					<p class="col-12 text-center grid-desc fs-16 lh-2rem">Notify public on their complaint timeline
+						and status on progress.
+					</p>
+				</div>
+
+				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeIn wow" data-wow-delay="1.2s">
+					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/qrcode.png"
+							width="18%" alt="Icon-1"></div>
+					<h4 class="text-center mb-3 text-bold">QR Code </h4>
+					<p class="col-12 text-center grid-desc fs-16 lh-2rem">Quickly submit complaints by scanning
+						the QR Code without no additional downloads required.
+					</p>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+	</div>
+
+	<!-- ==========================================================================================================
+													 ABOUT
+		 ========================================================================================================== -->
+
+	<div id="about" class=" bg-color-tertiary">
+		<div class="container">
+			<div class="row d-flex justify-content-between">
+				<div class="col-lg-6 d-flex align-items-center order-1 order-lg-0">
+					<div>
+						<h2 class="text-lg-left fs-40 color-primary mt-lg-3 mb-4 mb-lg-4 text-center animated fadeIn wow"
+							data-wow-delay="0.47s">Meet Complainbos
+						</h2>
+						<div class="col-12 p-0">
+							<p class="fs-16 lh-2rem mt-3 text-lg-left text-justify animated fadeIn wow"
+								data-wow-delay="0.67s">Complainbos is a smart complaint management system
+								that comes equipped with all the features that are necessary.
+							<p class="fs-16 lh-2rem text-lg-left text-justify animated fadeIn wow"
+								data-wow-delay="0.85s">KPIs and Reporting, Multi-Department Support,
+								and other features, along with its other capabilities,
+								allow for more efficient management of your business and the achievement
+								of higher-level objectives.
+							</p>
+							<p class="fs-16 lh-2rem text-lg-left text-justify animated fadeIn wow"
+								data-wow-delay="1.15s">
+								See
+								why Complainbos ought to be your top choice.</p>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 d-flex justify-content-center align-items-center mb-5 mb-lg-0">
+					<img class="img-fluid col-9 col-lg-12 d-flex justify-content-center animated fadeIn wow"
+						data-wow-delay="1.47s" src="img/logo-white.png" alt="about-img">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- ==========================================================================================================
+													  CTA
+		 ========================================================================================================== -->
+
+	<div id="screenshots" class="fh5co-slider-outer ">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h2 class="text-white wow fadeIn fs-40 color-primary mt-lg-3 text-lg-left" data-wow-delay="0.36s">A
+						platform
+						where your concerns truly matter
+					</h2>
+					<p class="text-white wow fadeIn d-flex justify-content-start" data-wow-delay="0.36s">Engages
+						your
+						complains with
+						just few
+						steps!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- ==========================================================================================================
+													  SERVICES
+		 ========================================================================================================== -->
+	<div id="service" class="fh5co-features-outer">
+		<div class="container">
+			<div class="pb-lg-5 mb-lg-5">
+				<h2 class="second-title text-center text-bold fs-40 color-primary animated fadeIn wow"
+					data-wow-delay="0.4s">
+					Service Offer
+				</h2>
+				<p class="text-center mb-5 mb-lg-0 pb-lg-3 text-style-secondary animated fadeIn wow"
+					data-wow-delay="0.67s">
+					All-in-one
+					complaint system's support that is
+					refreshingly convenient</p>
+			</div>
+			<!-- <div class="col-sm-6 in-order-1 wow animated fadeInLeft" data-wow-delay="0.22s">
+							<div class="col-sm-image-container">
+								<img class="img-float-left" src="img/smartphone-1.png" alt="smartphone-1">
+								<span class="span-new">NEW</span>
+								<span class="span-free">Free</span>
+							</div>
+						</div>
+	
+						<div class="col-sm-6 in-order-2 sm-6-content wow animated fadeInRight" data-wow-delay="0.22s">
+							<h1>Live Support</h1>
+							<p>A live agent for each client to be assisted along the process according to
+								company standard operation procedure. This will value clients times and their loyalty.
+							</p>
+							<span class="circle circle-first"><i class="fab fa-instagram"></i></span>
+							<span class="circle circle-middle"><i class="fab fa-facebook"></i></span>
+							<span class="circle circle-last"><i class="fab fa-twitter"></i></span>
+						</div> -->
+
+			<div class="mt-5 pb-5">
+				<div class="row d-flex justify-content-between mb-lg-5">
+					<div class="col-lg-7 wow animated fadeInLeft d-flex justify-content-end mb-4 mb-lg-0"
+						data-wow-delay="0.22s">
+						<img class="img-fluid" src="img/service-1.svg" alt="service image">
+					</div>
+					<div class="col-lg-5 wow animated fadeInRight d-flex align-items-center" data-wow-delay="0.22s">
+						<div class="info">
+							<h1 class="text-style-primary">Complaint Submission</h1>
+							<p class="text-style-secondary">Our complaint management system has all the necessary tools
+								for feedback and complain management for a wide range of industries.
+							</p>
+							<p class="text-style-secondary">
+								Provide a seamless
+								complaint submission cycle for your customers through a convenient scan and submit
+								method.
+							</p>
+							<p class="text-style-secondary">
+								Resolve individual
+								complaints and create potential for systemic improvement.
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="mt-5 pb-5">
+				<div class="row d-flex justify-content-around mb-lg-5 ">
+					<div class="col-lg-5  wow animated fadeInRight d-flex align-items-center order-1 order-lg-0"
+						data-wow-delay="0.22s">
+						<div>
+							<h1 class="text-style-primary">Performance Dashboard</h1>
+							<p class="text-style-secondary">The dashboard allows users to measure results and gain
+								insights into metrics related to complaint submitted by departments in monthly or daily
+								basis, customers, agent performance, and other factors via key performance indicators
+								(KPIs) in real-time.
+							</p>
+							<p class="text-style-secondary">It also offers features such as offline access, root cause
+								analysis, audit trail, and many other
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-7 wow animated fadeInLeft d-flex justify-content-end mb-4 mb-lg-0"
+						data-wow-delay="0.22s">
+						<img class="img-fluid" src="img/service-2.svg" alt="service image">
+					</div>
+				</div>
+			</div>
+			<div class="mt-5 pb-5">
+				<div class="row d-flex justify-content-around mb-lg-5">
+					<div class="col-lg-7 wow animated fadeInLeft d-flex justify-content-end mb-4 mb-lg-0"
+						data-wow-delay="0.22s">
+						<img class="img-fluid" src="img/service-3.svg" alt="service image">
+					</div>
+					<div class="col-lg-5  wow animated fadeInRight d-flex align-items-center" data-wow-delay="0.22s">
+						<div>
+							<h1 class="text-style-primary">Reporting</h1>
+							<p class="text-style-secondary">Addressing and resolving submitted complaints is critical,
+								but being able to spot problem areas and prevent further incidents can also make your
+								organization a better place to work for every employee.
+							</p>
+							<p class="text-style-secondary">Using maps, charts and graphs,
+								you can identify patterns and hotspots so you can stop issues before they start.
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="mt-5 pb-3">
+				<div class="row d-flex justify-content-around mb-lg-5 mt-lg-5">
+					<div class="col-lg-5  wow animated fadeInRight d-flex align-items-center order-1 order-lg-0"
+						data-wow-delay="0.22s">
+						<div>
+							<h1 class="text-style-primary">Online Platform</h1>
+							<p class="text-style-secondary">A web-enabled, mobile-friendly platform ensures you capture
+								every complaint.
+							</p>
+							<p class="text-style-secondary">Not only can public submit complaints from wherever they
+								have an
+								internet connection by scanning through the QR code, organisation can make updates and
+								solve tickets anywhere, anytime.
+							</p>
+							<p class="text-style-secondary">This allows you to log information and evidence while
+								it’s still fresh.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-6 wow animated fadeInLeft mb-4 mb-lg-0" data-wow-delay="0.18s">
+						<div id="carousel" class="d-flex justify-content-center carousel slide" data-ride="carousel">
+							<div class="col-6 col-lg-6 ">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img class="d-block w-100" src="/img/1.svg" alt="First slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="/img/2.svg" alt="Second slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="/img/3.svg" alt="Third slide">
+									</div>
+								</div>
+								<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+
+						</div>
+						<div class="mt-3">
+							<img class="img-fluid" src="img/s1-bottom.png" alt="service image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ==========================================================================================================
+                                               SECTION 7 - SUB FOOTER
+    ========================================================================================================== -->
+
+	<footer id="footer" class="footer-outer">
+		<div class="container footer-inner">
+
+			<div class="row wow fadeIn animated d-flex justify-content-between" data-wow-delay="0.66s">
+				<div class="col-lg-4 mb-4 mb-lg-0">
+					<div class="d-flex justify-content-start justify-content-lg-start">
+						<div class="m-0 p-0 col-8 mb-1">
+							<img class="img-fluid mt-5 mt-lg-0" src="/img/logo.png" alt="Complainbos">
+						</div>
+					</div>
+
+
+					<p class="fs-14 mt-2 lh-2rem text-justify text-lg-left">Complainbos is a complaint management
+						system that helps
+						businesses to
+						view,
+						track and store information about customer queries, resolutions, and follow-up actions in
+						centralized repository for future reference. The platform enables organizations to manage
+						complaints from customers, and other stakeholders through a unified portal.
+					</p>
+
+
+				</div>
+
+				<div class="col-lg-2 mb-4 mb-lg-0">
+					<h5 class="color-primary text-bold mb-4">Menu</h5>
+
+					<ul class="list-unstyled">
+						<li><a class="fs-15" href="#" onclick="$('index.html').goTo();return false;">Home
+							</a></li>
+						<li><a class="fs-15" href="#" onclick="$('#about').goTo();return false;">About
+							</a></li>
+						<li><a class="fs-15" href="#" onclick="$('#feature').goTo();return false;">Features
+							</a></li>
+						<li><a class="fs-15" href="#" onclick="$('#service').goTo();return false;">Services
+							</a></li>
+					</ul>
+
+				</div>
+				<div class="col-lg-3 mb-4 mb-lg-0">
+					<h5 class="color-primary text-bold mb-4">
+						More info
+					</h5>
+					<ul class="list-unstyled">
+						<li class="fs-14 d-flex mb-2 lh-2rem"><i
+								class="fa fa-map-marker-alt color-primary rel-top-10px mr-2"></i>
+							H-8-10, Aeropod Commercial Square, Jalan Aeropod Off Jalan Kepayan, 88200 Kota
+							Kinabalu,
+							Sabah, MY.
+						</li>
+						<li class="fs-14 d-flex mb-2"><i class="fa fa-phone color-primary  rel-top-3px mr-2"></i>
+							+6012 - 873 1819</li>
+						<li class="fs-14 d-flex mb-2"><i class="fa fa-envelope color-primary  rel-top-3px mr-2"></i>
+							hello@phisoft.my</li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 mb-4 mb-lg-0">
+					<h5 class="color-primary text-bold text-lg-center mb-4">
+						Find us
+					</h5>
+					<div class="d-flex justify-content-lg-center">
+						<ul class="list-unstyled d-flex d-lg-block ">
+							<li class="mr-2 mr-lg-0">
+								<span class="fa-stack mb-2">
+									<a href="https://instagram.com/phisoft.my">
+										<i class="fas fa-circle fa-stack-2x"></i>
+										<i class="fab fa-instagram fa-stack-1x text-white"></i>
+									</a>
+								</span>
+							</li>
+							<li class="mr-2 mr-lg-0"><span class="fa-stack mb-2">
+									<a href="https://facebook.com/phisoft.my/">
+										<i class="fas fa-circle fa-stack-2x"></i>
+										<i class="fab fa-facebook-f fa-stack-1x text-white"></i>
+									</a>
+								</span></li>
+							<li class="mr-2 mr-lg-0"><span class="fa-stack mb-2">
+									<a href="https://www.linkedin.com/company/phisoft-my/mycompany/">
+										<i class="fas fa-circle fa-stack-2x"></i>
+										<i class="fab fa-linkedin fa-stack-1x text-white"></i>
+									</a>
+								</span></li>
+							<li class="mr-2 mr-lg-0">
+								<span class="fa-stack mb-2">
+									<a href="https://www.phisoft.my/">
+										<i class="fas fa-circle fa-stack-2x"></i>
+										<i class="fa fa-globe fa-stack-1x text-white"></i>
+									</a>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<span class="border-bottom-footer"></span>
+
+			<p class="copyright">&copy; 2022 Complainbos. All rights reserved.
+
+		</div>
+	</footer>
+
+
+
+
+	</div> <!-- main page wrapper -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

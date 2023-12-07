@@ -16,7 +16,7 @@ html {
 }
 
 .download-btn-first {
-  background: #234197;
+  background: #132E4F;
 }
 
 .download-btn-first:hover {
@@ -77,10 +77,10 @@ html {
 }
 
 .main-navbar-nav {
-  color: #203881 !important;
+  color: #132E4F !important;
 }
 .main-navbar-nav li {
-  color: #234197;
+  color: #132E4F;
   opacity: 1;
 }
 .main-navbar-nav .navbar-nav .nav-item a:hover {
@@ -92,11 +92,11 @@ html {
   transition: all .33s ease;
 }
 .main-navbar-nav .active {
-  color: #234197 !important;
+  color: #132E4F !important;
   opacity: 1 !important;
 }
 .main-navbar-nav a {
-  color: #234197 !important;
+  color: #132E4F !important;
 }
 .main-navbar-nav .nav-link {
   opacity: 1 !important;
@@ -147,8 +147,8 @@ html {
   font-size: 15px;
   padding: 8px 13px;
   font-weight:normal;
-  /* background: #234197; */
-  color: #234197;
+  /* background: #132E4F; */
+  color: #132E4F;
   margin-left: 10px;
 }
 .fh5co-hero-inner .fh5co-hero-smartphone {
@@ -192,7 +192,7 @@ html {
   }
 }
 .fh5co-advantages-outer .span-perfect {
-  color: #203881;
+  color: #132E4F;
   text-transform: uppercase;
   font-size: 27px;
   letter-spacing: 1px;
@@ -218,7 +218,7 @@ html {
   padding-right: 30px;
   position: relative;
   top: 1px;
-  color: #234197;
+  color: #132E4F;
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
   float: left;
@@ -250,7 +250,7 @@ html {
   padding-bottom: 70px;
 }
 .fh5co-slider-outer h1 {
-  color: #203881;
+  color: #132E4F;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
@@ -587,7 +587,7 @@ align-items: center;
   height: 50px;
 }
 .footer-outer .column-3-3 a {
-  color: #203881;
+  color: #132E4F;
   font-weight: bold;
 }
 .footer-outer .column-3-3 .social-icons-header a:hover {
@@ -604,7 +604,7 @@ align-items: center;
 .footer-outer .footer-nav ul li {
   display: inline-block;
   line-height: 50px;
-  color: #203881;
+  color: #132E4F;
   margin: 0 30px;
   font-size: 15px;
   font-weight: 500;
@@ -1061,7 +1061,11 @@ height: 470px;
 
 
 .color-primary{
-  color: #203881;
+  color: #132E4F;
+}
+
+.color-secondary{
+  color: #14B2E5;
 }
 
 #about{
@@ -1083,7 +1087,7 @@ height: 470px;
 }
 
 .text-style-primary{
-  color: #203881;
+  color: #132E4F;
   text-transform: uppercase;
   font-size: 32px;
   font-weight: bold;
@@ -1091,7 +1095,7 @@ height: 470px;
 }
 
 .text-style-secondary{
-  color: #7a7a7a;
+  color: #14B2E5;
   /* text-transform: uppercase; */
   font-size: 16.5px;
   font-weight: normal;
@@ -1106,7 +1110,7 @@ align-items: center;
 background: url("../img/cta.svg") no-repeat;
   padding-top: 100px;
 padding-bottom: 90px;
-/* background: #203881; */
+/* background: #132E4F; */
 position: relative;
 z-index: 1;
 background-size: auto, auto;
@@ -1121,7 +1125,7 @@ background-size: cover;
     background: url("../img/cta-mobile.png") no-repeat;
       padding-top: 100px;
     padding-bottom: 90px;
-    /* background: #203881; */
+    /* background: #132E4F; */
     position: relative;
     z-index: 1;
     background-size: auto, auto;
@@ -1184,11 +1188,11 @@ background-size: cover;
 }
 
 .bg-color-primary{
-  background-color: #203881;
+  background-color: #132E4F;
 }
 
 .bg-color-secondary{
-  background-color: #F1F1F1;
+  background-color: #94c9db;
 }
 
 .bg-color-tertiary{

@@ -1218,3 +1218,36 @@ background-size: cover;
   font-weight: bold;
 }
 
+.payment{
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+
+.payment-logo{
+  width: 60px;
+  height: auto;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 992px){
+  .payment{
+    padding: 30px 0px;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 550px){
+  .payment{
+    padding: 20px 0px;
+    justify-content: space-between;
+    gap: 0px;
+  }
+
+  .payment-logo{
+    width: 50px;
+  }
+}
+

@@ -52,7 +52,24 @@
 
 	$(function(){
 		owlCarousel();
+
+        // Button hover effect
+        $('#demoButton').hover(function() {
+            $(this).css({
+                backgroundColor: 'blue',
+                color: 'white',
+                border: '1px solid #132E4F' // border styling
+                
+            });
+        }, function() {
+            $(this).css({
+                backgroundColor: '',
+                color: ''
+            });
+        });
+
 	});
 
 
 }());
+

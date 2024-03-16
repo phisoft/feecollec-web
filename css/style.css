@@ -471,6 +471,72 @@ html {
   font-weight: 600;
 }
 
+
+
+/* ==========================================================================================================
+										FAQ SECTION
+   ========================================================================================================== */
+
+#titlefaq{
+  text-align: left;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.faq-container {
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.faq-container-items {
+    width: 48%;
+    margin: 1rem 0.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 0 rgba(192, 189, 189, 0.25);
+}
+
+.faq-container-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem; /* Fixed height for header container */
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+  
+  .faq-container-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  
+  .faq-container-item-header.active::after {
+    content: "\2212";
+  }
+  
+  .faq-container-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+  }
+  
+  .faq-container-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid #ded9d9;
+    background-color: #EFF6FF;
+    max-height: calc(100vh - 6.5rem); /* Adjust as needed */
+    overflow-y: auto; /* Add scrollbar if content exceeds the fixed height */
+  }
+  
+  
 /* ==========================================================================================================
 										REVIEWS
    ========================================================================================================== */
@@ -1251,3 +1317,27 @@ background-size: cover;
   }
 }
 
+
+@media (max-width: 767px) {
+  .faq-container-items {
+    width: 100%; /* Adjusted width for mobile */
+  }
+}
+
+#faqs{
+  /* height: 100vh; */
+  display: flex;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  align-items: center;
+}
+
+@media (max-width: 420px) {
+  #faqs{
+    /* height: 100vh; */
+    display: flex;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    align-items: center;
+  }
+}

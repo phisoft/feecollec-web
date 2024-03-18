@@ -1,6 +1,19 @@
 # Change Log - feecollec's Landing Page
 ALL notable changes done on this website will be recorded in this log.
 
+## [1.1.0] - 18-03-2024
+### Added
+* FAQs section [#13](https://github.com/phisoft/feecollec-web/issues/13)
+* Action items on new navigation changed navigation bar items [#14](https://github.com/phisoft/feecollec-web/issues/14)
+
+### Changed
+* Header's content [#10](https://github.com/phisoft/feecollec-web/issues/10)
+* Navigation bar items [#11](https://github.com/phisoft/feecollec-web/issues/11)
+* Product's overview in footer's section [#19](https://github.com/phisoft/feecollec-web/issues/19)
+
+### Removed
+* 'About' section from the website [#18](https://github.com/phisoft/feecollec-web/issues/18)
+
 ## [1.0.3] - 27-02-2024
 ### Added
 * CHANGELOG.md file

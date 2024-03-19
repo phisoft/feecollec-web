@@ -56,18 +56,32 @@
         // Button hover effect
         $('#demoButton').hover(function() {
             $(this).css({
-                backgroundColor: 'blue',
+                backgroundColor: '#132E4F',
                 color: 'white',
                 border: '1px solid #132E4F' // border styling
                 
             });
         }, function() {
             $(this).css({
-                backgroundColor: '',
-                color: ''
+                backgroundColor: 'transparent',
+                color: '#132E4F'
             });
         });
 
+        // Button hover effect
+        $('#demoButtonNav').hover(function() {
+            $(this).css({
+                backgroundColor: '#132E4F',
+                color: 'white',
+                border: '1px solid #132E4F' // border styling
+                
+            });
+        }, function() {
+            $(this).css({
+                backgroundColor: 'transparent',
+                color: '#132E4F'
+            });
+        });
 	});
 
 

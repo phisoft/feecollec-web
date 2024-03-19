@@ -73,7 +73,13 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#" onclick="$('#faqs').goTo();return false;">FAQs</a>
 						</li>
+						<li>
+							<button id="demoButtonNav" class="btn btn-lg mr-3" style="background-color: transparent; color: #132E4F;border: 1px solid #132E4F;"
+									onclick="$('#demo_form').goTo();return false;">Get Demo
+							</button>
+						</li>
 					</ul>
+					
 					<div class="social-icons-header">
 						<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
 						<a href="https://freehtml5.co"><i class="fab fa-instagram"></i></a>
@@ -96,7 +102,7 @@
 						</p>
 						<div class="animated fadeIn wow d-flex justify-content-lg-start justify-content-center"
 							data-wow-delay="0.5s">
-							<button id="demoButton" class="btn btn-lg bg-color-primary text-white mr-3"
+							<button id="demoButton" class="btn btn-lg mr-3" style="background-color: transparent; color: #132E4F;border: 1px solid #132E4F;font-weight: bold;"
 								onclick="$('#demo_form').goTo();return false;">Schedule a demo <i class="fas fa-arrow-right"></i>
 							</button>
 						</div>
@@ -127,61 +133,14 @@
 			<h2 class="second-title text-bold fs-40 pb-lg-5 color-primary animated fadeIn wow text-lg-left" data-wow-delay="0.2s">
 				Enhance your fee collection management experience with our feature-packed solution
 			</h2>
-			<div class="row d-flex justify-content-between wow animated fadeIn pb-lg-5 mt-5 pt-5" data-wow-delay="0.36s">
+			<div class="row wow animated fadeIn pb-lg-5 mt-5 pt-5" data-wow-delay="0.36s">
 				
 				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow" data-wow-delay="0.3s">
-					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/kpireport.png" width="18%" alt="Icon-1"></div>
-					<h4 class="text-center mb-3 text-bold">Simple </h4>
-					<p class="col-12 text-center grid-desc fs-16 lh-2rem">
-						Navigating complex and expensive property management software? Easily view occupancy rates, tenant balances, and upcoming charges. 
-						Download reports compatible with all accounting systems. Tailored for independent landlords with no hidden fees or unit minimums.
-					</p>
-				</div>
-
-				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow" data-wow-delay="0.3s">
-					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/multidepart.png" width="18%" alt="Icon-1"></div>
-					<h4 class="text-center mb-3 text-bold">Secure </h4>
-					<p class="col-12 text-center grid-desc fs-16 lh-2rem">
-						Ensure secure electronic rent payments with privacy. Accept payment method without disclosing tenant personal information. 
-						Guaranteed on-time rent collection, featuring exclusive payment controls and protections for a hassle-free experience.
-					</p>
-				</div>
-
-				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow" data-wow-delay="0.3s">
-					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/ctagging.png"
-							width="18%" alt="Icon-1"></div>
-					<h4 class="text-center mb-3 text-bold">Efficient</h4>
-					<p class="col-12 text-center grid-desc fs-16 lh-2rem">
-						Save time and boost efficiency by automating tasks such as invoicing, rent reminders, and late fee enforcement. 
-						Our property management software eliminates the need for manual processes like collecting cash or checks, waiting for mail, and bank visits.
-					</p>
-				</div>
-
-				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeInLeft wow" data-wow-delay="0.3s">
-					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/cmanage.png"
-							width="18%" alt="Icon-1"></div>
-					<h4 class="text-center mb-3 text-bold">Fast Payment<h4>
-					<p class="col-12 text-center grid-desc fs-16 lh-2rem">
-						Enable quick and easy rent payments for your tenants. Our streamlined onboarding process takes just minutes, allowing renters to conveniently
-						pay from any connected device using their bank account or credit card. They can even schedule payments in advance for timely transactions
-					</p>
-				</div>
-
-				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeInLeft wow" data-wow-delay="0.3s">
 					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/fee-collec-icon.png"
 							width="18%" alt="Icon-1"></div>
 					<h4 class="text-center mb-3 text-bold">Fee Collection<h4>
 					<p class="col-12 text-center grid-desc fs-16 lh-2rem">
 						Effortlessly collect various fees associated with property ownership, including maintenance fees and other property-related charges.
-					</p>
-				</div>
-				
-				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeInLeft wow" data-wow-delay="0.3s">
-					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/payment-gateway.png"
-							width="18%" alt="Icon-1"></div>
-					<h4 class="text-center mb-3 text-bold">Payment Gateway Integration<h4>
-					<p class="col-12 text-center grid-desc fs-16 lh-2rem">
-						Seamlessly integrate popular payment gateways for secure and convenient online payments.
 					</p>
 				</div>
 
@@ -203,7 +162,7 @@
 					</p>
 				</div>
 
-				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow" data-wow-delay="0.3s">
+				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeInLeft wow" data-wow-delay="0.3s">
 					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/customize-dash.png"
 							width="18%" alt="Icon-1"></div>
 					<h4 class="text-center mb-3 text-bold">Customizable Dashboard<h4>
@@ -211,6 +170,16 @@
 						Tailor your dashboard to display key metrics and insights according to your preferences.
 					</p>
 				</div>
+
+				<div class="col-lg-4 mb-5 mb-lg-0 animated fadeInLeft wow" data-wow-delay="0.3s">
+					<div class=" d-flex justify-content-center"><img class="grid-image mb-5" src="img/payment-gateway.png"
+							width="18%" alt="Icon-1"></div>
+					<h4 class="text-center mb-3 text-bold">Payment Gateway Integration<h4>
+					<p class="col-12 text-center grid-desc fs-16 lh-2rem">
+						Seamlessly integrate popular payment gateways for secure and convenient online payments.
+					</p>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -485,15 +454,11 @@
 							</a>
 						</li>
 						<li>
-							<a class="fs-15" href="#" onclick="$('#about').goTo();return false;">About
+							<a class="fs-15" href="#" onclick="$('#feature').goTo();return false;">Our Solution
 							</a>
 						</li>
 						<li>
-							<a class="fs-15" href="#" onclick="$('#feature').goTo();return false;">Features
-							</a>
-						</li>
-						<li>
-							<a class="fs-15" href="#" onclick="$('#service').goTo();return false;">Services
+							<a class="fs-15" href="#" onclick="$('#faqs').goTo();return false;">FAQs
 							</a>
 						</li>
 					</ul>

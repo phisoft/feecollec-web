@@ -1,6 +1,15 @@
 # Change Log - feecollec's Landing Page
 ALL notable changes done on this website will be recorded in this log.
 
+## [1.1.0] - 20/03/2024
+Last commit: [bfa9285e9114da733e39548f3ac1c1ba407db146](https://github.com/phisoft/feecollec-web/commit/bfa9285e9114da733e39548f3ac1c1ba407db146)
+
+### Added
+* Demo button in nav bar [#28](https://github.com/phisoft/feecollec-web/issues/28)
+
+### Changed
+** Feature lists in 'Our Solution' section [#28](https://github.com/phisoft/feecollec-web/issues/28)
+
 ## [1.1.0] - 18-03-2024
 ### Added
 * FAQs section [#13](https://github.com/phisoft/feecollec-web/issues/13)

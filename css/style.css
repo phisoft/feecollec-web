@@ -1149,8 +1149,7 @@ height: 470px;
   color: #14B2E5;
 }
 
-#about{
-  /* height: 100vh; */
+/* #about{
   display: flex;
   padding-top: 15vh;
   padding-bottom: 15vh;
@@ -1159,13 +1158,12 @@ height: 470px;
 
 @media (max-width: 420px) {
   #about{
-    /* height: 100vh; */
     display: flex;
     padding-top: 7vh;
     padding-bottom: 7vh;
     align-items: center;
   }
-}
+} */
 
 .text-style-primary{
   color: #132E4F;

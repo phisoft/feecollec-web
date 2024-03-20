@@ -65,8 +65,66 @@ html {
     /* background: url("../img/hero-bg.png") no-repeat center; */
     background-size: cover;
     /* border-radius: 0 0 50% 50% / 4%; */
+    
   }
 }
+
+@media (min-width: 760px) and (max-width: 991px) {
+  #fh5co-hero-wrapper {
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+    background-color: #F7FAFD;
+    background-size: cover;
+  }
+
+  .navbar-brand {
+    font-size: 24px; /* Adjust font size for the navbar brand */
+  }
+
+  .nav-link {
+    margin: 0 20px; /* Adjust margin for the navigation links */
+    font-size: 14px; /* Adjust font size for navigation links */
+  }
+
+  .social-icons-header i {
+    font-size: 18px; /* Adjust font size for social icons */
+  }
+
+  .fh5co-hero-inner > h1 {
+    font-size: 40px; /* Adjust font size for the hero heading */
+  }
+
+  .fh5co-hero-inner > p {
+    width: 300px; /* Adjust width for the hero paragraph */
+    font-size: 12px; /* Adjust font size for the hero paragraph */
+    margin-top: 20px; /* Adjust margin top for the hero paragraph */
+    margin-bottom: 20px; /* Adjust margin bottom for the hero paragraph */
+  }
+
+  .fh5co-hero-inner .download-btn-first {
+    font-size: 12px; /* Adjust font size for download button */
+    padding: 8px 12px; /* Adjust padding for download button */
+  }
+
+  .fh5co-hero-inner .features-btn-first {
+    font-size: 12px; /* Adjust font size for features button */
+    padding: 6px 10px; /* Adjust padding for features button */
+  }
+
+  #faqs{
+    /* height: 100vh; */
+    display: flex;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    align-items: center; 
+  }
+  .faq-container-item-header {
+    font-size: 18px;
+}
+}
+
+
+
 
 .main-navbar-nav .navbar-brand {
   /* font-size: 38px; */
@@ -492,11 +550,11 @@ html {
     margin: 2rem auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .faq-container-items {
-    width: 48%;
+    width: 47%;
     margin: 1rem 0.5rem;
     background-color: white;
     color: black;
@@ -513,6 +571,7 @@ html {
     align-items: center;
     position: relative;
     cursor: pointer;
+    /* font-size: 17px; */
 }
   
   .faq-container-item-header::after {
@@ -734,9 +793,9 @@ html {
 
   .fh5co-hero-inner .fh5co-hero-smartphone {
     position: absolute;
-right: -91px;
-top: 90px;
-height: 470px;
+    right: -91px;
+    top: 90px;
+    height: 470px;
   }
 
   .curved-bg-div {
@@ -939,7 +998,7 @@ height: 470px;
   }
 
   #fh5co-hero-wrapper {
-    height: 800px;
+    height: 900px;
   }
 
   .fh5co-advantages-outer .fh5co-advantages-grid-columns {
@@ -1076,6 +1135,7 @@ height: 470px;
 @media screen and (max-width: 520px) {
   #fh5co-hero-wrapper {
     height: 900px;
+    /* padding-top: 60vh; */
   }
 
   .fh5co-hero-inner > h1 {

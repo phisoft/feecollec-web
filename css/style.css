@@ -567,6 +567,7 @@ html {
   min-height: 3.5rem; 
   line-height: 1.25rem;
   font-weight: bold;
+  color: black;
   display: flex;
   align-items: center;
   position: relative;

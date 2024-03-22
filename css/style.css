@@ -547,59 +547,63 @@ html {
 }
 
 .faq-container {
-    margin: 2rem auto;
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
+  /* margin: 1rem auto; */
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap; /* Ensure that columns wrap properly */
+}
+
+.faq-column {
+  width: 100% /* Update of the container's width */
 }
 
 .faq-container-items {
-    width: 47%;
-    margin: 1rem 0.5rem;
-    background-color: white;
-    color: black;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 0 rgba(192, 189, 189, 0.25);
+  width: 100%;
+  margin-bottom: 25px; 
 }
 
 .faq-container-item-header {
-    padding: 0.5rem 3rem 0.5rem 1rem;
-    min-height: 3.5rem; /* Fixed height for header container */
-    line-height: 1.25rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    position: relative;
-    cursor: pointer;
-    /* font-size: 17px; */
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem; 
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: white;
 }
+
+.faq-container-item-header::after {
+  content: "\002B"; /* The symbol change when the header click */
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+
+.faq-container-item-header.active::after {
+  content: "\2212";
+}
+
+.faq-container-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  box-shadow: 0 2px 0 rgba(192, 189, 189, 0.25);
+}
+
+.faq-container-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid #ded9d9;
+  background-color: #EFF6FF;
+  color: black;
+  max-height: calc(100vh - 6.5rem);
+  overflow-y: auto; 
   
-  .faq-container-item-header::after {
-    content: "\002B";
-    font-size: 2rem;
-    position: absolute;
-    right: 1rem;
-  }
-  
-  .faq-container-item-header.active::after {
-    content: "\2212";
-  }
-  
-  .faq-container-item-body {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-in-out;
-  }
-  
-  .faq-container-item-body-content {
-    padding: 1rem;
-    line-height: 1.5rem;
-    border-top: 1px solid #ded9d9;
-    background-color: #EFF6FF;
-    max-height: calc(100vh - 6.5rem); /* Adjust as needed */
-    overflow-y: auto; /* Add scrollbar if content exceeds the fixed height */
-  }
-  
+}
+
   
 /* ==========================================================================================================
 										REVIEWS

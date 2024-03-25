@@ -621,12 +621,15 @@ html {
     margin-bottom: 1rem;
 }
 
+.demo-input:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #132E4F;
+}
+
 .demo-btn{
     display: block;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0.75rem 1rem;
     column-gap: 0.5rem;
     align-items: center;
     border-radius: 0.5rem;

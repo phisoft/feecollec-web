@@ -559,12 +559,12 @@ html {
 
 .faq-container-items {
   width: 100%;
-  margin-bottom: 25px; 
+  margin-bottom: 25px;
 }
 
 .faq-container-item-header {
   padding: 0.5rem 3rem 0.5rem 1rem;
-  min-height: 3.5rem; 
+  min-height: 3.5rem;
   line-height: 1.25rem;
   font-weight: bold;
   display: flex;
@@ -600,11 +600,54 @@ html {
   background-color: #EFF6FF;
   color: black;
   max-height: calc(100vh - 6.5rem);
-  overflow-y: auto; 
-  
+  overflow-y: auto;
 }
 
-  
+/* ==========================================================================================================
+										SCHEDULE DEMO SECTION
+   ========================================================================================================== */
+
+.demo-input
+{
+    display: block;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: #D1D5DB;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.demo-input:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #132E4F;
+}
+
+.demo-btn{
+    display: block;
+    padding: 0.75rem 1rem;
+    column-gap: 0.5rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: transparent;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #132E4F;
+    width: 100%;
+}
+
+.demo-btn:hover {
+    background-color: #05B3E8;
+    color: #132E4F;
+}
+
 /* ==========================================================================================================
 										REVIEWS
    ========================================================================================================== */

@@ -60,6 +60,7 @@ html {
     display: flex;
     align-items: center;
     height: 94vh;
+    padding-top: 100px;
     width: 100%;
     background-color: #F7FAFD;
     /* background: url("../img/hero-bg.png") no-repeat center; */
@@ -69,9 +70,10 @@ html {
   }
 }
 
+
 @media (min-width: 760px) and (max-width: 991px) {
   #fh5co-hero-wrapper {
-    padding-top: 20vh;
+    padding-top: 2vh;
     padding-bottom: 5vh;
     background-color: #F7FAFD;
     background-size: cover;
@@ -1037,7 +1039,7 @@ html {
     font-size: 30px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 991px) {
   .fh5co-hero-inner > h1 {
     color: #fff;
     font-weight: 300;
@@ -1047,6 +1049,7 @@ html {
 
   #fh5co-hero-wrapper {
     height: 900px;
+    padding-top: 15vh;
   }
 
   .fh5co-advantages-outer .fh5co-advantages-grid-columns {

@@ -248,8 +248,8 @@ html {
 
 @media (min-width: 991px) {
   .fh5co-advantages-outer {
-    padding-top: 17vh;
-    padding-bottom: 17vh;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
     width: 100%;
     overflow: hidden;
     display: flex;

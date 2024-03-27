@@ -467,7 +467,7 @@
 			</div>
 
 			<div class="contact-form-wrap">
-				<form id="contact-form" action="https://formsubmit.co/hello@phisoft.my" method="POST" >
+				<form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
 					<div class="contact-form wow animated fadeIn" data-wow-delay="0.4s">
 						<div class="mb-3">
 							<div class="input-group mb-3">
@@ -476,7 +476,7 @@
 											<i class="fas fa-user"></i>
 										</span>
 								</div>
-								<input type="text" name="demo_name" class="form-control demo-input" placeholder="Name" required>
+								<input type="text" name="demo_name" class="form-control demo-input" placeholder="Name" id="name" required>
 							</div>
 							<div class="input-group mb-3">
 								<div class="input-group-prepend">
@@ -484,7 +484,7 @@
 											<i class="fas fa-phone"></i>
 										</span>
 								</div>
-								<input type="text" name="demo_phone_number" class="form-control demo-input" placeholder="Phone" required>
+								<input type="text" name="demo_phone_number" class="form-control demo-input" placeholder="Phone" id="phone_number" required>
 							</div>
 							<div class="input-group mb-3">
 								<div class="input-group-prepend">
@@ -492,7 +492,7 @@
 										<i class="fas fa-envelope"></i>
 									</span>
 								</div>
-								<input type="email" name="demo_email" class="form-control demo-input" placeholder="Email" required>
+								<input type="email" name="demo_email" class="form-control demo-input" placeholder="Email" id="email" required>
 							</div>
 							<div class="input-group mb-3">
 								<div class="input-group-prepend">
@@ -500,15 +500,15 @@
 											<i class="fas fa-building"></i>
 										</span>
 								</div>
-								<input type="text" name="demo_company_name" class="form-control demo-input" placeholder="Company's Name" required>
+								<input type="text" name="demo_company_name" class="form-control demo-input" placeholder="Company's Name" id="company_name" required>
 							</div>
 							<div class="contact-inner contact-message">
-								<textarea class="demo-input" name="demo_message" placeholder="Message" required></textarea>
+								<textarea class="demo-input" name="demo_message" placeholder="Message" id="message" required></textarea>
 							</div>
 						</div>
 
 						<div class="submit-btn mt-20">
-							<button class="demo-btn" type="submit">Send message</button>
+							<button onclick="sendEmail();" class="demo-btn" type="button">Send message</button>
 							<p class="form-messege"></p>
 						</div>
 					</div>
@@ -632,6 +632,26 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script>
+		function sendEmail(){
+		Email.send({
+			Host  : "smtp.elasticemail.com",
+			Username : "phisoft.marketing@gmail.com",
+			Password : "54C6C6E3B10D11FB45C043A9F15C1AFDCA0F",
+			To  : 'hello@phisoft.my',
+			From  : "phisoft.marketing@gmail.com",
+			Subject : "Feecollec Contact Form Submission",
+			Body  : "Name: " + document.getElementById("name").value
+				+ "<br> Phone Number: " + document.getElementById("phone_number").value
+				+ "<br> Email: " + document.getElementById("email").value
+				+ "<br> Email: " + document.getElementById("company_name").value
+				+ "<br> Message: " + document.getElementById("message").value
+		}).then(
+			message => alert("Message successfully sent.")
+		);
+		}
+	</script>
 </body>
 
 </html>

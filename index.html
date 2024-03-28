@@ -299,7 +299,7 @@
 
 	<div id="faqs" class="bg-color-tertiary">
 		<div class="container">
-			<div class="d-flex align-items-center">
+			<div class="d-flex align-items-center" >
 				<h2 class="text-lg-left fs-40 color-primary p-sm- mt-lg-3 mb-4 mb-lg-4 text-bold text-center animated fadeIn wow" data-wow-delay="0.47s">Frequently asked questions</h2>
 			</div>
 			<div class="row">
@@ -459,55 +459,57 @@
 
 	<div id="demo_form" class="fh5co-advantages-outer">
 		<div class="container">
-			<div class="pb-lg-5 mb-lg-5">
-				<h2 class="second-title text-center text-bold fs-40 color-primary animated fadeIn wow"
+			<div class="pb-lg-6 mb-lg-6">
+				<h2 class="second-title text-center text-bold fs-40 color-primary animated fadeIn wow" style="padding-bottom: 3rem;"
 					data-wow-delay="0.4s">
 					Schedule a FREE demo now!
 				</h2>
 			</div>
-
+	
 			<div class="contact-form-wrap">
 				<form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
 					<div class="contact-form wow animated fadeIn" data-wow-delay="0.4s">
 						<div class="mb-3">
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
+							<div class="row">
+								<div class="input-group mb-3 col-sm-6">
+									<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-user"></i>
 										</span>
+									</div>
+									<input type="text" name="demo_name" class="form-control demo-input" placeholder="Name" id="name" required>
 								</div>
-								<input type="text" name="demo_name" class="form-control demo-input" placeholder="Name" id="name" required>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
+								<div class="input-group mb-3 col-sm-6">
+									<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-phone"></i>
 										</span>
+									</div>
+									<input type="text" name="demo_phone_number" class="form-control demo-input" placeholder="Phone" id="phone_number" required>
 								</div>
-								<input type="text" name="demo_phone_number" class="form-control demo-input" placeholder="Phone" id="phone_number" required>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<span class="input-group-text">
-										<i class="fas fa-envelope"></i>
-									</span>
+								<div class="input-group mb-3 col-sm-6">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="fas fa-envelope"></i>
+										</span>
+									</div>
+									<input type="email" name="demo_email" class="form-control demo-input" placeholder="Email" id="email" required>
 								</div>
-								<input type="email" name="demo_email" class="form-control demo-input" placeholder="Email" id="email" required>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
+								<div class="input-group mb-3 col-sm-6">
+									<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-building"></i>
 										</span>
+									</div>
+									<input type="text" name="demo_company_name" class="form-control demo-input" placeholder="Company's Name" id="company_name" required>
 								</div>
-								<input type="text" name="demo_company_name" class="form-control demo-input" placeholder="Company's Name" id="company_name" required>
 							</div>
-							<div class="contact-inner contact-message">
+							<div class="contact-inner contact-message col-sm-15">
 								<textarea class="demo-input" name="demo_message" placeholder="Message" id="message" required></textarea>
 							</div>
 						</div>
-
-						<div class="submit-btn mt-20">
+	
+						<div class="submit-btn mt-20 col-sm-15">
 							<button onclick="sendEmail();" class="demo-btn" type="button">Send message</button>
 							<p class="form-messege"></p>
 						</div>
@@ -516,6 +518,8 @@
 			</div>
 		</div>
 	</div>
+	
+	
 
 	<!-- ==========================================================================================================
                                                SECTION 7 - SUB FOOTER

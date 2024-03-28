@@ -610,46 +610,71 @@ html {
 										SCHEDULE DEMO SECTION
    ========================================================================================================== */
 
-.demo-input
-{
-    display: block;
+  
+  .input-group {
+    float: left;
+    padding-right: 20px;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .contact-form:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .demo-input {
+    width: 50%;
     padding: 0.625rem;
     border-radius: 0.5rem;
     border-width: 1px;
     border-color: #D1D5DB;
-    width: 100%;
     font-size: 0.875rem;
     line-height: 1.25rem;
     color: #111827;
     margin-bottom: 1rem;
-}
+  }
+  
 
-.demo-input:focus {
-    box-shadow: none;
-    outline: none;
-    border-color: #132E4F;
-}
+  .demo-input:focus {
+      box-shadow: none;
+      outline: none;
+      border-color: #132E4F;
+  }
 
-.demo-btn{
-    display: block;
-    padding: 0.75rem 1rem;
-    column-gap: 0.5rem;
-    align-items: center;
-    border-radius: 0.5rem;
-    border-width: 1px;
-    border-color: transparent;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 600;
-    color: #ffffff;
-    background-color: #132E4F;
-    width: 100%;
-}
+  .demo-btn{
+      width: 100%;
+      display: block;
+      padding: 0.75rem 1rem;
+      column-gap: 0.5rem;
+      align-items: center;
+      border-radius: 0.5rem;
+      border-width: 1px;
+      border-color: transparent;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      font-weight: 600;
+      color: #ffffff;
+      background-color: #132E4F;
+      
+  }
 
-.demo-btn:hover {
-    background-color: #05B3E8;
-    color: #132E4F;
-}
+  .demo-btn:hover {
+      background-color: #05B3E8;
+      color: #132E4F;
+  }
+
+  @media screen and (max-width: 991px) {
+    .input-group {
+      width: 100%;
+    }
+
+    .contact-form-wrap{
+      padding-top: 30px;
+    }
+    
+  }
 
 /* ==========================================================================================================
 										REVIEWS

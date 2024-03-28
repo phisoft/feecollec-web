@@ -59,8 +59,8 @@ html {
   #fh5co-hero-wrapper {
     display: flex;
     align-items: center;
-    height: 94vh;
-    padding-top: 100px;
+    height: fit-content;
+    padding: 100px 0px;
     width: 100%;
     background-color: #F7FAFD;
     /* background: url("../img/hero-bg.png") no-repeat center; */

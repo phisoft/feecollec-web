@@ -299,7 +299,7 @@
 
 	<div id="faqs" class="bg-color-tertiary">
 		<div class="container">
-			<div class="d-flex align-items-center">
+			<div class="d-flex align-items-center" >
 				<h2 class="text-lg-left fs-40 color-primary p-sm- mt-lg-3 mb-4 mb-lg-4 text-bold text-center animated fadeIn wow" data-wow-delay="0.47s">Frequently asked questions</h2>
 			</div>
 			<div class="row">
@@ -314,7 +314,7 @@
 								</div>
 								<div class="faq-container-item-body">
 									<div class="faq-container-item-body-content">
-										A: Getting started with FeeCollec is easy. Simply visit our website at feecollec.com and schedule a demo. Our team will guide you through the process, answer any questions you may have, and assist you in setting up your account to begin using our services effectively.
+										A: Getting started with FeeCollec is easy. Simply visit our website at feecollec.com and schedule a demo. Our team will then assist you in setting up your account to effectively use our services.
 									</div>
 								</div>
 							</div>
@@ -327,30 +327,6 @@
 								<div class="faq-container-item-body">
 									<div class="faq-container-item-body-content">
 										A: No. All first demos are free. Subsequent consultations may have additional charges.
-									</div>
-								</div>
-							</div>
-
-							<!-- FAQ items for the first column -->
-							<div class="faq-container-items wow animated fadeInRight">
-								<div class="faq-container-item-header">
-									Is feecollec easy to use?
-								</div>
-								<div class="faq-container-item-body">
-									<div class="faq-container-item-body-content">
-										A: Yes. We feature an intuitive user interface and user-friendly workflows, making it accessible for to users of all skill levels.
-									</div>
-								</div>
-							</div>
-
-							<!-- FAQ items for the first column -->
-							<div class="faq-container-items wow animated fadeInRight">
-								<div class="faq-container-item-header">
-									What types of fees can be managed using FeeCollec?
-								</div>
-								<div class="faq-container-item-body">
-									<div class="faq-container-item-body-content">
-										A: FeeCollec enables property management companies to effortlessly manage various fees associated with property ownership, including maintenance fees and other property-related charges.
 									</div>
 								</div>
 							</div>
@@ -376,29 +352,6 @@
 					<!-- FAQ items for the second column -->
 					<div class="faq-container">
 						<div class="faq-column">
-							<!-- FAQ items for the second column -->
-							<div class="faq-container-items wow animated fadeInRight">
-								<div class="faq-container-item-header">
-									Does FeeCollec offer automated notifications for upcoming payments?
-								</div>
-								<div class="faq-container-item-body">
-									<div class="faq-container-item-body-content">
-										A: Absolutely, FeeCollec includes a notification system that automatically alerts stakeholders about upcoming payments and overdue fees, ensuring timely payments and reducing the risk of missed payments.
-									</div>
-								</div>
-							</div>
-
-							<!-- FAQ items for the second column -->
-							<div class="faq-container-items wow animated fadeInRight">
-								<div class="faq-container-item-header">
-									Can the dashboard in FeeCollec be customized according to user preferences?
-								</div>
-								<div class="faq-container-item-body">
-									<div class="faq-container-item-body-content">
-										A: Yes, FeeCollec offers a customizable dashboard feature, allowing users to tailor their dashboard to display key metrics and insights based on their specific preferences and requirements.
-									</div>
-								</div>
-							</div>
 							
 							<!-- FAQ items for the second column -->
 							<div class="faq-container-items wow animated fadeInRight">
@@ -425,20 +378,6 @@
 								</div>
 							</div>
 
-							<!-- FAQ items for the second column -->
-							<div class="faq-container-items wow animated fadeInRight">
-								<div class="faq-container-item-header">
-									How do I reach the feecollec's team?
-								</div>
-								<div class="faq-container-item-body">
-									<div class="faq-container-item-body-content">
-										You can reach us at +60 12 873 1819<br>
-										or <br>
-										You can email us at <a href="mailto:hello@phisoft.my">hello@phisoft.my</a> 
-									</div>
-								</div>
-							</div>
-
 							<!-- Add more FAQ items for the second column here -->
 						</div>
 					</div>
@@ -459,55 +398,57 @@
 
 	<div id="demo_form" class="fh5co-advantages-outer">
 		<div class="container">
-			<div class="pb-lg-5 mb-lg-5">
-				<h2 class="second-title text-center text-bold fs-40 color-primary animated fadeIn wow"
+			<div class="pb-lg-6 mb-lg-6">
+				<h2 class="second-title text-center text-bold fs-40 color-primary animated fadeIn wow" style="padding-bottom: 3rem;"
 					data-wow-delay="0.4s">
 					Schedule a FREE demo now!
 				</h2>
 			</div>
-
+	
 			<div class="contact-form-wrap">
 				<form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
 					<div class="contact-form wow animated fadeIn" data-wow-delay="0.4s">
 						<div class="mb-3">
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
+							<div class="row">
+								<div class="input-group mb-3 col-sm-6">
+									<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-user"></i>
 										</span>
+									</div>
+									<input type="text" name="demo_name" class="form-control demo-input" placeholder="Name" id="name" required>
 								</div>
-								<input type="text" name="demo_name" class="form-control demo-input" placeholder="Name" id="name" required>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
+								<div class="input-group mb-3 col-sm-6">
+									<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-phone"></i>
 										</span>
+									</div>
+									<input type="text" name="demo_phone_number" class="form-control demo-input" placeholder="Phone" id="phone_number" required>
 								</div>
-								<input type="text" name="demo_phone_number" class="form-control demo-input" placeholder="Phone" id="phone_number" required>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-									<span class="input-group-text">
-										<i class="fas fa-envelope"></i>
-									</span>
+								<div class="input-group mb-3 col-sm-6">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="fas fa-envelope"></i>
+										</span>
+									</div>
+									<input type="email" name="demo_email" class="form-control demo-input" placeholder="Email" id="email" required>
 								</div>
-								<input type="email" name="demo_email" class="form-control demo-input" placeholder="Email" id="email" required>
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
+								<div class="input-group mb-3 col-sm-6">
+									<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-building"></i>
 										</span>
+									</div>
+									<input type="text" name="demo_company_name" class="form-control demo-input" placeholder="Company's Name" id="company_name" required>
 								</div>
-								<input type="text" name="demo_company_name" class="form-control demo-input" placeholder="Company's Name" id="company_name" required>
 							</div>
-							<div class="contact-inner contact-message">
+							<div class="contact-inner contact-message col-sm-15">
 								<textarea class="demo-input" name="demo_message" placeholder="Message" id="message" required></textarea>
 							</div>
 						</div>
-
-						<div class="submit-btn mt-20">
+	
+						<div class="submit-btn mt-20 col-sm-15">
 							<button onclick="sendEmail();" class="demo-btn" type="button">Send message</button>
 							<p class="form-messege"></p>
 						</div>
@@ -516,6 +457,8 @@
 			</div>
 		</div>
 	</div>
+	
+	
 
 	<!-- ==========================================================================================================
                                                SECTION 7 - SUB FOOTER

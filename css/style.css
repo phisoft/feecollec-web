@@ -121,9 +121,6 @@ html {
 }
 }
 
-
-
-
 .main-navbar-nav .navbar-brand {
   /* font-size: 38px; */
   letter-spacing: 4px;
@@ -229,7 +226,7 @@ html {
 
 @media (min-width: 991px) {
   .fh5co-advantages-outer {
-    padding-top: 15vh;
+    padding-top: 10vh;
     padding-bottom: 10vh;
     width: 100%;
     overflow: hidden;
@@ -250,6 +247,7 @@ html {
 .fh5co-advantages-outer .second-title {
   text-align: center;
   display: block;
+  margin-top: 5px;
 }
 .fh5co-advantages-outer small {
   display: block;
@@ -526,6 +524,15 @@ html {
   font-weight: 600;
 }
 
+.fh5co-features-outer .second-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fh5co-features-outer .no-padding{
+  padding-bottom: 0px;
+}
+
 /* ==========================================================================================================
 										HOW IT WORKS
    ========================================================================================================== */
@@ -535,7 +542,7 @@ html {
    }
 
    .button-submit-how{
-    padding: 50px;
+    padding: 30px;
    }
 
    .button-submit-how .btn:hover, .btn:focus{
@@ -711,6 +718,14 @@ html {
       background: #ededed;
       position: absolute;
     }
+  }
+
+  .property-owner-section {
+    background-color: #EFF6FF !important;
+  }
+
+  .fh5co-features-outer .padding-bottom {
+    padding-bottom: 0px !important;
   }
 
 
@@ -1200,7 +1215,7 @@ html {
   }
 
   .fh5co-advantages-outer .second-title {
-    margin-top: 60px;
+    margin-top: 40%;
   }
 
   .fh5co-features-grid-columns {

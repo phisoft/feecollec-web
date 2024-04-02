@@ -581,22 +581,40 @@
 	<script src="js/main.js"></script>
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
 	<script>
-		function sendEmail(){
-		Email.send({
-			Host  : "smtp.elasticemail.com",
-			Username : "phisoft.marketing@gmail.com",
-			Password : "54C6C6E3B10D11FB45C043A9F15C1AFDCA0F",
-			To  : 'hello@phisoft.my',
-			From  : "phisoft.marketing@gmail.com",
-			Subject : "feecollec Contact Form Submission",
-			Body  : "Name: " + document.getElementById("name").value
-				+ "<br> Phone Number: " + document.getElementById("phone_number").value
-				+ "<br> Email: " + document.getElementById("email").value
-				+ "<br> Email: " + document.getElementById("company_name").value
-				+ "<br> Message: " + document.getElementById("message").value
-		}).then(
-			message => alert("Message successfully sent.")
-		);
+		function sendEmail() {
+			if (validateForm()) {
+				Email.send({
+					Host: "smtp.elasticemail.com",
+					Username: "phisoft.marketing@gmail.com",
+					Password: "54C6C6E3B10D11FB45C043A9F15C1AFDCA0F",
+					To: 'hello@phisoft.my',
+					From: "phisoft.marketing@gmail.com",
+					Subject: "feecollec Contact Form Submission",
+					Body: "Name: " + document.getElementById("name").value +
+						"<br> Phone Number: " + document.getElementById("phone_number").value +
+						"<br> Email: " + document.getElementById("email").value +
+						"<br> Company Name: " + document.getElementById("company_name").value +
+						"<br> Message: " + document.getElementById("message").value
+				}).then(
+					message => alert("Message successfully sent.")
+				);
+			} else {
+				alert("Please fill in all required fields.");
+			}
+		}
+	
+		function validateForm() {
+			var isValid = true;
+			var inputs = document.getElementsByClassName('demo-input');
+			for (var i = 0; i < inputs.length; i++) {
+				if (!inputs[i].value) {
+					isValid = false;
+					inputs[i].classList.add('is-invalid');
+				} else {
+					inputs[i].classList.remove('is-invalid');
+				}
+			}
+			return isValid;
 		}
 	</script>
 </body>

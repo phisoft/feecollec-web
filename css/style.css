@@ -881,7 +881,6 @@ html {
   
   .input-group {
     float: left;
-    padding-right: 20px;
     width: 50%;
   }
   
@@ -901,7 +900,6 @@ html {
     font-size: 0.875rem;
     line-height: 1.25rem;
     color: #111827;
-    margin-bottom: 1rem;
   }
   
 
@@ -942,6 +940,16 @@ html {
       padding-top: 30px;
     }
     
+  }
+
+  @media screen and (max-width: 993px) {
+    #demo_form.fh5co-advantages-outer .second-title  {
+      margin-top: 0 !important;
+    }
+
+    #demo_form.fh5co-advantages-outer {
+      padding-bottom: 10vh;
+    }
   }
 
 /* ==========================================================================================================

@@ -121,9 +121,6 @@ html {
 }
 }
 
-
-
-
 .main-navbar-nav .navbar-brand {
   /* font-size: 38px; */
   letter-spacing: 4px;
@@ -229,7 +226,7 @@ html {
 
 @media (min-width: 991px) {
   .fh5co-advantages-outer {
-    padding-top: 15vh;
+    padding-top: 10vh;
     padding-bottom: 10vh;
     width: 100%;
     overflow: hidden;
@@ -250,6 +247,7 @@ html {
 .fh5co-advantages-outer .second-title {
   text-align: center;
   display: block;
+  margin-top: 5px;
 }
 .fh5co-advantages-outer small {
   display: block;
@@ -340,11 +338,12 @@ html {
 										SYSTEM FEATURES
    ========================================================================================================== */
 #service{
-  background-color: #fff;
+  background-color: #94c9db12 !important;
   display: flex;
   padding-top: 10vh;
   padding-bottom: 10vh;
   align-items: center;
+  /* height: 100vh; */
 }
 
 .box-container {
@@ -526,6 +525,15 @@ html {
   font-weight: 600;
 }
 
+.fh5co-features-outer .second-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fh5co-features-outer .no-padding{
+  padding-bottom: 0px;
+}
+
 /* ==========================================================================================================
 										HOW IT WORKS
    ========================================================================================================== */
@@ -534,8 +542,14 @@ html {
     align-items: center;
    }
 
+   @media (max-width: 940px){
+    .content-wrap{
+      text-align: start !important;
+     }
+   }
+
    .button-submit-how{
-    padding: 50px;
+    padding: 30px;
    }
 
    .button-submit-how .btn:hover, .btn:focus{
@@ -631,12 +645,46 @@ html {
     border: 2px solid #e8e8e8;
     border-radius: 50%;
     font-size: 18px;
-    background-color: #fff;
+    background-color: transparent;
     margin-bottom: 0;
     -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
+
+  @-webkit-keyframes gradationMask {
+    0% {
+      -webkit-transform: translate(-50%, -50%) scale(0);
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translate(-50%, -50%) scale(1);
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0;
+      border-color: transparent;
+    }
+  }
+  @keyframes gradationMask {
+    0% {
+      -webkit-transform: translate(-50%, -50%) scale(0);
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translate(-50%, -50%) scale(1);
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0;
+      border-color: transparent;
+    }
+  }
+  
   .ht-gradation.style-01 .wave-pulse {
     width: 1px;
     height: 0;
@@ -651,7 +699,7 @@ html {
     height: 100px;
     top: 50%;
     left: 50%;
-    background: #fff;
+    background: transparent;
     border-radius: 50%;
     border: 1px solid #ababab;
     -webkit-transform: translate(-50%, -50%);
@@ -713,6 +761,56 @@ html {
     }
   }
 
+  .fh5co-features-outer .padding-bottom {
+    padding-bottom: 0px !important;
+  }
+
+  .ht-box-images.style-05 {
+    -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  .ht-box-images.style-05 .image-box-wrap {
+    -webkit-box-shadow: 0 18px 40px rgba(51, 51, 51, 0.1);
+            box-shadow: 0 18px 40px rgba(51, 51, 51, 0.1);
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 50px 30px 63px;
+    -webkit-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-top: 50px;
+  }
+
+  .ht-box-images.style-05 .image-box-wrap .box-image {
+    position: relative;
+    margin-bottom: 41px;
+    height: 100px;
+  }
+  .ht-box-images.style-05 .image-box-wrap .box-image .hover-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .ht-box-images.style-05:hover {
+    -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  .ht-box-images.style-05:hover .image-box-wrap {
+    background: #ffffff;
+  }
+  .ht-box-images.style-05:hover .box-image .default-image {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .ht-box-images.style-05:hover .box-image .hover-images {
+    opacity: 1;
+    visibility: visible;
+  }
 
 /* ==========================================================================================================
 										FAQ SECTION
@@ -1200,7 +1298,7 @@ html {
   }
 
   .fh5co-advantages-outer .second-title {
-    margin-top: 60px;
+    margin-top: 40%;
   }
 
   .fh5co-features-grid-columns {

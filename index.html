@@ -475,62 +475,75 @@
 
 	<div id="demo_form" class="fh5co-advantages-outer">
 		<div class="container">
-			<div class="pb-lg-6 mb-lg-6">
-				<h2 class="second-title text-center text-bold fs-40 color-primary animated fadeIn wow" style="padding-bottom: 3rem;"
-					data-wow-delay="0.4s">
-					Schedule a FREE demo now!
-				</h2>
-			</div>
-	
-			<div class="contact-form-wrap">
-				<form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
-					<div class="contact-form wow animated fadeIn" data-wow-delay="0.4s">
-						<div class="mb-3">
-							<div class="row">
-								<div class="input-group mb-3 col-sm-6">
-									<div class="input-group-prepend">
+			<div class="row">
+				<div class="col-sm align-content-center">
+					<div class="pb-lg-6 mb-lg-6">
+						<h2 class="second-title text-left text-bold fs-40 color-primary animated fadeIn wow"
+							data-wow-delay="0.4s">
+							Schedule a FREE demo now!
+						</h2>
+						<p class="col-12 fs-18 lh-2rem mt-4 p-0 animated fadeIn wow" data-wow-delay="0.3s">
+							Experience our solution firsthand! Reserve your free demo slot now.
+						</p>
+					</div>
+				</div>
+				<div class="col-sm">
+					<div class="contact-form-wrap">
+						<form id="contact-form" onsubmit="sendEmail(); reset(); return false;">
+							<div class="contact-form wow animated fadeIn" data-wow-delay="0.4s">
+								<div class="mb-3">
+									<div class="row">
+										<div class="input-group mb-3 col-sm-6">
+											<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-user"></i>
 										</span>
-									</div>
-									<input type="text" name="demo_name" class="form-control demo-input" placeholder="Name" id="name" required>
-								</div>
-								<div class="input-group mb-3 col-sm-6">
-									<div class="input-group-prepend">
+											</div>
+											<input type="text" name="demo_name" class="form-control demo-input"
+												   placeholder="Name" id="name" required>
+										</div>
+										<div class="input-group mb-3 col-sm-6">
+											<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-phone"></i>
 										</span>
-									</div>
-									<input type="text" name="demo_phone_number" class="form-control demo-input" placeholder="Phone" id="phone_number" required>
-								</div>
-								<div class="input-group mb-3 col-sm-6">
-									<div class="input-group-prepend">
+											</div>
+											<input type="text" name="demo_phone_number" class="form-control demo-input"
+												   placeholder="Phone" id="phone_number" required>
+										</div>
+										<div class="input-group mb-3 col-sm-6">
+											<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-envelope"></i>
 										</span>
-									</div>
-									<input type="email" name="demo_email" class="form-control demo-input" placeholder="Email" id="email" required>
-								</div>
-								<div class="input-group mb-3 col-sm-6">
-									<div class="input-group-prepend">
+											</div>
+											<input type="email" name="demo_email" class="form-control demo-input"
+												   placeholder="Email" id="email" required>
+										</div>
+										<div class="input-group mb-3 col-sm-6">
+											<div class="input-group-prepend">
 										<span class="input-group-text">
 											<i class="fas fa-building"></i>
 										</span>
+											</div>
+											<input type="text" name="demo_company_name" class="form-control demo-input"
+												   placeholder="Company's Name" id="company_name" required>
+										</div>
 									</div>
-									<input type="text" name="demo_company_name" class="form-control demo-input" placeholder="Company's Name" id="company_name" required>
+									<div class="contact-inner contact-message">
+										<textarea class="demo-input" name="demo_message" placeholder="Message"
+												  id="message" required style="width: 100%;"></textarea>
+									</div>
+								</div>
+
+								<div class="submit-btn mt-20 col-sm-13">
+									<button onclick="sendEmail();" class="demo-btn" type="button">Send message</button>
+									<p class="form-messege"></p>
 								</div>
 							</div>
-							<div class="contact-inner contact-message">
-								<textarea class="demo-input" name="demo_message" placeholder="Message" id="message" required style="width: 100%;"></textarea>
-							</div>
-						</div>
-	
-						<div class="submit-btn mt-20 col-sm-13">
-							<button onclick="sendEmail();" class="demo-btn" type="button">Send message</button>
-							<p class="form-messege"></p>
-						</div>
+						</form>
 					</div>
-				</form>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -1134,6 +1134,19 @@ html {
   margin-left: 10px;
 }
 
+.menu-list a {
+  color: #5C5C5C;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.menu-list a:hover {
+  color: #203881;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /* ==========================================================================================================
                                        RESPONSIVE STYLING
   ========================================================================================================== */

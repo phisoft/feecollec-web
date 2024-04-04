@@ -211,6 +211,9 @@ html {
   overflow: hidden;
   display: flex;
   align-items: center;
+  height: 100vh;
+  height: fit-content;
+  padding: 100px 0px;
 }
 
 @media (max-width: 420px) {
@@ -221,6 +224,8 @@ html {
     overflow: hidden;
     display: flex;
     align-items: center;
+    height: fit-content;
+    padding: 100px 0px; 
   }
 }
 
@@ -334,16 +339,51 @@ html {
   object-fit: contain;
 }
 
+.hr {
+  bottom: 0px;
+  width: 100%;
+  height: 1px;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  border-bottom: 1px solid #eee;
+}
+
+#howitworks{
+  background-color: #ffffff;
+  color: #132E4F;
+}
+
+.color-secondary{
+  color: #94c9db;
+  font-size:35px !important;
+  font: bold;
+}
+
 /* ==========================================================================================================
 										SYSTEM FEATURES
    ========================================================================================================== */
 #service{
-  background-color: #94c9db12 !important;
+  background-color: #ffffff !important;
   display: flex;
   padding-top: 10vh;
   padding-bottom: 10vh;
   align-items: center;
   /* height: 100vh; */
+}
+
+
+.service-wrap {
+  border-radius: 5px !important;
+  background-color: #132e4f0e !important;
+  padding: 40px 50px !important;
+  margin: auto 10%;
+}
+
+.service-wrap2 {
+  border-radius: 5px !important;
+  background-color: #94c9db1a!important;
+  padding: 40px 50px !important;
+  margin: auto 10%;
 }
 
 .box-container {
@@ -603,6 +643,15 @@ html {
   .ht-gradation.style-01 .item:hover .circle {
     color: #ffffff;
     background: #086AD8;
+  }
+
+  .circle-2-green {
+    background-color: green;
+  }
+  
+  .ht-gradation.style-01 .item:hover .circle-2-green {
+    color: #ffffff;
+    background: green;
   }
 
   @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {

@@ -3,6 +3,10 @@
 	Twitter: http://twitter.com/fh5co
 	URL: http://freehtml5.co
 */
+
+/* ==========================================================================================================
+									GENERAL
+   ========================================================================================================== */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0px;
@@ -36,7 +40,8 @@ html {
 #fh5co-hero-wrapper {
   display: flex;
   align-items: center;
-  height: 94vh;
+  min-height: 100vh;
+  height: fit-content;
   width: 100%;
   background-color: #F7FAFD;
 
@@ -63,13 +68,9 @@ html {
     padding: 100px 0px;
     width: 100%;
     background-color: #F7FAFD;
-    /* background: url("../img/hero-bg.png") no-repeat center; */
     background-size: cover;
-    /* border-radius: 0 0 50% 50% / 4%; */
-    
   }
 }
-
 
 @media (min-width: 760px) and (max-width: 991px) {
   #fh5co-hero-wrapper {
@@ -120,7 +121,6 @@ html {
     font-size: 18px;
 }
 }
-
 .main-navbar-nav .navbar-brand {
   /* font-size: 38px; */
   letter-spacing: 4px;
@@ -128,7 +128,6 @@ html {
   /* top: -5px; */
   font-weight: 500;
 }
-
 .main-navbar-nav {
   color: #132E4F !important;
 }
@@ -205,8 +204,7 @@ html {
 										FEATURES
    ========================================================================================================== */
 .fh5co-advantages-outer {
-  /* padding-top: 8vh; */
-  /* padding-bottom: 0vh; */
+
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -245,10 +243,7 @@ html {
   font-size: 27px;
   letter-spacing: 1px;
 }
-/* .fh5co-advantages-outer .span-features {
-  text-transform: uppercase;
-  font-size: 42px;
-} */
+
 .fh5co-advantages-outer .second-title {
   text-align: center;
   display: block;
@@ -311,11 +306,7 @@ html {
   margin-bottom: 10px;
   /* text-align: center; */
 }
-/* .fh5co-slider-outer > h1, .fh5co-slider-outer small {
-  text-align: center;
-  display: block;
-  font-size: 14px;
-} */
+
 .fh5co-slider-outer .fh5co-slider-outer {
   margin-top: 50px;
 }
@@ -359,6 +350,12 @@ html {
   font: bold;
 }
 
+@media screen and (max-width: 992px){
+  #howitworks{
+    padding-block-start: 10vh;
+  }
+}
+
 /* ==========================================================================================================
 										SYSTEM FEATURES
    ========================================================================================================== */
@@ -368,22 +365,16 @@ html {
   padding-top: 10vh;
   padding-bottom: 10vh;
   align-items: center;
-  /* height: 100vh; */
 }
-
 
 .service-wrap {
   border-radius: 5px !important;
+  padding: 50px 70px !important;
   background-color: #132e4f0e !important;
-  padding: 40px 50px !important;
-  margin: auto 10%;
 }
 
-.service-wrap2 {
-  border-radius: 5px !important;
-  background-color: #94c9db1a!important;
-  padding: 40px 50px !important;
-  margin: auto 10%;
+.service-bg {
+  background-color: #94c9db1a !important;
 }
 
 .box-container {
@@ -400,7 +391,6 @@ html {
 }
 
 .curved-bg-div {
-  /* background: url("../img/curved-bgg.png") no-repeat; */
   background-position: 0px -140px;
   background-size: cover;
   width: 100%;
@@ -629,9 +619,7 @@ html {
     top: 24px;
     left: auto;
   }
-  /* .ht-gradation.style-01 .item:last-child .line {
-    display: none;
-  } */
+
   .ht-gradation.style-01 .item .mask {
     opacity: 0;
     visibility: hidden;
@@ -676,7 +664,7 @@ html {
       top: 15px;
     }
     .ht-gradation.style-01 .content-wrap {
-      padding: 10px 0 50px 30px;
+      padding: 10px 0 0 30px;
     }
   }
   .ht-gradation.style-01 .circle-wrap {
@@ -859,6 +847,34 @@ html {
   .ht-box-images.style-05:hover .box-image .hover-images {
     opacity: 1;
     visibility: visible;
+  }
+
+  @media screen and (max-width: 500px){
+    .ht-box-images.style-05 .image-box-wrap{
+      flex-direction: column;
+      align-items: center;
+    }
+    .ht-gradation.style-01 .content-wrap{
+      padding: 10px;
+    }
+    .content-wrap {
+      text-align: center !important;
+    }
+    .ht-gradation.style-01 .circle-wrap{
+      margin-bottom: 25px;
+    }
+    .ht-gradation.style-01{
+      margin: 0rem;
+    }
+  }
+
+  @media screen and (max-width: 380px){
+    .service-wrap{
+      padding: 20px !important;
+    }
+    .ht-box-images.style-05 .image-box-wrap{
+      padding: 30px 20px;
+    }
   }
 
 /* ==========================================================================================================
@@ -1236,10 +1252,6 @@ html {
     overflow-x: hidden;
   }
 
-  #fh5co-hero-wrapper {
-    height: 95vh;
-  }
-
   .fh5co-hero-inner {
     margin-top: 30px;
   }
@@ -1256,7 +1268,6 @@ html {
   }
 
   .fh5co-advantages-outer {
-    margin-top: 50px;
     padding-bottom: 0;
   }
 
@@ -1405,7 +1416,6 @@ html {
   }
 
   #fh5co-hero-wrapper {
-    height: 900px;
     padding-top: 15vh;
   }
 
@@ -1541,10 +1551,6 @@ html {
   }
 }
 @media screen and (max-width: 520px) {
-  #fh5co-hero-wrapper {
-    height: 900px;
-    /* padding-top: 60vh; */
-  }
 
   .fh5co-hero-inner > h1 {
     font-size: 40px;

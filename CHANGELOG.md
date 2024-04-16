@@ -4,6 +4,18 @@ ALL notable changes done on this website will be recorded in this log.
 ## [1.2.0] - 15/04/2024
 Last commit:
 
+### Added
+* add new feature into feature list [#32](https://github.com/phisoft/feecollec-web/issues/32)
+
+### Updated
+* fix responsive header UI on screen width ranged 760px - 991px [#34](https://github.com/phisoft/feecollec-web/issues/34)
+* right align nav-bar [#33](https://github.com/phisoft/feecollec-web/issues/33)
+* Changelog
+
+  
+### Changed
+* change the subheading/title in service section [#35](https://github.com/phisoft/feecollec-web/issues/33)
+
 ## [1.1.1] - 20/03/2024
 Last commit: [bfa9285e9114da733e39548f3ac1c1ba407db146](https://github.com/phisoft/feecollec-web/commit/bfa9285e9114da733e39548f3ac1c1ba407db146)
 

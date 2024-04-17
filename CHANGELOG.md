@@ -2,19 +2,43 @@
 ALL notable changes done on this website will be recorded in this log.
 
 ## [1.2.0] - 15/04/2024
-Last commit:
+Last commit: [7207ca7e1287822428bc0afd48282a37649ac39c](https://github.com/phisoft/feecollec-web/commit/7207ca7e1287822428bc0afd48282a37649ac39c)
 
 ### Added
 * add new feature into feature list [#32](https://github.com/phisoft/feecollec-web/issues/32)
+* 
+* add email field to contact form [#52](https://github.com/phisoft/feecollec-web/issues/52)
+* add schedule a demo section [#17](https://github.com/phisoft/feecollec-web/issues/17)
+* add a link to Google Map on company's address in contact us [#43](https://github.com/phisoft/feecollec-web/issues/43)
+* add quick action call to phone number in contact us [#42](https://github.com/phisoft/feecollec-web/issues/42)
 
 ### Updated
 * fix responsive header UI on screen width ranged 760px - 991px [#34](https://github.com/phisoft/feecollec-web/issues/34)
 * right align nav-bar [#33](https://github.com/phisoft/feecollec-web/issues/33)
 * Changelog
+* 
+* Fix UI for website [#72](https://github.com/phisoft/feecollec-web/issues/72)
+* update faqs design [#69](https://github.com/phisoft/feecollec-web/issues/69)
+* update faqs items [#68](https://github.com/phisoft/feecollec-web/issues/68)
+* update solutions info [#59](https://github.com/phisoft/feecollec-web/issues/59)
+* Make it 2 columns on bigger screens [#61](https://github.com/phisoft/feecollec-web/issues/61)
+* update contact form [#65](https://github.com/phisoft/feecollec-web/issues/65)
+* Improve and update meta keywords [#57](https://github.com/phisoft/feecollec-web/issues/57)
+* test responsive UI in all screen dimensions, both horizontal and vertical [#55](https://github.com/phisoft/feecollec-web/issues/55)
+* Update index.html
+* improve UX in "FAQs" section [#36](https://github.com/phisoft/feecollec-web/issues/36)
+* link contact us to email hello@phisoft.my [#22](https://github.com/phisoft/feecollec-web/issues/22)
 
-  
 ### Changed
 * change the subheading/title in service section [#35](https://github.com/phisoft/feecollec-web/issues/33)
+*
+* Replace more reason to love with how it works [#60](https://github.com/phisoft/feecollec-web/issues/60)
+* change phone value type from number to text [#56](https://github.com/phisoft/feecollec-web/issues/56)
+* change <h1> tags in reasons section to <h3> tag [#49](https://github.com/phisoft/feecollec-web/issues/49)
+
+
+
+
 
 ## [1.1.1] - 20/03/2024
 Last commit: [bfa9285e9114da733e39548f3ac1c1ba407db146](https://github.com/phisoft/feecollec-web/commit/bfa9285e9114da733e39548f3ac1c1ba407db146)

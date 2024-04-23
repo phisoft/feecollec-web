@@ -56,33 +56,42 @@
         // Button hover effect
         $('#demoButton').hover(function() {
             $(this).css({
-                backgroundColor: '#132E4F',
+                backgroundColor: '#1D5455',
                 color: 'white',
-                border: '1px solid #132E4F' // border styling
+                border: '1px solid #1D5455' // border styling
                 
             });
         }, function() {
             $(this).css({
                 backgroundColor: 'transparent',
-                color: '#132E4F'
+                color: '#1D5455'
             });
         });
 
         // Button hover effect
         $('#demoButtonNav').hover(function() {
             $(this).css({
-                backgroundColor: '#132E4F',
+                backgroundColor: '#1D5455',
                 color: 'white',
-                border: '1px solid #132E4F' // border styling
+                border: '1px solid #1D5455' // border styling
                 
             });
         }, function() {
             $(this).css({
                 backgroundColor: 'transparent',
-                color: '#132E4F'
+                color: '#1D5455'
             });
         });
-	});
+
+        $(document).ready(function() {
+            $('.socmed-icon').hover(function() {
+                $(this).siblings('.socmed-circle').css('color', '#1F9B70');
+            }, function() {
+                $(this).siblings('.socmed-circle').css('color', '#1D5455');
+            });
+        });
+
+    });
 
 
 

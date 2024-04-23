@@ -370,11 +370,11 @@ html {
 .service-wrap {
   border-radius: 5px !important;
   padding: 50px 70px !important;
-  background-color: #1D54550e !important;
+  background-color: #f7fafd !important;
 }
 
 .service-bg {
-  background-color: #94c9db1a !important;
+  background-color: #f7fafd !important;
 }
 
 .box-container {
@@ -1749,7 +1749,7 @@ background-size: cover;
 }
 
 .bg-color-tertiary{
-  background-color: #EFF6FF;
+  background-color: #f7fafd;
 }
 
 .bg-logo{

@@ -491,7 +491,7 @@
 											<i class="fas fa-user"></i>
 										</span>
 											</div>
-											<input type="text" name="Name" class="form-control demo-input"
+											<input type="text" name="name" class="form-control demo-input"
 												   placeholder="Name" id="name" required>
 										</div>
 										<div class="input-group mb-3 col-sm-6">
@@ -500,7 +500,7 @@
 											<i class="fas fa-phone"></i>
 										</span>
 											</div>
-											<input type="text" name="Phone" class="form-control demo-input"
+											<input type="text" name="phone" class="form-control demo-input"
 												   placeholder="Phone" id="phone_number" required>
 										</div>
 										<div class="input-group mb-3 col-sm-6">
@@ -509,7 +509,7 @@
 											<i class="fas fa-envelope"></i>
 										</span>
 											</div>
-											<input type="email" name="Email" class="form-control demo-input"
+											<input type="email" name="email" class="form-control demo-input"
 												   placeholder="Email" id="email" required>
 										</div>
 										<div class="input-group mb-3 col-sm-6">
@@ -518,7 +518,7 @@
 											<i class="fas fa-building"></i>
 										</span>
 											</div>
-											<input type="text" name="Company" class="form-control demo-input"
+											<input type="text" name="company" class="form-control demo-input"
 												   placeholder="Company's Name" id="company_name" required>
 										</div>
 									</div>
@@ -657,29 +657,7 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/main.js"></script>
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
 	<script>
-		function sendEmail() {
-			if (validateForm()) {
-				Email.send({
-					Host: "smtp.elasticemail.com",
-					Username: "phisoft.marketing@gmail.com",
-					Password: "54C6C6E3B10D11FB45C043A9F15C1AFDCA0F",
-					To: 'hello@phisoft.my',
-					From: "phisoft.marketing@gmail.com",
-					Subject: "feecollec Contact Form Submission",
-					Body: "Name: " + document.getElementById("name").value +
-						"<br> Phone Number: " + document.getElementById("phone_number").value +
-						"<br> Email: " + document.getElementById("email").value +
-						"<br> Company Name: " + document.getElementById("company_name").value +
-						"<br> Message: " + document.getElementById("message").value
-				}).then(
-					message => alert("Message successfully sent.")
-				);
-			} else {
-				alert("Please fill in all required fields.");
-			}
-		}
 		function validateForm() {
 			var isValid = true;
 			var inputs = document.getElementsByClassName('demo-input');

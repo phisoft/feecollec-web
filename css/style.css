@@ -20,7 +20,7 @@ html {
 }
 
 .download-btn-first {
-  background: #1D5455;
+  background: #2b3fab;
 }
 
 .download-btn-first:hover {
@@ -129,14 +129,14 @@ html {
   font-weight: 500;
 }
 .main-navbar-nav {
-  color: #1D5455 !important;
+  color: #2b3fab !important;
 }
 .main-navbar-nav li {
-  color: #1D5455;
+  color: #2b3fab;
   opacity: 1;
 }
 .main-navbar-nav .navbar-nav .nav-item a:hover {
-  color: #5A5A5A !important;
+  color: #7b7b7b !important;
   -webkit-transition: all .33s ease;
   -moz-transition: all .33s ease;
   -o-transition: all .33s ease;
@@ -144,11 +144,11 @@ html {
   transition: all .33s ease;
 }
 .main-navbar-nav .active {
-  color: #1D5455 !important;
+  color: #7b7b7b !important;
   opacity: 1 !important;
 }
 .main-navbar-nav a {
-  color: #1D5455 !important;
+  color: #2b3fab !important;
 }
 .main-navbar-nav .nav-link {
   opacity: 1 !important;
@@ -184,8 +184,8 @@ html {
   font-size: 15px;
   padding: 8px 13px;
   font-weight:normal;
-  /* background: #1D5455; */
-  color: #1D5455;
+  /* background: #2b3fab; */
+  color: #2b3fab;
   margin-left: 10px;
 }
 .fh5co-hero-inner .fh5co-hero-smartphone {
@@ -238,7 +238,7 @@ html {
   }
 }
 .fh5co-advantages-outer .span-perfect {
-  color: #1D5455;
+  color: #2b3fab;
   text-transform: uppercase;
   font-size: 27px;
   letter-spacing: 1px;
@@ -267,7 +267,7 @@ html {
   padding-right: 30px;
   position: relative;
   top: 1px;
-  color: #1D5455;
+  color: #2b3fab;
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
   float: left;
@@ -299,7 +299,7 @@ html {
   padding-bottom: 70px;
 }
 .fh5co-slider-outer h1 {
-  color: #1D5455;
+  color: #2b3fab;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 600;
@@ -341,7 +341,7 @@ html {
 
 #howitworks{
   background-color: #ffffff;
-  color: #1D5455;
+  color: #2b3fab;
 }
 
 .color-secondary{
@@ -593,7 +593,7 @@ html {
     justify-content: space-between;
    }
    .color-circle{
-     color: #1D5455;
+     color: #2b3fab;
    }
    .ht-gradation.style-01 {
     display: -webkit-box;
@@ -630,16 +630,16 @@ html {
   }
   .ht-gradation.style-01 .item:hover .circle {
     color: #ffffff;
-    background: #1D5455;
+    background: #2b3fab;
   }
 
   .circle-2-green {
-    background-color: #1D5455;
+    background-color: #2b3fab;
   }
   
   .ht-gradation.style-01 .item:hover .circle-2-green {
     color: #ffffff;
-    background: #1D5455;
+    background: #2b3fab;
   }
 
   @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
@@ -763,7 +763,7 @@ html {
     font-weight: 500;
     margin-top: 20px;
     font-size: 14px;
-    color: #1D5455;
+    color: #2b3fab;
   }
   .ht-gradation.style-01 .gradation-btn:hover {
     color: #d2a98e;
@@ -971,7 +971,7 @@ html {
   .demo-input:focus {
       box-shadow: none;
       outline: none;
-      border-color: #1D5455;
+      border-color: #2b3fab;
   }
 
   .demo-btn{
@@ -987,12 +987,12 @@ html {
       line-height: 1.25rem;
       font-weight: 600;
       color: #ffffff;
-      background-color: #1D5455;
+      background-color: #2b3fab;
       
   }
 
   .demo-btn:hover {
-      background-color: #1F9B70;
+      background-color: #7b7b7b;
       color: #ffffff;
   }
 
@@ -1143,7 +1143,7 @@ html {
   height: 50px;
 }
 .footer-outer .column-3-3 a {
-  color: #1D5455;
+  color: #2b3fab;
   font-weight: bold;
 }
 .footer-outer .column-3-3 a:hover {
@@ -1160,7 +1160,7 @@ html {
 .footer-outer .footer-nav ul li {
   display: inline-block;
   line-height: 50px;
-  color: #1D5455;
+  color: #2b3fab;
   margin: 0 30px;
   font-size: 15px;
   font-weight: 500;
@@ -1187,7 +1187,7 @@ html {
   margin-top: 25px;
 }
 .footer-outer .copyright {
-  color: #1D5455;
+  color: #7b7b7b;
   text-align: center;
   font-size: 13px;
   padding-top: 40px;
@@ -1207,7 +1207,7 @@ html {
 }
 
 .menu-list a:hover {
-  color: #1D5455;
+  color: #2b3fab;
   font-weight: bold;
   text-decoration: none;
 }
@@ -1612,15 +1612,19 @@ html {
 
 
 .color-primary{
-  color: #1D5455;
+  color: #7b7b7b;
 }
 
 .color-secondary{
-  color: #1F9B70;
+  color: #2b3fab;
+}
+
+.color-tertiary{
+  color: #2b3fab;
 }
 
 .socmed-circle {
-  color: #1D5455;
+  color: #2b3fab;
 }
 
 /* #about{
@@ -1640,7 +1644,7 @@ html {
 } */
 
 .text-style-primary{
-  color: #1D5455;
+  color: #2b3fab;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: bold;
@@ -1663,7 +1667,7 @@ align-items: center;
 background: url("../img/cta.svg") no-repeat;
   padding-top: 100px;
 padding-bottom: 90px;
-/* background: #1D5455; */
+/* background: #2b3fab; */
 position: relative;
 z-index: 1;
 background-size: auto, auto;
@@ -1678,7 +1682,7 @@ background-size: cover;
     background: url("../img/cta-mobile.png") no-repeat;
       padding-top: 100px;
     padding-bottom: 90px;
-    /* background: #1D5455; */
+    /* background: #2b3fab; */
     position: relative;
     z-index: 1;
     background-size: auto, auto;
@@ -1741,7 +1745,7 @@ background-size: cover;
 }
 
 .bg-color-primary{
-  background-color: #1D5455;
+  background-color: #2b3fab;
 }
 
 .bg-color-secondary{

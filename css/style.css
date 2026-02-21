@@ -1,8 +1,4 @@
-/*
-	App by FreeHTML5.co
-	Twitter: http://twitter.com/fh5co
-	URL: http://freehtml5.co
-*/
+/* feecollec styles */
 
 /* ==========================================================================================================
 									GENERAL
@@ -127,6 +123,17 @@ html {
   /* position: relative; */
   /* top: -5px; */
   font-weight: 500;
+}
+
+.main-navbar-nav .navbar-brand img {
+  max-width: 190px;
+  height: auto;
+}
+
+@media (max-width: 575px) {
+  .main-navbar-nav .navbar-brand img {
+    max-width: 150px;
+  }
 }
 .main-navbar-nav {
   color: #2b3fab !important;
@@ -258,7 +265,27 @@ html {
 }
 
 .fh5co-advantages-outer .col-lg-4 {
-  padding: 40px 40px 10px 40px; /* Add horizontal padding to columns for spacing */
+  padding: 40px 18px 10px 18px;
+}
+
+.feature-cards-row {
+  gap: 34px;
+}
+
+.feature-cards-row > [class*="col-"] {
+  margin-bottom: 0 !important;
+}
+
+@media (min-width: 992px) {
+  .feature-cards-row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .feature-cards-row > .col-lg-4 {
+    flex: 1 1 0;
+    max-width: calc((100% - 68px) / 3);
+  }
 }
 
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
@@ -1821,4 +1848,315 @@ background-size: cover;
     padding-bottom: 7vh;
     align-items: center;
   }
+}
+
+/* ==========================================================================================================
+									CORPORATE FINANCE THEME OVERRIDES
+   ========================================================================================================== */
+
+:root {
+  --corp-navy: #0f4fa8;
+  --corp-navy-soft: #1e6fd8;
+  --corp-steel: #4d87ca;
+  --corp-accent: #21b1ff;
+  --corp-bg: #eef7ff;
+  --corp-surface: #ffffff;
+  --corp-border: #cfe4fb;
+  --corp-text: #123457;
+  --corp-muted: #4b6f95;
+}
+
+body {
+  background-color: var(--corp-bg);
+  color: var(--corp-text);
+}
+
+.bg-light {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.98) 0%, rgba(243, 250, 255, 0.98) 100%) !important;
+  border-bottom: 1px solid var(--corp-border);
+  box-shadow: 0 8px 20px rgba(41, 114, 201, 0.12);
+}
+
+.main-navbar-nav,
+.main-navbar-nav li,
+.main-navbar-nav a,
+.main-navbar-nav .nav-link {
+  color: var(--corp-navy) !important;
+}
+
+.main-navbar-nav .nav-link {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.main-navbar-nav .navbar-nav .nav-item a:hover,
+.main-navbar-nav .active {
+  color: var(--corp-accent) !important;
+}
+
+.btn-corp-outline {
+  background-color: transparent;
+  color: var(--corp-navy);
+  border: 1px solid var(--corp-navy);
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+
+.btn-corp-outline:hover,
+.btn-corp-outline:focus {
+  background-color: var(--corp-navy);
+  border-color: var(--corp-navy);
+  color: #ffffff !important;
+}
+
+#demoButtonNav {
+  background-color: #ffffff;
+}
+
+#fh5co-hero-wrapper {
+  background: linear-gradient(135deg, #e6f4ff 0%, #f3faff 38%, #ddf1ff 100%);
+}
+
+#fh5co-hero-wrapper h1 {
+  color: var(--corp-navy);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+#fh5co-hero-wrapper p {
+  color: var(--corp-muted);
+}
+
+.payment-logo {
+  border-radius: 8px;
+  border: 1px solid var(--corp-border);
+  box-shadow: 0 8px 18px rgba(33, 130, 255, 0.14);
+}
+
+.fh5co-advantages-outer,
+#service,
+#howitworks,
+#faqs {
+  background-color: var(--corp-bg) !important;
+}
+
+.footer-outer {
+  background: linear-gradient(135deg, #f3f8ff 0%, #e6f0fb 100%) !important;
+}
+
+.footer-outer .copyright,
+.footer-outer p,
+.footer-outer li,
+.footer-outer a,
+.footer-outer h5,
+.footer-outer i {
+  color: #163b67 !important;
+}
+
+.footer-outer .border-bottom-footer {
+  border-top: 1px solid rgba(22, 59, 103, 0.2);
+}
+
+.footer-outer .socmed-circle {
+  color: #ffffff !important;
+}
+
+.footer-outer .socmed-icon {
+  color: #0f4fa8 !important;
+}
+
+.footer-outer ul.list-unstyled.d-flex {
+  gap: 8px;
+}
+
+.footer-outer ul.list-unstyled.d-flex li {
+  margin-right: 0 !important;
+}
+
+.second-title,
+.text-style-primary,
+.color-tertiary,
+.color-primary {
+  color: var(--corp-navy) !important;
+}
+
+.color-secondary {
+  color: var(--corp-accent) !important;
+}
+
+.box-container,
+.ht-box-images.style-05 .image-box-wrap,
+.service-wrap,
+.faq-container-item-header,
+.faq-container-item-body-content,
+.contact-form-wrap {
+  background: var(--corp-surface);
+  border: 1px solid var(--corp-border);
+  border-radius: 12px;
+}
+
+.contact-form-wrap {
+  padding: 24px;
+}
+
+.box-container,
+.ht-box-images.style-05 .image-box-wrap,
+.faq-container-item-header,
+.contact-form-wrap,
+.service-wrap {
+  box-shadow: 0 12px 28px rgba(46, 129, 223, 0.12);
+}
+
+.box-container:hover,
+.ht-box-images.style-05:hover,
+.ht-box-images.style-05:hover .image-box-wrap {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 36px rgba(34, 136, 245, 0.2);
+}
+
+.faq-container-item-header {
+  color: var(--corp-navy);
+}
+
+.faq-container-item-body-content {
+  color: var(--corp-muted);
+  background-color: #f4faff;
+}
+
+.ht-gradation.style-01 .circle,
+.circle-2-green {
+  border-color: var(--corp-navy);
+  color: var(--corp-navy);
+}
+
+.ht-gradation.style-01 .item:hover .circle,
+.ht-gradation.style-01 .item:hover .circle-2-green,
+.circle-2-green {
+  background: var(--corp-navy);
+  color: #fff;
+}
+
+.demo-input {
+  border-color: var(--corp-border);
+  border-radius: 8px;
+}
+
+.demo-input:focus {
+  border-color: var(--corp-accent);
+  box-shadow: 0 0 0 3px rgba(33, 177, 255, 0.2);
+}
+
+.demo-btn {
+  background-color: var(--corp-navy);
+  border-radius: 8px;
+}
+
+.demo-btn:hover {
+  background-color: var(--corp-accent);
+}
+
+.menu-list a,
+.text-style-secondary {
+  color: var(--corp-muted);
+}
+
+.menu-list a:hover {
+  color: var(--corp-accent);
+}
+
+.socmed-circle {
+  color: var(--corp-navy);
+}
+
+.hr {
+  border-bottom: 1px solid var(--corp-border);
+}
+
+.property-owner-wrap {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.management-workflow-wrap {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.workflow-heading {
+  font-size: 34px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.6px;
+  line-height: 1.25;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.workflow-subtitle {
+  max-width: 760px;
+  margin: 12px auto 0;
+  color: var(--corp-muted);
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+#demo_form {
+  background: linear-gradient(135deg, #e7f3ff 0%, #f4faff 100%) !important;
+  border-top: 1px solid var(--corp-border);
+  border-bottom: 1px solid var(--corp-border);
+}
+
+#demo_form .container {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0 15px;
+  box-shadow: none;
+}
+
+#demo_form .contact-form-wrap {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+#demo_form .second-title {
+  position: relative;
+}
+
+#demo_form .second-title::before {
+  content: "Contact Us";
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(33, 177, 255, 0.12);
+  color: var(--corp-navy);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.upload-owner-card:hover,
+.upload-owner-card:hover .image-box-wrap,
+.generate-bills-card:hover,
+.generate-bills-card:hover .image-box-wrap,
+.track-reconcile-card:hover,
+.track-reconcile-card:hover .image-box-wrap,
+.view-billing-card:hover,
+.view-billing-card:hover .image-box-wrap,
+.make-payment-card:hover,
+.make-payment-card:hover .image-box-wrap,
+.done-card:hover,
+.done-card:hover .image-box-wrap {
+  transform: translateY(-3px) !important;
+  box-shadow: none !important;
 }

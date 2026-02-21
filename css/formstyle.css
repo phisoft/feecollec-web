@@ -78,4 +78,62 @@
    div.a {
      text-align: center;
    }
+
+   /* ==========================================================================================================
+									CORPORATE FINANCE SIGNUP THEME
+   ========================================================================================================== */
+
+   .signup-page {
+    background: linear-gradient(180deg, #e9f6ff 0%, #f5fbff 100%);
+    color: #123457;
+   }
+
+   .signup-page .center {
+    width: 100%;
+    max-width: 460px;
+    border: 1px solid #cfe4fb;
+    border-radius: 14px;
+    padding: 20px 22px;
+    background: #ffffff;
+    box-shadow: 0 20px 35px rgba(34, 136, 245, 0.15);
+   }
+
+   .signup-page input[type=text],
+   .signup-page input[type=password] {
+    width: 100%;
+    border: 1px solid #cfe4fb;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin: 6px 0 16px 0;
+    color: #123457;
+    background-color: #f7fcff;
+   }
+
+   .signup-page input[type=text]:focus,
+   .signup-page input[type=password]:focus {
+    border-color: #21b1ff;
+    box-shadow: 0 0 0 3px rgba(33, 177, 255, 0.22);
+   }
+
+   .signup-page .button {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #1e6fd8 0%, #21b1ff 100%);
+    font-weight: 600;
+    letter-spacing: 0.2px;
+   }
+
+   .signup-page .button:hover {
+    background: linear-gradient(135deg, #0f4fa8 0%, #1e6fd8 100%);
+   }
+
+   @media screen and (max-width: 768px) {
+    .signup-page .center {
+      max-width: 92%;
+      padding: 18px 16px;
+    }
+   }
    

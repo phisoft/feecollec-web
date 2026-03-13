@@ -50,7 +50,7 @@
 	  }
 	}
 	</script>
-	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer></script>
+	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=onloadTurnstileCallback" defer></script>
 </head>
 
 <body>
@@ -499,14 +499,26 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/main.js"></script>
-	<script defer>
-	const widgetId = turnstile.render("#turnstile-container", {
-		sitekey: "0x4AAAAAAARepDlzRUeiygytt",
-		callback: function (token) {
-		console.log("Success:", token);
-		},
-    });
-    </script>
+<script>
+function renderTurnstileWidget() {
+const container = document.querySelector("#turnstile-container");
+if (!container || !window.turnstile) return;
+turnstile.render("#turnstile-container", {
+sitekey: "0x4AAAAAAARepDlzRUeiygytt",
+callback: function (token) {
+console.log("Success:", token);
+},
+});
+}
+
+window.onloadTurnstileCallback = renderTurnstileWidget;
+
+if (document.readyState === "loading") {
+document.addEventListener("DOMContentLoaded", renderTurnstileWidget);
+} else {
+renderTurnstileWidget();
+}
+</script>
 </body>
 
 </html>

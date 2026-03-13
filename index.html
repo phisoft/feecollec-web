@@ -50,7 +50,7 @@
 	  }
 	}
 	</script>
-	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=onloadTurnstileCallback" defer></script>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer></script>
 </head>
 
 <body>
@@ -509,7 +509,7 @@ function renderTurnstileWidget() {
 const container = document.querySelector("#turnstile-container");
 if (!container || !window.turnstile) return;
 turnstile.render("#turnstile-container", {
-sitekey: "0x4AAAAAAARepDlzRUeiygytt",
+sitekey: "0x4AAAAAAARepDlzRUeiygyt",
 callback: function (token) {
 console.log("Success:", token);
 },

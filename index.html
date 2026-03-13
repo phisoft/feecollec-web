@@ -50,6 +50,7 @@
 	  }
 	}
 	</script>
+	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit" defer></script>
 </head>
 
 <body>
@@ -428,6 +429,7 @@
 								</div>
 
 								<div class="submit-btn mt-20 col-sm-13">
+									<div id="turnstile-container"></div>
 									<input type="hidden" name="subject" value="Contact Form Submission via feecollec.com">
 									<button class="demo-btn" type="submit">Send message</button>
 									<p class="form-messege"></p>
@@ -497,6 +499,14 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+	const widgetId = turnstile.render("#turnstile-container", {
+		sitekey: "0x4AAAAAAARepDlzRUeiygytt",
+		callback: function (token) {
+		console.log("Success:", token);
+		},
+    });
+    </script>
 </body>
 
 </html>

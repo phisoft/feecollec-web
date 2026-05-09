@@ -2427,6 +2427,45 @@ body {
     color: var(--corp-accent, #21b1ff);
 }
 
+/* ========== Pricing Page ========== */
+.pricing-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(
+        135deg,
+        var(--corp-accent) 0%,
+        var(--corp-navy) 100%
+    );
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 6px 18px;
+    border-radius: 999px;
+    white-space: nowrap;
+    z-index: 1;
+    box-shadow: 0 4px 12px rgba(15, 79, 168, 0.3);
+}
+
+.pricing-features {
+    text-align: left;
+    display: inline-block;
+}
+
+.pricing-features li {
+    padding: 6px 0;
+    font-size: 14.5px;
+    color: var(--corp-muted);
+    line-height: 1.6;
+}
+
+.pricing-features li i {
+    font-size: 13px;
+}
+
 /* ==========================================================================================================
                                    REDESIGN: Section Dividers & Backgrounds
    ========================================================================================================== */

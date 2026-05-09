@@ -63,6 +63,7 @@
             type="image"
         />
         <link rel="stylesheet" href="css/style.css" />
+
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
@@ -83,10 +84,6 @@
                 }
             }
         </script>
-        <script
-            src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
-            defer
-        ></script>
         <script type="application/ld+json">
             {
                 "@context": "https://schema.org",
@@ -127,11 +124,16 @@
                 ]
             }
         </script>
+        <script
+            src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+            defer
+        ></script>
     </head>
 
     <body>
         <div id="page-wrap">
-            <div class="bg-light" style="display: block">
+            <!-- ===== NAVBAR ===== -->
+            <div class="bg-light">
                 <nav
                     class="container navbar navbar-expand-lg main-navbar-nav navbar-light"
                 >
@@ -156,7 +158,6 @@
                     >
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
                     <div
                         class="collapse navbar-collapse justify-content-end"
                         id="navbarSupportedContent"
@@ -170,7 +171,7 @@
                                         $('#feature').goTo();
                                         return false;
                                     "
-                                    >Our Solution</a
+                                    >Solutions</a
                                 >
                             </li>
                             <li class="nav-item">
@@ -185,6 +186,11 @@
                                 >
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="pricing.html"
+                                    >Pricing</a
+                                >
+                            </li>
+                            <li class="nav-item">
                                 <a
                                     class="nav-link"
                                     href="#"
@@ -196,14 +202,9 @@
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="pricing.html"
-                                    >Pricing</a
-                                >
-                            </li>
-                            <li class="nav-item">
                                 <button
                                     id="demoButtonNav"
-                                    class="btn btn-lg mr-3 btn-corp-outline"
+                                    class="btn btn-lg mr-3 btn-corp-filled"
                                     onclick="
                                         $('#demo_form').goTo();
                                         return false;
@@ -216,15 +217,21 @@
                     </div>
                 </nav>
             </div>
-            <!-- End Navbar -->
 
-            <!-- Home -->
-            <div id="fh5co-hero-wrapper" class="">
+            <!-- ===== HERO ===== -->
+            <div id="fh5co-hero-wrapper">
                 <div class="container">
                     <div
                         class="row d-flex justify-content-between align-items-center flex-column-reverse flex-lg-row"
                     >
                         <div class="col-sm-12 col-lg-5">
+                            <div
+                                class="hero-trust-badge animated fadeIn wow"
+                                data-wow-delay="0.1s"
+                            >
+                                <span class="badge-dot"></span> Trusted by 50+
+                                property teams across Malaysia
+                            </div>
                             <h1
                                 class="fs-60 animated fadeIn wow"
                                 data-wow-delay="0.2s"
@@ -266,32 +273,43 @@
                                 </button>
                             </div>
                             <div
-                                class="payment d-flex animated fadeIn wow"
-                                data-wow-delay="0.3s"
+                                class="payment-strip animated fadeIn wow"
+                                data-wow-delay="0.4s"
                             >
+                                <div class="w-100">
+                                    <p class="payment-powered-by mb-2">
+                                        Integrated Payment Gateways
+                                    </p>
+                                </div>
                                 <img
                                     class="payment-logo"
                                     src="img/payment-logo/billplz-logo.png"
+                                    alt="Billplz"
                                 />
                                 <img
                                     class="payment-logo"
                                     src="img/payment-logo/eGHL-logo.png"
+                                    alt="eGHL"
                                 />
                                 <img
                                     class="payment-logo"
                                     src="img/payment-logo/fpx-logo.png"
+                                    alt="FPX"
                                 />
                                 <img
                                     class="payment-logo"
                                     src="img/payment-logo/iPay88-logo.png"
+                                    alt="iPay88"
                                 />
                                 <img
                                     class="payment-logo"
                                     src="img/payment-logo/touch-n-go-logo.png"
+                                    alt="Touch n Go"
                                 />
                                 <img
                                     class="payment-logo"
                                     src="img/payment-logo/payex-logo.png"
+                                    alt="Payex"
                                 />
                             </div>
                         </div>
@@ -299,800 +317,813 @@
                             class="col-sm-12 col-lg-7 d-flex mb-5 mb-lg-0 fadeIn wow"
                             data-wow-delay="0.4s"
                         >
-                            <img
-                                class="img-fluid"
-                                src="img/mockups/mockup-main-3.png"
-                                alt="system"
-                            />
+                            <div class="hero-mockup-wrap">
+                                <img
+                                    class="img-fluid"
+                                    src="img/mockups/mockup-main-3.png"
+                                    alt="feecollec dashboard"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="feature" class="fh5co-advantages-outer">
-            <div class="container">
-                <h2
-                    class="second-title text-bold fs-20 pb-lg-5 color-primary animated fadeIn wow text-lg-center text-bold"
-                    data-wow-delay="0.2s"
-                >
-                    Strengthen Financial Control with a Complete Suite of
-                    <span class="color-secondary text-bold fs-20"
-                        >Digital Capabilities</span
-                    >
-                </h2>
-                <div
-                    class="row wow animated fadeIn pb-lg-2 pt-3 feature-cards-row"
-                    data-wow-delay="0.36s"
-                >
+
+            <!-- ===== FEATURES ===== -->
+            <div id="feature" class="fh5co-advantages-outer section-alt-white">
+                <div class="container">
                     <div
-                        class="box-container col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow"
-                        data-wow-delay="0.3s"
+                        class="text-center mb-5 animated fadeIn wow"
+                        data-wow-delay="0.2s"
                     >
-                        <div class="d-flex justify-content-center">
-                            <img
-                                class="grid-image mb-5"
-                                src="img/user-friendly.png"
-                                width="18%"
-                                alt="Icon-1"
-                            />
-                        </div>
-                        <h4 class="text-center mb-4 text-bold">
-                            Automated Billing
-                        </h4>
-                        <p class="col-12 text-center grid-desc fs-16 lh-2rem">
-                            Optimize your billing processes for seamless invoice
-                            managing and distribution.
+                        <span class="section-eyebrow">Our Solution</span>
+                        <h2 class="section-heading">
+                            Everything you need to run
+                            <span class="color-secondary"
+                                >smarter collections</span
+                            >
+                        </h2>
+                        <p class="section-subheading mx-auto">
+                            A complete toolkit designed for JMB, MC, and
+                            property management teams to streamline billing,
+                            collections, and reporting.
                         </p>
                     </div>
-                    <div
-                        class="box-container col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow"
-                        data-wow-delay="0.3s"
-                    >
-                        <div class="d-flex justify-content-center">
-                            <img
-                                class="grid-image mb-5"
-                                src="img/notification.png"
-                                width="18%"
-                                alt="Icon-1"
-                            />
-                        </div>
-                        <h4 class="text-center mb-4 text-bold">
-                            Payment Reminder
-                        </h4>
-                        <p class="col-12 text-center grid-desc fs-16 lh-2rem">
-                            Set notifications for pending and overdue fees can
-                            be automatically delivered to your recipients via
-                            WhatsApp, text messages, or emails.
-                        </p>
-                    </div>
-                    <div
-                        class="box-container col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow"
-                        data-wow-delay="0.3s"
-                    >
-                        <div class="d-flex justify-content-center">
-                            <img
-                                class="grid-image mb-5"
-                                src="img/payment-gateway.png"
-                                width="18%"
-                                alt="Icon-1"
-                            />
-                        </div>
-                        <h4 class="text-center mb-4 text-bold">
-                            Online Payment
-                        </h4>
-                        <p class="col-12 text-center grid-desc fs-16 lh-2rem">
-                            Track your payment status in real-time and implement
-                            safe payment gateways for secure and convenient
-                            online transactions.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hr"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="howitworks" class="fh5co-features-outer">
-            <div class="container">
-                <div>
-                    <h2
-                        class="second-title text-center text-bold fs-30 color-primary animated fadeIn wow workflow-heading"
-                        data-wow-delay="0.4s"
-                    >
-                        HOW
-                        <span class="text-bold fs-30 color-secondary"
-                            >feecollec</span
-                        >
-                        IMPROVES FINANCIAL OPERATIONS
-                    </h2>
-                    <p
-                        class="workflow-subtitle text-center animated fadeIn wow"
-                        data-wow-delay="0.45s"
-                    >
-                        A simple 3-step process to manage billing, send
-                        reminders, and track collections in real time.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="service" class="fh5co-features-outer">
-            <div
-                class="container service-wrap service-bg management-workflow-wrap"
-            >
-                <div>
-                    <h3
-                        class="second-title color-tertiary text-center text-bold fs-19 animated fadeIn wow"
-                        data-wow-delay="0.4s"
-                    >
-                        Management Team Workflow (Simple 3-Step Process)
-                    </h3>
-                </div>
-                <div class="row how">
-                    <div
-                        class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05 upload-owner-card"
-                    >
+                    <div class="row feature-cards-row">
                         <div
-                            class="item item-1 animate wow fadeInRight image-box-wrap"
+                            class="box-container col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow"
                             data-wow-delay="0.3s"
                         >
-                            <div
-                                class="circle-wrap d-flex justify-content-center"
+                            <div class="feature-icon-circle mb-4">
+                                <i class="fas fa-file-invoice"></i>
+                            </div>
+                            <h4 class="text-center mb-3 text-bold">
+                                Automated Billing
+                            </h4>
+                            <p
+                                class="col-12 text-center grid-desc fs-16 lh-2rem"
                             >
-                                <div class="mask">
-                                    <div class="wave-pulse wave-pulse-1"></div>
-                                    <div class="wave-pulse wave-pulse-2"></div>
-                                    <div class="wave-pulse wave-pulse-3"></div>
-                                </div>
-                                <h6 class="circle">1</h6>
+                                Generate and distribute invoices automatically.
+                                Eliminate manual data entry and reduce errors
+                                across your entire property portfolio.
+                            </p>
+                        </div>
+                        <div
+                            class="box-container col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.4s"
+                        >
+                            <div class="feature-icon-circle mb-4">
+                                <i class="fas fa-bell"></i>
                             </div>
-                            <div class="content-wrap text-center">
-                                <h5
-                                    class="heading mb-4 text-bold color-tertiary"
-                                >
-                                    Upload Owner List
-                                </h5>
-                                <div class="text">
-                                    Import your owner and unit data once to get
-                                    started quickly.
-                                </div>
+                            <h4 class="text-center mb-3 text-bold">
+                                Smart Reminders
+                            </h4>
+                            <p
+                                class="col-12 text-center grid-desc fs-16 lh-2rem"
+                            >
+                                Automated payment reminders delivered via
+                                WhatsApp, SMS, and email. Reduce late payments
+                                and manual follow-ups.
+                            </p>
+                        </div>
+                        <div
+                            class="box-container col-lg-4 mb-5 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.5s"
+                        >
+                            <div class="feature-icon-circle mb-4">
+                                <i class="fas fa-credit-card"></i>
                             </div>
+                            <h4 class="text-center mb-3 text-bold">
+                                Online Payments
+                            </h4>
+                            <p
+                                class="col-12 text-center grid-desc fs-16 lh-2rem"
+                            >
+                                Accept payments via FPX, credit cards,
+                                e-wallets, and bank transfers. Real-time
+                                tracking with automatic reconciliation.
+                            </p>
                         </div>
                     </div>
-                    <div
-                        class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05 generate-bills-card"
-                    >
+                </div>
+            </div>
+
+            <!-- ===== STATS STRIP ===== -->
+            <div id="stats-strip">
+                <div class="container">
+                    <div class="row">
                         <div
-                            class="item item-1 animate wow fadeInRight image-box-wrap"
-                            data-wow-delay="0.6s"
+                            class="col-6 col-lg-3 stat-item animated fadeIn wow"
+                            data-wow-delay="0.1s"
                         >
-                            <div
-                                class="circle-wrap d-flex justify-content-center"
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Properties Managed</div>
+                        </div>
+                        <div
+                            class="col-6 col-lg-3 stat-item animated fadeIn wow"
+                            data-wow-delay="0.2s"
+                        >
+                            <div class="stat-number">RM 12M+</div>
+                            <div class="stat-label">Collections Processed</div>
+                        </div>
+                        <div
+                            class="col-6 col-lg-3 stat-item animated fadeIn wow"
+                            data-wow-delay="0.3s"
+                        >
+                            <div class="stat-number">85%</div>
+                            <div class="stat-label">On-Time Payments</div>
+                        </div>
+                        <div
+                            class="col-6 col-lg-3 stat-item animated fadeIn wow"
+                            data-wow-delay="0.4s"
+                        >
+                            <div class="stat-number">60%</div>
+                            <div class="stat-label">Less Admin Time</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== HOW IT WORKS — MANAGEMENT ===== -->
+            <div id="howitworks" class="fh5co-features-outer section-alt-white">
+                <div class="container">
+                    <div
+                        class="text-center mb-5 animated fadeIn wow"
+                        data-wow-delay="0.2s"
+                    >
+                        <span class="section-eyebrow">How It Works</span>
+                        <h2 class="section-heading">
+                            Built for
+                            <span class="color-secondary"
+                                >management teams</span
                             >
-                                <div class="mask">
-                                    <div class="wave-pulse wave-pulse-1"></div>
-                                    <div class="wave-pulse wave-pulse-2"></div>
-                                    <div class="wave-pulse wave-pulse-3"></div>
-                                </div>
-                                <h6 class="circle">2</h6>
+                        </h2>
+                        <p class="section-subheading mx-auto">
+                            A simple 3-step process to digitize your billing,
+                            automate reminders, and track every ringgit
+                            collected.
+                        </p>
+                    </div>
+                    <div class="row steps-row">
+                        <div
+                            class="col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.3s"
+                        >
+                            <div class="process-card">
+                                <div class="step-number">1</div>
+                                <span class="step-icon"
+                                    ><i class="fas fa-upload"></i
+                                ></span>
+                                <h5 class="step-title">Upload Owner List</h5>
+                                <p class="step-desc">
+                                    Import your owner and unit data once. Our
+                                    system organizes everything automatically so
+                                    you can start billing immediately.
+                                </p>
                             </div>
-                            <div class="content-wrap text-center">
-                                <h5
-                                    class="heading mb-4 text-bold color-tertiary"
-                                >
+                        </div>
+                        <div
+                            class="col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.5s"
+                        >
+                            <div class="process-card">
+                                <div class="step-number">2</div>
+                                <span class="step-icon"
+                                    ><i class="fas fa-paper-plane"></i
+                                ></span>
+                                <h5 class="step-title">
                                     Generate & Send Bills
                                 </h5>
-                                <div class="text">
-                                    Create recurring invoices and send payment
-                                    reminders automatically.
-                                </div>
+                                <p class="step-desc">
+                                    Create recurring invoices in seconds. Bills
+                                    and reminders are delivered automatically
+                                    via WhatsApp, SMS, and email.
+                                </p>
                             </div>
                         </div>
-                    </div>
-                    <div
-                        class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05 track-reconcile-card"
-                    >
                         <div
-                            class="item item-1 animate wow fadeInRight image-box-wrap"
-                            data-wow-delay="0.9s"
+                            class="col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.7s"
                         >
-                            <div
-                                class="circle-wrap d-flex justify-content-center"
-                            >
-                                <div class="mask">
-                                    <div class="wave-pulse wave-pulse-1"></div>
-                                    <div class="wave-pulse wave-pulse-2"></div>
-                                    <div class="wave-pulse wave-pulse-3"></div>
-                                </div>
-                                <h6 class="circle">3</h6>
-                            </div>
-                            <div class="content-wrap text-center">
-                                <h5
-                                    class="heading mb-4 text-bold color-tertiary"
-                                >
-                                    Track & Reconcile
-                                </h5>
-                                <div class="text">
-                                    Monitor collections in real time and
-                                    reconcile payments with clear reports.
-                                </div>
+                            <div class="process-card">
+                                <div class="step-number">3</div>
+                                <span class="step-icon"
+                                    ><i class="fas fa-chart-line"></i
+                                ></span>
+                                <h5 class="step-title">Track & Reconcile</h5>
+                                <p class="step-desc">
+                                    Monitor collections in real time. Generate
+                                    KPI reports and reconcile payments
+                                    automatically — no spreadsheets needed.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div id="service" class="fh5co-features-outer">
-            <div class="container service-wrap property-owner-wrap">
-                <div>
-                    <h3
-                        class="second-title color-tertiary text-center text-bold fs-19 animated fadeIn wow"
-                        data-wow-delay="0.4s"
-                    >
-                        Property Owner Experience
-                    </h3>
-                </div>
-                <div class="row how">
-                    <div
-                        class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05 view-billing-card"
-                    >
+            <!-- ===== SCREENSHOT SHOWCASE ===== -->
+            <div class="fh5co-features-outer section-alt-light">
+                <div class="container">
+                    <div class="row align-items-center">
                         <div
-                            class="item item-1 animate wow fadeInRight image-box-wrap"
+                            class="col-lg-6 mb-5 mb-lg-0 animated fadeInLeft wow"
                             data-wow-delay="0.3s"
                         >
-                            <div
-                                class="circle-wrap d-flex justify-content-center"
+                            <span class="section-eyebrow"
+                                >Platform Preview</span
                             >
-                                <div class="mask">
-                                    <div class="wave-pulse wave-pulse-1"></div>
-                                    <div class="wave-pulse wave-pulse-2"></div>
-                                    <div class="wave-pulse wave-pulse-3"></div>
-                                </div>
-                                <h6 class="circle">1</h6>
-                            </div>
-                            <div class="content-wrap text-center">
-                                <h5
-                                    class="heading mb-4 text-bold color-tertiary"
+                            <h2 class="section-heading">
+                                A dashboard built for
+                                <span class="color-secondary"
+                                    >financial clarity</span
                                 >
-                                    View Billing
-                                </h5>
-                                <div class="text">
-                                    Quickly view your dues, payments, and future
-                                    charges by scanning QR code or accessing a
-                                    provided link.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05 make-payment-card"
-                    >
-                        <div
-                            class="item item-1 animate wow fadeInRight image-box-wrap"
-                            data-wow-delay="0.6s"
-                        >
-                            <div
-                                class="circle-wrap d-flex justify-content-center"
-                            >
-                                <div class="mask">
-                                    <div class="wave-pulse wave-pulse-1"></div>
-                                    <div class="wave-pulse wave-pulse-2"></div>
-                                    <div class="wave-pulse wave-pulse-3"></div>
-                                </div>
-                                <h6 class="circle">2</h6>
-                            </div>
-                            <div class="content-wrap text-center">
-                                <h5
-                                    class="heading mb-4 text-bold color-tertiary"
-                                >
-                                    Make Online Payment
-                                </h5>
-                                <div class="text">
-                                    Pay your rental, utility, and maintenance
-                                    fees using secure methods like cards, online
-                                    banking, or bank transfers.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg-4 col-md-12 ht-gradation style-01 ht-box-images style-05 done-card"
-                    >
-                        <div
-                            class="item item-1 animate wow fadeInRight image-box-wrap"
-                            data-wow-delay="0.9s"
-                        >
-                            <div
-                                class="circle-wrap d-flex justify-content-center"
-                            >
-                                <div class="mask">
-                                    <div class="wave-pulse wave-pulse-1"></div>
-                                    <div class="wave-pulse wave-pulse-2"></div>
-                                    <div class="wave-pulse wave-pulse-3"></div>
-                                </div>
-                                <h6 class="circle circle-2-green">✔</h6>
-                            </div>
-                            <div class="content-wrap text-center">
-                                <h5
-                                    class="heading mb-4 text-bold color-tertiary"
-                                >
-                                    You're Done!
-                                </h5>
-                                <div class="text">
-                                    System will promptly notify the management
-                                    team of your completed transactions.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="testimonials" class="fh5co-advantages-outer">
-            <div class="container">
-                <h2
-                    class="second-title text-center text-bold fs-30 color-primary animated fadeIn wow mb-4"
-                    data-wow-delay="0.2s"
-                >
-                    Trusted by Property Management Teams
-                </h2>
-                <p
-                    class="text-center fs-16 mb-5 animated fadeIn wow"
-                    style="
-                        color: #4b6f95;
-                        max-width: 700px;
-                        margin: 0 auto 3rem;
-                    "
-                    data-wow-delay="0.3s"
-                >
-                    Hear from JMB, MC, and property managers who have
-                    streamlined their fee collection with feecollec.
-                </p>
-                <div class="row feature-cards-row">
-                    <div
-                        class="box-container col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
-                        data-wow-delay="0.3s"
-                    >
-                        <div class="text-center">
-                            <i
-                                class="fas fa-quote-left fs-30 color-secondary mb-3"
-                            ></i>
-                            <p class="grid-desc fs-16 lh-2rem mb-4">
-                                "feecollec helped us cut our billing time by
-                                60%. Our owners love the online payment options
-                                and we finally have real-time visibility into
-                                collections."
-                            </p>
-                            <h5 class="text-bold color-tertiary mb-1">
-                                JMB Desa Harmoni
-                            </h5>
-                            <small style="color: #4b6f95"
-                                >Kuala Lumpur &bull; 200+ units</small
-                            >
-                        </div>
-                    </div>
-                    <div
-                        class="box-container col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
-                        data-wow-delay="0.5s"
-                    >
-                        <div class="text-center">
-                            <i
-                                class="fas fa-quote-left fs-30 color-secondary mb-3"
-                            ></i>
-                            <p class="grid-desc fs-16 lh-2rem mb-4">
-                                "The automated reminders via WhatsApp reduced
-                                our defaulters by almost half. The dashboard
-                                makes monthly reporting a breeze for our
-                                committee."
-                            </p>
-                            <h5 class="text-bold color-tertiary mb-1">
-                                MC Villa Tropika
-                            </h5>
-                            <small style="color: #4b6f95"
-                                >Johor Bahru &bull; 150+ units</small
-                            >
-                        </div>
-                    </div>
-                    <div
-                        class="box-container col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
-                        data-wow-delay="0.7s"
-                    >
-                        <div class="text-center">
-                            <i
-                                class="fas fa-quote-left fs-30 color-secondary mb-3"
-                            ></i>
-                            <p class="grid-desc fs-16 lh-2rem mb-4">
-                                "Onboarding was smooth and the team provided
-                                excellent support. We now manage 3 properties
-                                from one dashboard. Highly recommended for
-                                property managers."
-                            </p>
-                            <h5 class="text-bold color-tertiary mb-1">
-                                Aspire Property Management
-                            </h5>
-                            <small style="color: #4b6f95"
-                                >Petaling Jaya &bull; 500+ units</small
-                            >
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="faqs" class="bg-color-tertiary">
-            <div
-                class="container row-separators-wrap big-triangle-style row-separators-bg separators-space"
-            >
-                <div>
-                    <h2
-                        style="padding-bottom: 2rem"
-                        class="fs-40 color-tertiary p-sm- mt-lg-3 mb-4 mb-lg-4 text-bold text-center"
-                    >
-                        FAQs
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="faq-container">
-                        <div class="faq-column">
-                            <div class="faq-container-items">
-                                <div class="faq-container-item-header">
-                                    How do I get started with feecollec's
-                                    services?
-                                </div>
-                                <div class="faq-container-item-body">
-                                    <div
-                                        class="faq-container-item-body-content"
-                                    >
-                                        A: Getting started with feecollec is
-                                        easy. Simply visit our website at
-                                        feecollec.com and schedule a demo. Our
-                                        team will then assist you in setting up
-                                        your account to effectively use our
-                                        services.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="faq-container-items">
-                                <div class="faq-container-item-header">
-                                    Do I have to pay for the demo?
-                                </div>
-                                <div class="faq-container-item-body">
-                                    <div
-                                        class="faq-container-item-body-content"
-                                    >
-                                        A: No. All first demos are free.
-                                        Subsequent consultations may have
-                                        additional charges.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="faq-container-items">
-                                <div class="faq-container-item-header">
-                                    Which payment gateways does feecollec
-                                    integrate with?
-                                </div>
-                                <div class="faq-container-item-body">
-                                    <div
-                                        class="faq-container-item-body-content"
-                                    >
-                                        A: feecollec integrates with widely
-                                        known payment gateways such as Billplz,
-                                        GHL, FPX, ipay88 and Touch n' Go.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="faq-container-items">
-                                <div class="faq-container-item-header">
-                                    How can I get assistance if I encounter any
-                                    issues with feecollec?
-                                </div>
-                                <div class="faq-container-item-body">
-                                    <div
-                                        class="faq-container-item-body-content"
-                                    >
-                                        A: feecollec offers comprehensive
-                                        customer support to assist you with any
-                                        issues or queries you may have. You can
-                                        reach out to our support team via email
-                                        at
-                                        <a href="mailto:hello@phisoft.my"
-                                            >hello@phisoft.my</a
-                                        >, and they will be happy to assist you.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="faq-container-items">
-                                <div class="faq-container-item-header">
-                                    Our business hours.
-                                </div>
-                                <div class="faq-container-item-body">
-                                    <div
-                                        class="faq-container-item-body-content"
-                                    >
-                                        Weekdays: 9.00AM - 5.00PM <br />
-                                        Weekends: Off
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="demo_form" class="fh5co-advantages-outer">
-            <div class="container">
-                <div class="row align-items-stretch demo-form-row">
-                    <div class="col-lg-5 mb-4 mb-lg-0">
-                        <div
-                            class="demo-intro-card h-100 animated fadeIn wow"
-                            data-wow-delay="0.3s"
-                        >
-                            <span class="demo-badge">Book a Consultation</span>
-                            <h2
-                                class="second-title text-left fs-30 color-primary demo-heading"
-                                data-wow-delay="0.4s"
-                            >
-                                Book a demo today
                             </h2>
-                            <p class="demo-desc">
-                                Our specialists will review your current billing
-                                workflow and walk you through how feecollec can
-                                improve automation, collection speed, and
-                                reporting visibility.
+                            <p class="section-subheading">
+                                Get a complete view of your collection
+                                performance. Track outstanding payments, view
+                                collection trends, and generate reports your
+                                committee will love — all from one screen.
                             </p>
-                            <ul class="list-unstyled demo-points mb-0">
+                            <ul class="list-unstyled demo-points mt-4">
                                 <li>
                                     <i class="fas fa-check-circle"></i>
-                                    Personalized product walkthrough
+                                    Real-time collection dashboard
                                 </li>
                                 <li>
                                     <i class="fas fa-check-circle"></i>
-                                    Recommended setup for your portfolio size
+                                    Multi-property KPI reports
                                 </li>
                                 <li>
-                                    <i class="fas fa-check-circle"></i> Clear
-                                    pricing and onboarding timeline
+                                    <i class="fas fa-check-circle"></i>
+                                    Export-ready financial summaries
                                 </li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="contact-form-wrap">
-                            <form
-                                id="contact-form"
-                                action="https://send.bah.my/phisoft"
-                                method="POST"
-                            >
-                                <input
-                                    type="hidden"
-                                    name="subject"
-                                    value="Feecollec request for demo"
+                        <div
+                            class="col-lg-6 animated fadeInRight wow"
+                            data-wow-delay="0.5s"
+                        >
+                            <div class="screenshot-showcase">
+                                <img
+                                    src="img/dashboard.png"
+                                    alt="feecollec dashboard overview"
+                                    class="img-fluid"
                                 />
-                                <div
-                                    class="contact-form wow animated fadeIn"
-                                    data-wow-delay="0.4s"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== HOW IT WORKS — PROPERTY OWNER ===== -->
+            <div class="fh5co-features-outer section-alt-white">
+                <div class="container">
+                    <div
+                        class="text-center mb-5 animated fadeIn wow"
+                        data-wow-delay="0.2s"
+                    >
+                        <span class="section-eyebrow"
+                            >Property Owner Experience</span
+                        >
+                        <h2 class="section-heading">
+                            Paying fees should be
+                            <span class="color-secondary">effortless</span>
+                        </h2>
+                        <p class="section-subheading mx-auto">
+                            Your residents and owners get a simple, secure
+                            self-service portal to view bills and make payments
+                            — no app install required.
+                        </p>
+                    </div>
+                    <div class="row steps-row">
+                        <div
+                            class="col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.3s"
+                        >
+                            <div class="process-card">
+                                <div class="step-number">1</div>
+                                <span class="step-icon"
+                                    ><i class="fas fa-qrcode"></i
+                                ></span>
+                                <h5 class="step-title">View Billing</h5>
+                                <p class="step-desc">
+                                    Scan a QR code or click a link to instantly
+                                    view all dues, payments, and upcoming
+                                    charges in one place.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.5s"
+                        >
+                            <div class="process-card">
+                                <div class="step-number">2</div>
+                                <span class="step-icon"
+                                    ><i class="fas fa-lock"></i
+                                ></span>
+                                <h5 class="step-title">Make Secure Payment</h5>
+                                <p class="step-desc">
+                                    Pay via FPX, credit card, or e-wallet. Every
+                                    transaction is encrypted and processed
+                                    through regulated payment gateways.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.7s"
+                        >
+                            <div class="process-card">
+                                <div class="step-number">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <span class="step-icon"
+                                    ><i class="fas fa-smile"></i
+                                ></span>
+                                <h5 class="step-title">You're Done!</h5>
+                                <p class="step-desc">
+                                    Payment confirmed instantly. The management
+                                    team is notified automatically — no receipts
+                                    to keep, nothing to follow up.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== TESTIMONIALS ===== -->
+            <div
+                id="testimonials"
+                class="fh5co-advantages-outer section-alt-light"
+            >
+                <div class="container">
+                    <div
+                        class="text-center mb-5 animated fadeIn wow"
+                        data-wow-delay="0.2s"
+                    >
+                        <span class="section-eyebrow">Testimonials</span>
+                        <h2 class="section-heading">
+                            Trusted by
+                            <span class="color-secondary">property teams</span>
+                            across Malaysia
+                        </h2>
+                        <p class="section-subheading mx-auto">
+                            See how JMB, MC, and property managers have
+                            transformed their fee collection with feecollec.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div
+                            class="col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.3s"
+                        >
+                            <div class="testimonial-card">
+                                <span class="quote-icon"
+                                    ><i class="fas fa-quote-right"></i
+                                ></span>
+                                <p class="quote-text">
+                                    " feecollec helped us cut our billing time
+                                    by 60%. Our owners love the online payment
+                                    options and we finally have real-time
+                                    visibility into collections. "
+                                </p>
+                                <p class="testimonial-author">
+                                    JMB Desa Harmoni
+                                </p>
+                                <p class="testimonial-role">
+                                    Kuala Lumpur &bull; 200+ units
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.5s"
+                        >
+                            <div class="testimonial-card">
+                                <span class="quote-icon"
+                                    ><i class="fas fa-quote-right"></i
+                                ></span>
+                                <p class="quote-text">
+                                    " The automated reminders via WhatsApp
+                                    reduced our defaulters by almost half. The
+                                    dashboard makes monthly reporting a breeze
+                                    for our committee. "
+                                </p>
+                                <p class="testimonial-author">
+                                    MC Villa Tropika
+                                </p>
+                                <p class="testimonial-role">
+                                    Johor Bahru &bull; 150+ units
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 mb-4 mb-lg-0 animated fadeInRight wow"
+                            data-wow-delay="0.7s"
+                        >
+                            <div class="testimonial-card">
+                                <span class="quote-icon"
+                                    ><i class="fas fa-quote-right"></i
+                                ></span>
+                                <p class="quote-text">
+                                    " Onboarding was smooth and support was
+                                    excellent. We now manage 3 properties from
+                                    one dashboard. Highly recommended for
+                                    property managers. "
+                                </p>
+                                <p class="testimonial-author">
+                                    Aspire Property Management
+                                </p>
+                                <p class="testimonial-role">
+                                    Petaling Jaya &bull; 500+ units
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== FAQs ===== -->
+            <div id="faqs" class="fh5co-advantages-outer section-alt-white">
+                <div class="container">
+                    <div
+                        class="text-center mb-5 animated fadeIn wow"
+                        data-wow-delay="0.2s"
+                    >
+                        <span class="section-eyebrow">FAQs</span>
+                        <h2 class="section-heading">
+                            Got questions? We have
+                            <span class="color-secondary">answers</span>
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="faq-container">
+                            <div class="faq-column">
+                                <div class="faq-container-items">
+                                    <div class="faq-container-item-header">
+                                        How do I get started with feecollec?
+                                    </div>
+                                    <div class="faq-container-item-body">
+                                        <div
+                                            class="faq-container-item-body-content"
+                                        >
+                                            Getting started is easy. Schedule a
+                                            free demo on our website and our
+                                            team will guide you through setup,
+                                            data import, and go-live — typically
+                                            within one week.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-container-items">
+                                    <div class="faq-container-item-header">
+                                        Do I have to pay for the demo?
+                                    </div>
+                                    <div class="faq-container-item-body">
+                                        <div
+                                            class="faq-container-item-body-content"
+                                        >
+                                            No — all first demos are completely
+                                            free. We'll review your current
+                                            workflow and show you exactly how
+                                            feecollec fits your operations.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-container-items">
+                                    <div class="faq-container-item-header">
+                                        Which payment gateways does feecollec
+                                        support?
+                                    </div>
+                                    <div class="faq-container-item-body">
+                                        <div
+                                            class="faq-container-item-body-content"
+                                        >
+                                            We integrate with major Malaysian
+                                            payment gateways: Billplz, GHL
+                                            (eGHL), FPX, iPay88, Touch 'n Go
+                                            eWallet, and Payex. Need a specific
+                                            gateway? Talk to us about custom
+                                            integrations.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-container-items">
+                                    <div class="faq-container-item-header">
+                                        Can feecollec handle multiple
+                                        properties?
+                                    </div>
+                                    <div class="faq-container-item-body">
+                                        <div
+                                            class="faq-container-item-body-content"
+                                        >
+                                            Yes. feecollec is built for
+                                            multi-property management. Manage
+                                            all your JMBs, MCs, and developments
+                                            from a single account with
+                                            role-based access for each property
+                                            team.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="faq-container-items">
+                                    <div class="faq-container-item-header">
+                                        What kind of support do you provide?
+                                    </div>
+                                    <div class="faq-container-item-body">
+                                        <div
+                                            class="faq-container-item-body-content"
+                                        >
+                                            We offer email support during
+                                            business hours (Mon-Fri, 9AM-5PM)
+                                            with typical response within 2
+                                            hours. Baron plan customers get
+                                            priority support. Reach us at
+                                            <a href="mailto:hello@phisoft.my"
+                                                >hello@phisoft.my</a
+                                            >.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== DEMO CTA ===== -->
+            <div id="demo_form" class="fh5co-advantages-outer">
+                <div class="container">
+                    <div class="row align-items-stretch demo-form-row">
+                        <div class="col-lg-5 mb-4 mb-lg-0">
+                            <div
+                                class="demo-intro-card h-100 animated fadeIn wow"
+                                data-wow-delay="0.3s"
+                            >
+                                <span class="demo-badge"
+                                    >Book a Consultation</span
                                 >
-                                    <div class="mb-3">
-                                        <div class="row">
-                                            <div
-                                                class="input-group mb-3 col-sm-6"
-                                            >
+                                <h2 class="section-heading">
+                                    Ready to modernize your collections?
+                                </h2>
+                                <p class="demo-desc">
+                                    Our specialists will review your current
+                                    billing workflow and walk you through how
+                                    feecollec can improve automation, collection
+                                    speed, and reporting visibility.
+                                </p>
+                                <ul class="list-unstyled demo-points mb-0">
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Personalized product walkthrough
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Setup plan tailored to your portfolio
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-check-circle"></i>
+                                        Clear pricing and onboarding timeline
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="contact-form-wrap">
+                                <form
+                                    id="contact-form"
+                                    action="https://send.bah.my/phisoft"
+                                    method="POST"
+                                >
+                                    <input
+                                        type="hidden"
+                                        name="subject"
+                                        value="Feecollec request for demo"
+                                    />
+                                    <div
+                                        class="contact-form wow animated fadeIn"
+                                        data-wow-delay="0.4s"
+                                    >
+                                        <div class="mb-3">
+                                            <div class="row">
                                                 <div
-                                                    class="input-group-prepend"
+                                                    class="input-group mb-3 col-sm-6"
                                                 >
-                                                    <span
-                                                        class="input-group-text"
+                                                    <div
+                                                        class="input-group-prepend"
                                                     >
-                                                        <i
-                                                            class="fas fa-user"
-                                                        ></i>
-                                                    </span>
+                                                        <span
+                                                            class="input-group-text"
+                                                            ><i
+                                                                class="fas fa-user"
+                                                            ></i
+                                                        ></span>
+                                                    </div>
+                                                    <input
+                                                        type="text"
+                                                        name="name"
+                                                        class="form-control demo-input"
+                                                        placeholder="Full Name"
+                                                        id="name"
+                                                        required
+                                                    />
                                                 </div>
-                                                <input
-                                                    type="text"
-                                                    name="name"
-                                                    class="form-control demo-input"
-                                                    placeholder="Name"
-                                                    id="name"
-                                                    required
-                                                />
+                                                <div
+                                                    class="input-group mb-3 col-sm-6"
+                                                >
+                                                    <div
+                                                        class="input-group-prepend"
+                                                    >
+                                                        <span
+                                                            class="input-group-text"
+                                                            ><i
+                                                                class="fas fa-phone"
+                                                            ></i
+                                                        ></span>
+                                                    </div>
+                                                    <input
+                                                        type="text"
+                                                        name="phone"
+                                                        class="form-control demo-input"
+                                                        placeholder="Phone Number"
+                                                        id="phone_number"
+                                                        required
+                                                    />
+                                                </div>
+                                                <div
+                                                    class="input-group mb-3 col-sm-6"
+                                                >
+                                                    <div
+                                                        class="input-group-prepend"
+                                                    >
+                                                        <span
+                                                            class="input-group-text"
+                                                            ><i
+                                                                class="fas fa-envelope"
+                                                            ></i
+                                                        ></span>
+                                                    </div>
+                                                    <input
+                                                        type="email"
+                                                        name="email"
+                                                        class="form-control demo-input"
+                                                        placeholder="Email Address"
+                                                        id="email"
+                                                        required
+                                                    />
+                                                </div>
+                                                <div
+                                                    class="input-group mb-3 col-sm-6"
+                                                >
+                                                    <div
+                                                        class="input-group-prepend"
+                                                    >
+                                                        <span
+                                                            class="input-group-text"
+                                                            ><i
+                                                                class="fas fa-building"
+                                                            ></i
+                                                        ></span>
+                                                    </div>
+                                                    <input
+                                                        type="text"
+                                                        name="company"
+                                                        class="form-control demo-input"
+                                                        placeholder="Company / JMB Name"
+                                                        id="company_name"
+                                                        required
+                                                    />
+                                                </div>
                                             </div>
                                             <div
-                                                class="input-group mb-3 col-sm-6"
+                                                class="contact-inner contact-message"
                                             >
-                                                <div
-                                                    class="input-group-prepend"
-                                                >
-                                                    <span
-                                                        class="input-group-text"
-                                                    >
-                                                        <i
-                                                            class="fas fa-phone"
-                                                        ></i>
-                                                    </span>
-                                                </div>
-                                                <input
-                                                    type="text"
-                                                    name="phone"
-                                                    class="form-control demo-input"
-                                                    placeholder="Phone"
-                                                    id="phone_number"
+                                                <textarea
+                                                    class="demo-input"
+                                                    name="message"
+                                                    placeholder="Tell us about your property portfolio and what you'd like to achieve with feecollec"
+                                                    id="message"
                                                     required
-                                                />
-                                            </div>
-                                            <div
-                                                class="input-group mb-3 col-sm-6"
-                                            >
-                                                <div
-                                                    class="input-group-prepend"
-                                                >
-                                                    <span
-                                                        class="input-group-text"
-                                                    >
-                                                        <i
-                                                            class="fas fa-envelope"
-                                                        ></i>
-                                                    </span>
-                                                </div>
-                                                <input
-                                                    type="email"
-                                                    name="email"
-                                                    class="form-control demo-input"
-                                                    placeholder="Email"
-                                                    id="email"
-                                                    required
-                                                />
-                                            </div>
-                                            <div
-                                                class="input-group mb-3 col-sm-6"
-                                            >
-                                                <div
-                                                    class="input-group-prepend"
-                                                >
-                                                    <span
-                                                        class="input-group-text"
-                                                    >
-                                                        <i
-                                                            class="fas fa-building"
-                                                        ></i>
-                                                    </span>
-                                                </div>
-                                                <input
-                                                    type="text"
-                                                    name="company"
-                                                    class="form-control demo-input"
-                                                    placeholder="Company's Name"
-                                                    id="company_name"
-                                                    required
-                                                />
+                                                    style="width: 100%"
+                                                ></textarea>
                                             </div>
                                         </div>
                                         <div
-                                            class="contact-inner contact-message"
-                                        >
-                                            <textarea
-                                                class="demo-input"
-                                                name="message"
-                                                placeholder="Message"
-                                                id="message"
-                                                required
-                                                style="width: 100%"
-                                            ></textarea>
+                                            data-theme="light"
+                                            data-size="normal"
+                                            id="turnstile-container"
+                                        ></div>
+                                        <div class="submit-btn mt-20">
+                                            <input
+                                                type="hidden"
+                                                name="subject"
+                                                value="Contact Form Submission via feecollec.com"
+                                            />
+                                            <button
+                                                class="demo-btn"
+                                                type="submit"
+                                            >
+                                                Request Your Free Demo
+                                            </button>
+                                            <p class="form-messege"></p>
                                         </div>
                                     </div>
-                                    <div
-                                        data-theme="light"
-                                        data-size="normal"
-                                        id="turnstile-container"
-                                    ></div>
-                                    <div class="submit-btn mt-20 col-sm-13">
-                                        <input
-                                            type="hidden"
-                                            name="subject"
-                                            value="Contact Form Submission via feecollec.com"
-                                        />
-                                        <button class="demo-btn" type="submit">
-                                            Send message
-                                        </button>
-                                        <p class="form-messege"></p>
-                                    </div>
-                                </div>
-                            </form>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <footer id="footer" class="footer-outer">
-            <div class="container footer-inner footer-proper">
-                <div class="row footer-main-row">
-                    <div class="col-lg-5 mb-4 mb-lg-0">
-                        <a
-                            class="footer-logo-wrap d-inline-block mb-3"
-                            href="index.html"
-                            aria-label="feecollec home"
-                        >
-                            <img
-                                src="img/feecollec-v3.png"
-                                alt="feecollec"
-                                class="img-fluid footer-logo"
-                            />
-                        </a>
-                        <p class="footer-text mb-0">
-                            feecollec helps property management teams automate
-                            invoicing, improve fee collection rates, and offer
-                            secure online payments with clearer financial
-                            visibility.
-                        </p>
-                    </div>
+            <!-- ===== FOOTER ===== -->
+            <footer id="footer" class="footer-outer">
+                <div class="container footer-inner footer-proper">
+                    <div class="row footer-main-row">
+                        <div class="col-lg-5 mb-4 mb-lg-0">
+                            <a
+                                class="footer-logo-wrap d-inline-block mb-3"
+                                href="index.html"
+                                aria-label="feecollec home"
+                            >
+                                <img
+                                    src="img/feecollec-v3.png"
+                                    alt="feecollec"
+                                    class="img-fluid footer-logo"
+                                />
+                            </a>
+                            <p class="footer-text mb-0">
+                                feecollec helps property management teams
+                                automate invoicing, improve fee collection
+                                rates, and offer secure online payments with
+                                clearer financial visibility.
+                            </p>
+                        </div>
 
-                    <div class="col-6 col-lg-3 mb-4 mb-lg-0">
-                        <h5 class="footer-title">Quick Links</h5>
-                        <ul class="list-unstyled footer-links">
-                            <li><a href="#feature">Our Solution</a></li>
-                            <li><a href="#howitworks">How It Works</a></li>
-                            <li><a href="#faqs">FAQs</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                        </ul>
-                    </div>
+                        <div class="col-6 col-lg-3 mb-4 mb-lg-0">
+                            <h5 class="footer-title">Quick Links</h5>
+                            <ul class="list-unstyled footer-links">
+                                <li><a href="#feature">Solutions</a></li>
+                                <li><a href="#howitworks">How It Works</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="#faqs">FAQs</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="col-6 col-lg-4">
-                        <h5 class="footer-title">Contact</h5>
-                        <ul class="list-unstyled footer-contact">
-                            <li>
-                                <a href="mailto:hello@phisoft.my"
-                                    >hello@phisoft.my</a
+                        <div class="col-6 col-lg-4">
+                            <h5 class="footer-title">Contact</h5>
+                            <ul class="list-unstyled footer-contact">
+                                <li>
+                                    <a href="mailto:hello@phisoft.my"
+                                        >hello@phisoft.my</a
+                                    >
+                                </li>
+                                <li>Mon - Fri: 9:00 AM - 5:00 PM</li>
+                                <li>Malaysia</li>
+                            </ul>
+                            <div class="footer-social d-flex">
+                                <a
+                                    href="https://instagram.com/phisoft.my"
+                                    aria-label="Instagram"
                                 >
-                            </li>
-                            <li>Mon - Fri: 9:00 AM - 5:00 PM</li>
-                            <li>Malaysia</li>
-                        </ul>
-                        <div class="footer-social d-flex">
-                            <a
-                                href="https://instagram.com/phisoft.my"
-                                aria-label="Instagram"
-                            >
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a
-                                href="https://facebook.com/phisoft.my/"
-                                aria-label="Facebook"
-                            >
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a
-                                href="https://www.linkedin.com/company/phisoft-my/mycompany/"
-                                aria-label="LinkedIn"
-                            >
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a
-                                href="https://www.phisoft.my/"
-                                aria-label="Phi Software"
-                            >
-                                <i class="fas fa-globe"></i>
-                            </a>
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a
+                                    href="https://facebook.com/phisoft.my/"
+                                    aria-label="Facebook"
+                                >
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a
+                                    href="https://www.linkedin.com/company/phisoft-my/mycompany/"
+                                    aria-label="LinkedIn"
+                                >
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a
+                                    href="https://www.phisoft.my/"
+                                    aria-label="Phi Software"
+                                >
+                                    <i class="fas fa-globe"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
+                    <span class="border-bottom-footer"></span>
+                    <p class="copyright">
+                        &copy; 2026 feecollec. All rights reserved. |
+                        <a href="privacy.html">Privacy Policy</a> |
+                        <a href="terms.html">Terms of Service</a>
+                    </p>
                 </div>
-
-                <span class="border-bottom-footer"></span>
-                <p class="copyright">
-                    &copy; 2026 feecollec. All rights reserved. |
-                    <a href="privacy.html">Privacy Policy</a> |
-                    <a href="terms.html">Terms of Service</a>
-                </p>
-            </div>
-        </footer>
+            </footer>
+        </div>
 
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>

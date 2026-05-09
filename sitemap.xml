@@ -4,17 +4,34 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 <url>
-  <loc>http://www.feecollec.com/</loc>
-  <lastmod>2024-04-02T06:00:55+00:00</lastmod>
+  <loc>https://www.feecollec.com/</loc>
+  <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.feecollec.com/index.html</loc>
-  <lastmod>2024-04-02T06:00:55+00:00</lastmod>
+  <loc>https://www.feecollec.com/index.html</loc>
+  <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.feecollec.com/pricing.html</loc>
+  <lastmod>2024-04-15T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
-
+<url>
+  <loc>https://www.feecollec.com/signup.html</loc>
+  <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.feecollec.com/privacy.html</loc>
+  <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.feecollec.com/terms.html</loc>
+  <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
 </urlset>

@@ -256,109 +256,58 @@
 
             <!-- ===== HERO ===== -->
             <div id="fh5co-hero-wrapper">
+                <div class="hero-bg-pattern"></div>
                 <div class="container">
-                    <div
-                        class="row d-flex justify-content-between align-items-center flex-column-reverse flex-lg-row"
-                    >
-                        <div class="col-sm-12 col-lg-5">
-                            <div
-                                class="hero-trust-badge animated fadeIn wow"
-                                data-wow-delay="0.1s"
-                            >
-                                <span class="badge-dot"></span> Trusted by 50+
-                                property teams across Malaysia
-                            </div>
-                            <h1
-                                class="fs-60 animated fadeIn wow"
-                                data-wow-delay="0.2s"
-                            >
-                                Modernize your fee collection operations.
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-5 mb-lg-0">
+                            <h1 class="hero-headline animated fadeIn wow" data-wow-delay="0.2s">
+                                Collect fees faster.<br>Track every ringgit.<br><span class="hero-highlight">Grow with confidence.</span>
                             </h1>
-                            <p
-                                class="col-12 fs-18 lh-2rem mt-4 p-0 animated fadeIn wow"
-                                data-wow-delay="0.3s"
-                            >
-                                Automate billing, gain clearer cash-flow
-                                visibility, and provide secure digital payment
-                                channels for every property owner.
+                            <p class="hero-subtitle animated fadeIn wow" data-wow-delay="0.3s">
+                                feecollec automates billing, sends smart reminders, and gives your JMB or MC team real-time visibility into every collection — so you can focus on managing properties, not chasing payments.
                             </p>
-                            <div
-                                class="animated fadeIn wow d-flex flex-wrap justify-content-lg-start justify-content-center gap-2"
-                                data-wow-delay="0.5s"
-                            >
-                                <button
-                                    id="demoButton"
-                                    class="btn btn-lg mr-3 btn-corp-filled"
-                                    onclick="
-                                        $('#demo_form').goTo();
-                                        return false;
-                                    "
-                                >
-                                    Get a Demo
-                                    <i class="fas fa-arrow-right"></i>
+                            <div class="hero-actions animated fadeIn wow" data-wow-delay="0.5s">
+                                <button id="demoButton" class="btn btn-lg btn-corp-filled" onclick="$('#demo_form').goTo();return false;">
+                                    Book a Free Demo <i class="fas fa-arrow-right"></i>
                                 </button>
-                                <button
-                                    id="howitworksButton"
-                                    class="btn btn-lg btn-corp-outline"
-                                    onclick="
-                                        $('#howitworks').goTo();
-                                        return false;
-                                    "
-                                >
-                                    How it works
+                                <button id="howitworksButton" class="btn btn-lg btn-corp-outline" onclick="$('#howitworks').goTo();return false;">
+                                    See how it works
                                 </button>
                             </div>
-                            <div
-                                class="payment-strip animated fadeIn wow"
-                                data-wow-delay="0.4s"
-                            >
-                                <div class="w-100">
-                                    <p class="payment-powered-by mb-2">
-                                        Integrated Payment Gateways
-                                    </p>
+                            <p class="hero-reassurance animated fadeIn wow" data-wow-delay="0.6s">
+                                <i class="fas fa-check-circle"></i> Free consultation &middot; No commitment &middot; Setup in days
+                            </p>
+                            <div class="hero-payments animated fadeIn wow" data-wow-delay="0.4s">
+                                <span class="hero-payments-label">Integrated with</span>
+                                <div class="hero-payments-row">
+                                    <img src="img/payment-logo/billplz-logo.png" alt="Billplz" />
+                                    <img src="img/payment-logo/eGHL-logo.png" alt="eGHL" />
+                                    <img src="img/payment-logo/fpx-logo.png" alt="FPX" />
+                                    <img src="img/payment-logo/iPay88-logo.png" alt="iPay88" />
+                                    <img src="img/payment-logo/touch-n-go-logo.png" alt="Touch n Go" />
+                                    <img src="img/payment-logo/payex-logo.png" alt="Payex" />
                                 </div>
-                                <img
-                                    class="payment-logo"
-                                    src="img/payment-logo/billplz-logo.png"
-                                    alt="Billplz"
-                                />
-                                <img
-                                    class="payment-logo"
-                                    src="img/payment-logo/eGHL-logo.png"
-                                    alt="eGHL"
-                                />
-                                <img
-                                    class="payment-logo"
-                                    src="img/payment-logo/fpx-logo.png"
-                                    alt="FPX"
-                                />
-                                <img
-                                    class="payment-logo"
-                                    src="img/payment-logo/iPay88-logo.png"
-                                    alt="iPay88"
-                                />
-                                <img
-                                    class="payment-logo"
-                                    src="img/payment-logo/touch-n-go-logo.png"
-                                    alt="Touch n Go"
-                                />
-                                <img
-                                    class="payment-logo"
-                                    src="img/payment-logo/payex-logo.png"
-                                    alt="Payex"
-                                />
                             </div>
                         </div>
-                        <div
-                            class="col-sm-12 col-lg-7 d-flex mb-5 mb-lg-0 fadeIn wow"
-                            data-wow-delay="0.4s"
-                        >
-                            <div class="hero-mockup-wrap">
-                                <img
-                                    class="img-fluid"
-                                    src="img/mockups/mockup-main-3.png"
-                                    alt="feecollec property management fee collection dashboard"
-                                />
+                        <div class="col-lg-6">
+                            <div class="hero-visual animated fadeInRight wow" data-wow-delay="0.4s">
+                                <div class="hero-mockup-wrap">
+                                    <img class="img-fluid" src="img/mockups/mockup-main-3.png" alt="feecollec property management fee collection dashboard" />
+                                </div>
+                                <div class="hero-float-card hero-float-top">
+                                    <div class="hero-float-icon"><i class="fas fa-check-circle"></i></div>
+                                    <div>
+                                        <div class="hero-float-value">85%</div>
+                                        <div class="hero-float-label">On-time payments</div>
+                                    </div>
+                                </div>
+                                <div class="hero-float-card hero-float-bottom">
+                                    <div class="hero-float-icon"><i class="fas fa-bolt"></i></div>
+                                    <div>
+                                        <div class="hero-float-value">60%</div>
+                                        <div class="hero-float-label">Less admin work</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
